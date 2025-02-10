@@ -1,13 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
 
 @import "tailwindcss";
 
 @theme {
   --color-primary-green: #025d28;
-  --font-family-sans: "Montserrat", sans-serif;
+
+  /* Font Families */
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-red-hat: "Red Hat Display", sans-serif;
+
+  /* Font Weights */
+  
+  --font-thin: 300;
+  --font-light: 400;
+  --font-regular: 500;
+  --font-medium: 600;
+  --font-semibold: 700;
+  --font-bold: 800;
+  --font-extrabold: 900;
 }
 
+/* Utility Classes */
 .green-bg {
   background-color: var(--color-primary-green);
 }
 
+.montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.red-hat {
+  font-family: var(--font-red-hat);
+}
+
+/* Font Weight Classes */
+.thin {
+  font-weight: var(--font-thin);
+}
+.light {
+  font-weight: var(--font-light);
+}
+.regular {
+  font-weight: var(--font-regular);
+}
+.medium {
+  font-weight: var(--font-medium);
+}
+.semibold {
+  font-weight: var(--font-semibold);
+}
+.bold {
+  font-weight: var(--font-bold);
+}
+.extrabold {
+  font-weight: var(--font-extrabold);
+}
