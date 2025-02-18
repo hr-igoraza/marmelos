@@ -9,9 +9,10 @@
   --font-montserrat: "Montserrat", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --font-red-hat: "Red Hat Display", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
 
   /* Font Weights */
-  
+
   --font-thin: 300;
   --font-light: 400;
   --font-regular: 500;
@@ -19,6 +20,15 @@
   --font-semibold: 700;
   --font-bold: 800;
   --font-extrabold: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ line-height: 1.2em;
 }
 
 /* Utility Classes */
@@ -59,4 +69,54 @@
 }
 .extrabold {
   font-weight: var(--font-extrabold);
+}
+
+.fs-65 {
+  font-size: 65px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .fs-65 {
+    font-size: 40px;
+  }
+
+  .fs-40 {
+    font-size: 30px;
+  }
+
+  .fs-30 {
+    font-size: 20px;
+  }
+
+  .fs-20 {
+    font-size: 16px;
+  }
+
+  .fs-16 {
+    font-size: 12px;
+  }
+
+  .fs-12 {
+    font-size: 10px;
+  }
 }

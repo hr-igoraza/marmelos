@@ -1,5 +1,17 @@
-.hero{
-    background-color: #025d28;
-    background-image: url('/images/home/hero-bg.png');
-    /* height: 100vh; */
+.hero {
+  background-color: #025d28;
+  background-image: url("/images/home/hero-bg.png");
+  /* height: 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.paradise {
+  background-color: #025d28;
+  background-image: url("/images/home/paradise.png");
+  /* height: 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
