@@ -1,17 +1,17 @@
 import React from "react";
 import "./home.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
+import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 
 const Home = () => {
   return (
     <>
       <section className="hero">
-        <div className="container mx-auto flex  justify-center h-[100vh] content-center">
+        <div className="container mx-auto flex  justify-center h-[130vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
               Where Paradise Feels Like Home
             </h1>
-
             <BookingWidget />
           </div>
         </div>
@@ -92,7 +92,7 @@ const Home = () => {
             />
           </div>
           <div class="w-full md:w-1/3 ">
-            <h3 className="text-primary-green font-red-hat font-[700] fs-65 mb-5">
+            <h3 className="text-primary-green leading-[1.2em] font-red-hat font-[700] fs-65 mb-5">
               Welcome to Lorem ipsum
             </h3>
 
@@ -141,10 +141,10 @@ const Home = () => {
           <img src="/images/home/comfort.png" alt="comfort" />
         </div>
         <div className="md:w-2/5 w-full ">
-          <h2 className="fs-65 font-[600]">
+          <h2 className="fs-65 font-[600] leading-[1.2em]">
             Comfort & Luxury Book Your Perfect Stay
           </h2>
-          <p>
+          <p className="mt-5">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
             eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -161,10 +161,10 @@ const Home = () => {
           <img src="/images/home/flavours.png" alt="Flavours" />
         </div>
         <div className="md:w-1/2 w-full md:order-1 pr-10 ">
-          <h2 className="fs-65 font-[600]">
+          <h2 className="fs-65 font-[600] leading-[1.2em]">
             Flavors of Kerala Authentic Cuisine at Our Resort
           </h2>
-          <p>
+          <p className="w-4/5 mt-10">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
             eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -173,6 +173,79 @@ const Home = () => {
             vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
             venenatis vitae
           </p>
+        </div>
+      </section>
+
+      {/* ================= journerys */}
+
+      <section className="journerys container mx-auto  my-30 px-5">
+        <h2 className="fs-65 font-[600] mx-auto text-center">
+          Captured Journeys
+        </h2>
+        {/*dummy youtube video player */}
+
+        <div className="mt-10">
+          <iframe
+            className="w-full md:h-[700px] h-[30vh] "
+            src="https://www.youtube.com/embed/GNTMTjo9JGk"
+            title="Heritage | Kerala - World&#39;s Greatest Place"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div className="video-details">
+          <p className="md:w-2/5 font-[600] mt-5 ">
+            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+            eget dolor.{" "}
+          </p>
+
+          <div className="date">
+            <p>October 8/10/2024</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ================== Location */}
+
+      <section className="location container mx-auto  my-30 px-5">
+        <h2 className="fs-65 font-[600] mx-auto text-center">Our Location</h2>
+
+        <div className="pt-10">
+          <div class="mapouter ">
+            <div class="gmap_canvas">
+              <iframe
+                className="w-full md:h-[700px] h-[30vh] "
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=thoppumpady&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                // scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+              <a href="https://online-timer.me/"></a>
+              <br />
+              <a href="https://online.stopwatch-timer.net/"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* =================== Popular Destinations */}
+
+      <section className="popular-destinations container mx-auto  my-30 px-5">
+        <h2 className="fs-65 font-[600] mx-auto text-center">
+          Popular Destinations
+        </h2>
+        <p className="text-center mt-4">Vacations to make your experience enjoyable in Kerala!</p>
+
+        <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
+        {/* <DestinationCards/>  
+        <DestinationCards/>  
+        <DestinationCards/>   */}
+
         </div>
       </section>
     </>
