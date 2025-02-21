@@ -141,7 +141,7 @@ const Home = () => {
         <div className="md:w-3/5 w-full">
           <img src="/images/home/comfort.png" alt="comfort" />
         </div>
-        <div className="md:w-2/5 w-full ">
+        <div className="md:w-2/5 w-full relative ">
           <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-10 ">
             Comfort & Luxury Book Your Perfect Stay
           </h2>
@@ -154,7 +154,7 @@ const Home = () => {
             vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
             venenatis vitae
           </p>
-          <div className="w-full mt-5 flex justify-end">
+          <div className="w-full mt-5 flex justify-end absolute bottom-0 right-0">
           <SeeMoreBtn/>
         </div>
         </div>
