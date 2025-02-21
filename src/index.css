@@ -20,8 +20,15 @@
   --font-semibold: 700;
   --font-bold: 800;
   --font-extrabold: 900;
+
+  
+  
 }
 
+
+body{
+  font-family: var(--font-red-hat);
+}
 
 
 /* Utility Classes */
@@ -78,6 +85,10 @@
 
 .fs-20 {
   font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
 }
 
 .fs-16 {

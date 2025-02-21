@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
+import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
 
 const Home = () => {
   return (
@@ -96,7 +97,7 @@ const Home = () => {
               Welcome to Lorem ipsum
             </h3>
 
-            <p>
+            <p className="fs-16">
               dolor sit amet, consectetuer adipiscing elit. Aenean commodo
               ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
               magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -114,14 +115,14 @@ const Home = () => {
 
       {/* =========paradise */}
 
-      <section className="paradise container-full   ">
+      <section className="paradise container-full  md:mb-30 mb-20 ">
         <div className="container mx-auto px-5">
           <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[100vh] py-10">
             <h3 className="text-white font-red-hat font-[700] fs-65 mb-5 ">
               Escape to Paradise
             </h3>
 
-            <p className="text-white w-4/5">
+            <p className="text-white w-4/5 fs-16">
               dolor sit amet, consectetuer adipiscing elit. Aenean commodo
               ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
               magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -136,15 +137,15 @@ const Home = () => {
 
       {/* ===============section */}
 
-      <section className="comfort container mx-auto flex flex-wrap my-30 px-5">
+      <section className="comfort container mx-auto flex flex-wrap mb-30 px-5">
         <div className="md:w-3/5 w-full">
           <img src="/images/home/comfort.png" alt="comfort" />
         </div>
         <div className="md:w-2/5 w-full ">
-          <h2 className="fs-65 font-[600] leading-[1.2em]">
+          <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-10 ">
             Comfort & Luxury Book Your Perfect Stay
           </h2>
-          <p className="mt-5">
+          <p className="mt-5 fs-16">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
             eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -153,18 +154,23 @@ const Home = () => {
             vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
             venenatis vitae
           </p>
+          <div className="w-full mt-5 flex justify-end">
+          <SeeMoreBtn/>
         </div>
+        </div>
+        
       </section>
 
-      <section className="flavours container mx-auto flex flex-wrap my-30 px-5 ">
+      <section className="flavours container mx-auto flex flex-wrap mb-30 px-5 ">
         <div className="md:w-1/2 w-full md:order-2">
           <img src="/images/home/flavours.png" alt="Flavours" />
         </div>
-        <div className="md:w-1/2 w-full md:order-1 pr-10 ">
-          <h2 className="fs-65 font-[600] leading-[1.2em]">
+        <div className="md:w-1/2 w-full md:order-1 md:pr-10 flex flex-col relative ">
+        <div className="detailed">
+          <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-5">
             Flavors of Kerala Authentic Cuisine at Our Resort
           </h2>
-          <p className="w-4/5 mt-10">
+          <p className=" md:w-4/5 mt-10 mb-15 fs-16">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
             eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -172,14 +178,19 @@ const Home = () => {
             massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
             vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
             venenatis vitae
-          </p>
+          </p >
+          </div>
+
+          <div className="w-full mt-5 absolute bottom-0 left-0 ">
+          <SeeMoreBtn/>
+        </div>
         </div>
       </section>
 
       {/* ================= journerys */}
 
-      <section className="journerys container mx-auto  my-30 px-5">
-        <h2 className="fs-65 font-[600] mx-auto text-center">
+      <section className="journerys container mx-auto  mb-30 px-5">
+        <h2 className="fs-65 font-[700] mx-auto text-center">
           Captured Journeys
         </h2>
         {/*dummy youtube video player */}
@@ -199,7 +210,7 @@ const Home = () => {
         <div className="video-details">
           <p className="md:w-2/5 font-[600] mt-5 ">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-            eget dolor.{" "}
+            eget dolor.
           </p>
 
           <div className="date">
@@ -210,8 +221,8 @@ const Home = () => {
 
       {/* ================== Location */}
 
-      <section className="location container mx-auto  my-30 px-5">
-        <h2 className="fs-65 font-[600] mx-auto text-center">Our Location</h2>
+      <section className="location container mx-auto  mb-30 px-5">
+        <h2 className="fs-65 font-[700] mx-auto text-center">Our Location</h2>
 
         <div className="pt-10">
           <div class="mapouter ">
@@ -235,17 +246,21 @@ const Home = () => {
 
       {/* =================== Popular Destinations */}
 
-      <section className="popular-destinations container mx-auto  my-30 px-5">
-        <h2 className="fs-65 font-[600] mx-auto text-center">
+      <section className="popular-destinations container mx-auto  mb-30 px-5">
+        <h2 className="fs-65 font-[700] mx-auto text-center">
           Popular Destinations
         </h2>
         <p className="text-center mt-4">Vacations to make your experience enjoyable in Kerala!</p>
 
         <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
-        {/* <DestinationCards/>  
         <DestinationCards/>  
-        <DestinationCards/>   */}
+        <DestinationCards/>  
+        <DestinationCards/>  
 
+        </div>
+
+        <div className="w-full  flex justify-end mt-20">
+          <SeeMoreBtn/>
         </div>
       </section>
     </>
