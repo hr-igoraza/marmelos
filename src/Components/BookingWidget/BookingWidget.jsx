@@ -6,12 +6,12 @@ import { UserIcon, CalendarIcon, MagnifyingGlassIcon } from '@heroicons/react/24
 // Guest Picker Component
 const GuestPicker = ({ guests, setGuests }) => {
   const handleIncrement = (e) => {
-    e.stopPropagation(); // Stop event propagation
+    e.stopPropagation(); 
     setGuests(guests + 1);
   };
 
   const handleDecrement = (e) => {
-    e.stopPropagation(); // Stop event propagation
+    e.stopPropagation(); 
     setGuests(Math.max(1, guests - 1));
   };
 
@@ -45,7 +45,7 @@ export const BookingWidget = () => {
 
   const widgetRef = useRef(null);
 
-  // Close dropdowns when clicking outside
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (widgetRef.current && !widgetRef.current.contains(event.target)) {
@@ -60,12 +60,12 @@ export const BookingWidget = () => {
   // Format date as day/month/year
   const formatDate = (date) => {
     if (!date) return '';
-    return date.toLocaleDateString('en-GB'); // British format for day/month/year
+    return date.toLocaleDateString('en-GB');
   };
 
   return (
     <div ref={widgetRef} className=" mt-10 flex flex-col md:flex-row items-center justify-between border rounded-[50px] shadow-sm hover:shadow-md transition-all duration-200 p-2 max-w-3xl mx-auto relative bg-white">
-      {/* Who Section */}
+      
       <div className="flex-1 w-full md:w-auto p-3 relative">
         <button
           className="w-full text-left focus:outline-none rounded-lg p-3 transition-all hover:bg-gray-50"
@@ -140,7 +140,7 @@ export const BookingWidget = () => {
             </div>
           </div>
           {activeField === 'checkOut' && (
-            <div className="absolute top-full left-0 mt-2 w-full p-4 rounded-xl z-10 bg-white shadow-lg border border-gray-200">
+            <div className="absolute top-full left-0 mt-2 w-full p-4 rounded-xl z-10 ">
               <DatePicker
                 selected={checkOutDate}
                 onChange={(date) => {

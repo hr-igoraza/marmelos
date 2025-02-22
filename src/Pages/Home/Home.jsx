@@ -7,7 +7,7 @@ import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
 const Home = () => {
   return (
     <>
-      <section className="hero">
+      <section className="home-hero">
         <div className="container mx-auto flex  justify-center h-[130vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="facilities bg-primary-green p-5">
+      <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">
         <div className="content-center">
           <h2 className="text-[#ffffff] font-red-hat font-[700] fs-65 text-center">
             We provide top facilities
