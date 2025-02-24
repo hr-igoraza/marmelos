@@ -1,0 +1,32 @@
+.food-hero {
+    background-color: #025d28;
+    background-image: url("/images/food/food-bg.png");
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  }
+
+.menu li:nth-child(odd) .flex {
+    flex-direction: row-reverse;
+  }
+
+  .menu li:nth-child(odd) .text-right {
+text-align: left !important;
+}
+
+.magic{
+  background-color: #025d28;
+  background-image: url("/images/food/magic.png");
+  /* height: 80vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.symphony{
+  background-color: #025d28;
+  background-image: url("/images/food/symphony.png");
+  /* height: 80vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
