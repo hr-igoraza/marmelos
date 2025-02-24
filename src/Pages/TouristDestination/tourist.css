@@ -1,8 +1,10 @@
-.blog-hero {
+.tourist-hero {
     background-color: #025d28;
-    background-image: url("/images/blog/blog-bg.png");
+    background-image: url("/images/tourist/tourist-bg.png");
+
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     /* background-attachment: fixed; */
   }
 
