@@ -20,7 +20,7 @@ const FoodItem = () => {
                   Dosa is a thin, crispy South Indian crepe made from fermented
                   rice and lentil batter, often served with chutney and sambar.
                 </p>
-                <p className="fs-40 font-poppins text-right font-[500]">₹273</p>
+                <p className="fs-40 font-poppins text-right font-[500] text-primary-green">₹273</p>
               </div>
             </div>
           </li></>

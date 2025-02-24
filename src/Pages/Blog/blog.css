@@ -1,0 +1,8 @@
+.blog-hero {
+    background-color: #025d28;
+    background-image: url("/images/blog/blog-bg.png");
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  }
