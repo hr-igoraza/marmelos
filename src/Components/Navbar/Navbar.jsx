@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="#" >
             <img width={150} src="/images/logo.svg" alt="logo" />
           </a>
-          <ul className=" ml-15 hidden md:flex gap-6 items-center red-hat semibold text-[#ffffff]">
+          <ul className=" ml-15 hidden md:flex gap-6 items-center red-hat semibold  md:text-[#ffffff]">
             <li>
               <NavLink to="/" className={linkClasses}>
                 Home
@@ -62,27 +62,39 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Nav Links */}
-        <ul className={`md:hidden absolute top-16 left-0 w-full bg-white flex flex-col items-center shadow-md transition-all duration-300 ease-in-out ${isOpen ? "flex" : "hidden"}`}>
-          <li>
-            <NavLink to="/home" className={linkClasses}>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className={linkClasses}>
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" className={linkClasses}>
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" className={linkClasses}>
-              Contact
-            </NavLink>
-          </li>
+        <ul className={`md:hidden mob  bg-white absolute top-16 left-0 w-full  flex flex-col items-center shadow-md transition-all duration-300 ease-in-out ${isOpen ? "flex" : "hidden"}`}>
+        <li >
+              <NavLink to="/" className={linkClasses}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/booking" className={linkClasses}>
+                Booking
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/food" className={linkClasses}>
+                Food
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/blog" className={linkClasses}>
+                Blog
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/touristdestinations" className={linkClasses}>
+                Tourist Destinations
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/contact" className={linkClasses}>
+                Contact
+              </NavLink>
+            </li>
         </ul>
       </div>
     </nav>

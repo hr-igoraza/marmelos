@@ -6,3 +6,8 @@
     right: 0;
     z-index: 999;
 }
+
+.mob a{
+    color: black;
+    font-weight: 600;
+}

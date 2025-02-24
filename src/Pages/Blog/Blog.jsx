@@ -17,7 +17,7 @@ const Blog = () => {
         </div>
       </section>
 
-      <section className="container mx-auto recent-blog-list mb-10">
+      <section className="container mx-auto recent-blog-list mb-10 md:px-0 px-4">
         <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-1 md:grid-rows-9 gap-10">
           {/* First Column */}
           <div className="md:col-span-3 md:row-span-9 ">
