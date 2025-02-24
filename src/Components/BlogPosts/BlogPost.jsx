@@ -5,7 +5,7 @@ const BlogPost = () => {
   return (
     <>
       <li>
-        <div className="mb-20">
+        <div className="mb-20 px-4 md:px-0">
           <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
             <div className="w-full md:w-1/2">
               <img

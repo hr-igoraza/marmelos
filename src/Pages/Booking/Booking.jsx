@@ -37,7 +37,7 @@ const Booking = () => {
             </button>
         </div>
 
-        <div className="list md:px-10 px-2" >
+        <div className="list md:px-10 " >
             <RoomsList/>
             <RoomsList/>
             <RoomsList/>
