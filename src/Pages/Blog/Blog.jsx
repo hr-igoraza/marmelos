@@ -1,5 +1,6 @@
 import React from "react";
 import "./blog.css";
+import BlogPost from "../../Components/BlogPosts/BlogPost";
 
 const Blog = () => {
   return (
@@ -141,6 +142,19 @@ const Blog = () => {
 
 
       {/* =========== all blogs */}
+
+<section className="blog-list container mx-auto my-30">
+    <h2 className="text-[#025D28] font-[700] text-center fs-30 mb-10">All Blog Posts</h2>
+
+    <ul>
+        <BlogPost/>
+        <BlogPost/>
+        <BlogPost/>
+        <BlogPost/>
+        <BlogPost/>
+    </ul>
+</section>
+
     </>
   );
 };
