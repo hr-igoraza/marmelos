@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { UserIcon, CalendarIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { UserIcon, CalendarIcon } from '@heroicons/react/24/outline';
 
 // Guest Picker Component
 const GuestPicker = ({ guests, setGuests }) => {
@@ -59,6 +59,21 @@ export const BookingWidget = () => {
   const formatDate = (date) => {
     if (!date) return '';
     return date.toLocaleDateString('en-GB');
+  };
+
+  const handleCheckAvailability = () => {
+    const checkIn = formatDate(checkInDate);
+    const checkOut = formatDate(checkOutDate);
+
+    const message = `Hello, I would like to check availability for:
+    - Check-in: ${checkIn}
+    - Check-out: ${checkOut}
+    - Guests: ${guests}`;
+
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/987654321?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -160,8 +175,9 @@ export const BookingWidget = () => {
       <div className="w-full md:w-auto p-2">
         <button
           className="w-full flex items-center justify-center bg-[#025d28] text-white rounded-4xl p-4 hover:bg-[#024d22] transition-colors"
+          onClick={handleCheckAvailability}
         >
-          <MagnifyingGlassIcon className="w-5 h-5" />
+          Check Availability
         </button>
       </div>
     </div>

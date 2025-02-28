@@ -33,13 +33,13 @@ const Booking = () => {
       <section className="list-booking container mx-auto">
         <div className="for-you flex justify-between">
             <h3 className="font-[700] text-primary-green fs-24">For You</h3>
-            <button 
+            {/* <button 
             className=" flex items-center gap-2 border px-4 py-2 rounded-[10px]">
                 <div className="w-[25px]">
                 <img src="/images/booking/filter.png" alt="filter images" />  
                 </div>
                 <p className="fs-18 font-[600]">Filter</p>
-            </button>
+            </button> */}
         </div>
 
         <div className="list md:px-10 " >
