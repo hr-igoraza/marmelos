@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SeeMoreBtn = ({children, onClick}) => {
+const SeeMoreBtn = ({ onClick}) => {
   return (
     <>
     <button

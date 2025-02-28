@@ -1,17 +1,19 @@
 import React from "react";
 import "./blog.css";
+import { Link } from "react-router-dom";
 import BlogPost from "../../Components/BlogPosts/BlogPost";
+import { blogData } from "../BlogViewPage/blogData";
 
 const Blog = () => {
   return (
     <>
-      <section className="blog-hero">
-        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[70vh] content-center"></div>
+       <section className="blog-hero">
+        <div className="container mx-auto flex justify-center md:h-[120vh] h-[70vh] content-center"></div>
       </section>
 
       <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">
         <div className="content-center">
-          <h1 className="text-[#ffffff]  font-[700] text-center fs-40 ">
+          <h1 className="text-[#ffffff] font-[700] text-center fs-40">
             Recent Blog
           </h1>
         </div>
@@ -20,141 +22,121 @@ const Blog = () => {
       <section className="container mx-auto recent-blog-list mb-10 md:px-0 px-4">
         <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-1 md:grid-rows-9 gap-10">
           {/* First Column */}
-          <div className="md:col-span-3 md:row-span-9 ">
-            <div className="w-full  overflow-hidden bg-white card-shadow p-5 ">
-              <img
-                className="m-1.5 h-max w-[calc(100%-12px)]"
-                src="/images/blog/recent/tea.png"
-                alt="image"
-              />
-              <div className="h-max w-full px-3 py-2">
-                <h6 className="fs-24 font-[600]">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting
-                </h6>
-                <div className="flex justify-between mt-10 mb-5">
-                  <div className="flex gap-3">
-                    <div className="w-[30px]">
-                      <img
-                        className="w-full"
-                        src="/images/blog/recent/author.png"
-                        alt="author"
-                      />
+          <div className="md:col-span-3 md:row-span-9">
+            <Link to={`/blog/${blogData[0].id}`}>
+              <div className="w-full overflow-hidden bg-white card-shadow p-5 h-full">
+                <img
+                  className="m-1.5 h-max w-[calc(100%-12px)]"
+                  src={blogData[0].image}
+                  alt="image"
+                />
+                <div className="h-max w-full px-3 py-2">
+                  <h6 className="fs-24 font-[600]">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                  </h6>
+                  <div className="flex justify-between mt-10 mb-5">
+                    <div className="flex gap-3">
+                      <div className="w-[30px]">
+                        <img
+                          className="w-full"
+                          src={blogData[0].authorImage}
+                          alt="author"
+                        />
+                      </div>
+                      <p className="text-[#6C757D]">{blogData[0].datePosted}</p>
                     </div>
-                    <p className="text-[#6C757D]">June 28, 2018</p>
-                  </div>
-                  <div className="flex gap-3">
-                    <div className="w-[20px]">
-                      <img
-                        className="w-full"
-                        src="/images/blog/recent/share.png"
-                        alt="share"
-                      />
+                    <div className="flex gap-3">
+                      <div className="w-[20px]">
+                        <img
+                          className="w-full"
+                          src="/images/blog/recent/share.png"
+                          alt="share"
+                        />
+                      </div>
+                      <p className="text-[#6C757D]">
+                        {blogData[0].shareCount} shares
+                      </p>
                     </div>
-                    <p className="text-[#6C757D]">1K shares</p>
                   </div>
+                  <p className="my-1 fs-18">{blogData[0].shortDescription}</p>
                 </div>
-                <p className="my-1 fs-18">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec.Lorem ipsum dolor sit
-                  amet, consectetuer adipiscing elit. penatibus et magnis dis
-                  parturient Lorem ipsum dolor sit amet, consectetuer adipiscing
-                  elit. penatibus et magnis dis parturient
-                </p>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* Second Column */}
-          <div className="md:col-span-3 md:row-span-3 md:col-start-4 ">
-            <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-              <div className="w-full md:w-1/2">
-                <img
-                  className="w-full"
-                  src="/images/blog/recent/hen.png"
-                  alt="card-image"
-                />
+          <div className="md:col-span-3 md:row-span-3 md:col-start-4">
+            <Link to={`/blog/${blogData[1].id}`}>
+              <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
+                <div className="w-full md:w-1/2">
+                  <img
+                    className="w-full"
+                    src={blogData[1].image}
+                    alt="card-image"
+                  />
+                </div>
+                <div className="w-full md:w-1/2 h-max rounded px-4">
+                  <h5 className="fs-24 font-[600] mb-4">{blogData[1].title}</h5>
+                  <p className="fs-16">{blogData[1].shortDescription}</p>
+                </div>
               </div>
-              <div className="w-full md:w-1/2 h-max rounded px-4">
-                <h5 className="fs-24 font-[600] mb-4">
-                  Lorem Ipsum is simply dummy text
-                </h5>
-                <p className="fs-16">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis partur
-                </p>
-              </div>
-            </div>
+            </Link>
           </div>
 
           {/* Third Column */}
-          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-4 ">
-            <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-              <div className="w-full md:w-1/2">
-                <img
-                  className="w-full"
-                  src="/images/blog/recent/hen.png"
-                  alt="card-image"
-                />
+          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-4">
+            <Link to={`/blog/${blogData[2].id}`}>
+              <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
+                <div className="w-full md:w-1/2">
+                  <img
+                    className="w-full"
+                    src={blogData[2].image}
+                    alt="card-image"
+                  />
+                </div>
+                <div className="w-full md:w-1/2 h-max rounded px-4">
+                  <h5 className="fs-24 font-[600] mb-4">{blogData[2].title}</h5>
+                  <p className="fs-16">{blogData[2].shortDescription}</p>
+                </div>
               </div>
-              <div className="w-full md:w-1/2 h-max rounded px-4">
-                <h5 className="fs-24 font-[600] mb-4">
-                  Lorem Ipsum is simply dummy text
-                </h5>
-                <p className="fs-16">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis partur
-                </p>
-              </div>
-            </div>
+            </Link>
           </div>
 
           {/* Fourth Column */}
-          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-7 ">
-            <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-              <div className="w-full md:w-1/2">
-                <img
-                  className="w-full"
-                  src="/images/blog/recent/hen.png"
-                  alt="card-image"
-                />
+          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-7">
+            <Link to={`/blog/${blogData[3].id}`}>
+              <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
+                <div className="w-full md:w-1/2">
+                  <img
+                    className="w-full"
+                    src={blogData[3].image}
+                    alt="card-image"
+                  />
+                </div>
+                <div className="w-full md:w-1/2 h-max rounded px-4">
+                  <h5 className="fs-24 font-[600] mb-4">{blogData[3].title}</h5>
+                  <p className="fs-16">{blogData[3].shortDescription}</p>
+                </div>
               </div>
-              <div className="w-full md:w-1/2 h-max rounded px-4">
-                <h5 className="fs-24 font-[600] mb-4">
-                  Lorem Ipsum is simply dummy text
-                </h5>
-                <p className="fs-16">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis partur
-                </p>
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
 
-
       {/* =========== all blogs */}
 
-<section className="blog-list container mx-auto my-30">
-    <h2 className="text-[#025D28] font-[700] text-center fs-30 mb-10">All Blog Posts</h2>
+      <section className="blog-list container mx-auto my-30">
+        <h2 className="text-[#025D28] font-[700] text-center fs-30 mb-10">
+          All Blog Posts
+        </h2>
 
-    <ul>
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-    </ul>
-</section>
-
+        <ul>
+          {blogData.slice(4).map((blog) => (
+            <BlogPost key={blog.id} blog={blog} />
+          ))}
+        </ul>
+      </section>
     </>
   );
 };

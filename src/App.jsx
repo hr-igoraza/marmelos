@@ -10,6 +10,7 @@ import Food from "./Pages/Food/Food";
 import Blog from "./Pages/Blog/Blog";
 import TouristDestination from "./Pages/TouristDestination/TouristDestination";
 import ContactUs from "./Pages/Contact-us/ContactUs";
+import BlogPage from "./Pages/BlogViewPage/BlogViewPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/touristdestinations" element={<TouristDestination />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/blog/:id" element={<BlogPage/>} />
       </Routes>
       <Footer />
     </>
