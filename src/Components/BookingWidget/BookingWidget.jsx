@@ -45,7 +45,6 @@ export const BookingWidget = () => {
 
   const widgetRef = useRef(null);
 
-  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (widgetRef.current && !widgetRef.current.contains(event.target)) {
@@ -57,20 +56,22 @@ export const BookingWidget = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Format date as day/month/year
   const formatDate = (date) => {
     if (!date) return '';
     return date.toLocaleDateString('en-GB');
   };
 
   return (
-    <div ref={widgetRef} className=" mt-10 flex flex-col md:flex-row items-center justify-between border rounded-[50px] shadow-sm hover:shadow-md transition-all duration-200 p-2 max-w-3xl mx-auto relative bg-white">
-      
+    <div 
+      ref={widgetRef} 
+      className="mt-10 flex flex-col md:flex-row items-center justify-between border rounded-[50px] shadow-sm hover:shadow-md transition-all duration-200 p-2 max-w-3xl mx-auto relative bg-white overflow-visible"
+    >
+      {/* Who Section */}
       <div className="flex-1 w-full md:w-auto p-3 relative">
         <button
           className="w-full text-left focus:outline-none rounded-lg p-3 transition-all hover:bg-gray-50"
           onClick={() => setActiveField(activeField === 'who' ? null : 'who')}
-          style={{ border: activeField === 'who' ? '2px solid #025d28' : 'none' }}
+          style={{ outline: activeField === 'who' ? '2px solid #025d28' : 'none' }}
         >
           <div className="flex items-center gap-3">
             <UserIcon className="w-5 h-5 text-gray-700" />
@@ -82,7 +83,7 @@ export const BookingWidget = () => {
             </div>
           </div>
           {activeField === 'who' && (
-            <div className="absolute top-full left-0 mt-2 w-full">
+            <div className="absolute top-full left-0 mt-2 w-full z-50 bg-white rounded-xl shadow-lg">
               <GuestPicker guests={guests} setGuests={setGuests} />
             </div>
           )}
@@ -94,7 +95,7 @@ export const BookingWidget = () => {
         <button
           className="w-full text-left focus:outline-none rounded-lg p-3 transition-all hover:bg-gray-50"
           onClick={() => setActiveField('checkIn')}
-          style={{ border: activeField === 'checkIn' ? '2px solid #025d28' : 'none' }}
+          style={{ outline: activeField === 'checkIn' ? '2px solid #025d28' : 'none' }}
         >
           <div className="flex items-center gap-3">
             <CalendarIcon className="w-5 h-5 text-gray-700" />
@@ -106,17 +107,16 @@ export const BookingWidget = () => {
             </div>
           </div>
           {activeField === 'checkIn' && (
-            <div className="absolute top-full left-0 mt-2 w-full p-4 rounded-xl z-10  ">
+            <div className="absolute top-full left-0 md:left-auto md:right-0 mt-2 w-fit md:w-[350px] z-50 ">
               <DatePicker
                 selected={checkInDate}
                 onChange={(date) => {
                   setCheckInDate(date);
-                  setActiveField('checkOut'); 
+                  setActiveField('checkOut');
                 }}
                 inline
                 minDate={new Date()}
-                calendarClassName="font-sans"
-                dayClassName={() => "text-sm"}
+                calendarClassName="font-sans react-datepicker--responsive"
               />
             </div>
           )}
@@ -128,7 +128,7 @@ export const BookingWidget = () => {
         <button
           className="w-full text-left focus:outline-none rounded-lg p-3 transition-all hover:bg-gray-50"
           onClick={() => setActiveField('checkOut')}
-          style={{ border: activeField === 'checkOut' ? '2px solid #025d28' : 'none' }}
+          style={{ outline: activeField === 'checkOut' ? '2px solid #025d28' : 'none' }}
         >
           <div className="flex items-center gap-3">
             <CalendarIcon className="w-5 h-5 text-gray-700" />
@@ -140,17 +140,16 @@ export const BookingWidget = () => {
             </div>
           </div>
           {activeField === 'checkOut' && (
-            <div className="absolute top-full left-0 mt-2 w-full p-4 rounded-xl z-10 ">
+            <div className="absolute top-full left-0 md:left-auto md:right-0 mt-2 w-fit md:w-[350px] z-50 ">
               <DatePicker
                 selected={checkOutDate}
                 onChange={(date) => {
                   setCheckOutDate(date);
-                  setActiveField(null); 
+                  setActiveField(null);
                 }}
                 inline
                 minDate={checkInDate}
-                calendarClassName="font-sans"
-                dayClassName={() => "text-sm"}
+                calendarClassName="font-sans react-datepicker--responsive"
               />
             </div>
           )}

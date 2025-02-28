@@ -1,4 +1,5 @@
 import React from "react";
+import { Rate } from "antd";
 
 const RoomsList = () => {
   return (
@@ -15,9 +16,9 @@ const RoomsList = () => {
           <h5 class="mb-2 fs-30 font-[700]  text-secondary-green">
             Single rooms
           </h5>
-          <div className="star-rating flex items-center gap-2 ">
+          <div className="star-rating flex items-center gap-3 ">
             <p>5 Star Hotel</p>
-            <span className="fs-12">-0-0-0-0-0-</span>
+            <Rate disabled defaultValue={5} />
           </div>
 
           <div className="rating-value flex items-center gap-2 mt-2">

@@ -27,6 +27,17 @@
 }
 
 
+/* For mobile devices */
+.react-datepicker--responsive {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .react-datepicker--responsive {
+    font-size: 1rem;
+  }
+}
+
 body{
   font-family: var(--font-red-hat);
   position: relative;

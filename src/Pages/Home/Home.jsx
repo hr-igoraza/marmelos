@@ -3,8 +3,13 @@ import "./home.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+
   return (
     <>
       <section className="home-hero">
@@ -155,7 +160,7 @@ const Home = () => {
             venenatis vitae
           </p>
           <div className="w-full mt-5 flex justify-end absolute bottom-0 right-0">
-          <SeeMoreBtn/>
+          <SeeMoreBtn onClick={()=> navigate("/booking")}/>
         </div>
         </div>
         
@@ -182,7 +187,7 @@ const Home = () => {
           </div>
 
           <div className="w-full mt-5 absolute bottom-0 left-0 ">
-          <SeeMoreBtn/>
+          <SeeMoreBtn onClick={()=> navigate("/food")}/>
         </div>
         </div>
       </section>
@@ -260,7 +265,7 @@ const Home = () => {
         </div>
 
         <div className="w-full  flex justify-end mt-20">
-          <SeeMoreBtn/>
+          <SeeMoreBtn onClick={()=> navigate("/touristdestinations")}/>
         </div>
       </section>
     </>
