@@ -4,6 +4,7 @@ import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
 import { useNavigate } from "react-router-dom";
+import { destinationData } from "../DestinationViewPage/DestinationData";
 
 const Home = () => {
 
@@ -258,9 +259,10 @@ const Home = () => {
         <p className="text-center mt-4">Vacations to make your experience enjoyable in Kerala!</p>
 
         <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
-        <DestinationCards/>  
-        <DestinationCards/>  
-        <DestinationCards/>  
+        <DestinationCards destination={destinationData[0]} />  
+        <DestinationCards destination={destinationData[0]} />  
+        <DestinationCards destination={destinationData[0]} />  
+     
 
         </div>
 
