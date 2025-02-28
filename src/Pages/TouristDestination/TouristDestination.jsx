@@ -1,8 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 import "./tourist.css"
 
 const TouristDestination = () => {
+    
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <>
       <section className="tourist-hero hero">

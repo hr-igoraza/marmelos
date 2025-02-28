@@ -1,9 +1,14 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./booking.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import RoomsList from "../../Components/Booking/Rooms";
 
 const Booking = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <section className="booking-hero">

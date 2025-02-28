@@ -1,7 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import SeeMoreBtn from "../SeeMoreBtn/SeeMoreBtn";
 
 const BlogPost = () => {
+
+    
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <>
       <li>

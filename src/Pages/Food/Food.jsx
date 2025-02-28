@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./food.css";
 import FoodItem from "../../Components/FoodItem/FoodItem";
 const Food = () => {
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <>
       <section className="food-hero">
