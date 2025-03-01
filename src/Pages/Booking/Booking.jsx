@@ -45,7 +45,14 @@ const Booking = () => {
         </div>
 
         <div className="list md:px-10 " >
-            <RoomsList rooms={roomsData[0]}/>
+            <ul>
+
+            {roomsData.map((rooms) => (
+              <li>
+              <RoomsList key={rooms.id} rooms={rooms} />
+              </li>
+            ))}
+            </ul>
             
         </div>
       </section>

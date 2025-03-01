@@ -4,6 +4,9 @@ import { roomsData } from "../../Data/roomsData";
 import { Rate } from "antd";
 import BookingForm from "../../Components/BookingForm/BookingForm";
 import Menu from "../../Components/Menu/Menu";
+import { breakfastData } from "../../Data/breakfastData";
+import { lunchData } from "../../Data/lunchData";
+import { dinnerData } from "../../Data/dinnerData";
 
 const RoomsPage = () => {
   useEffect(() => {
@@ -130,7 +133,7 @@ const RoomsPage = () => {
         {/* ================rules */}
 
         <section className="container mx-auto my-10 ">
-        <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
+          <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
             Property Rules
           </h2>
           <div className="md:px-10 px-2">
@@ -156,11 +159,58 @@ const RoomsPage = () => {
         <section className="container mx-auto my-4">
           <BookingForm />
         </section>
-
-        <section className="container mx-auto my-4">
-          {/* <Menu/> */}
-        </section>
       </div>
+
+      <section className="container mx-auto   mt-50   ">
+        <div className="breakfast">
+          <h3 className="text-primary-green font-[700] fs-24">Breakfast</h3>
+
+          <ul className="flex  gap-3 overflow-scroll scrollbar-hidden">
+            {breakfastData.map((breakfast, index) => (
+              <li
+                key={index}
+                className="text-[#1c1c1c] font-open-sans font-[400]"
+              >
+                <Menu item={breakfast} />
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* ========lunch */}
+
+        <div className="breakfast">
+          <h3 className="text-primary-green font-[700] fs-24">Lunch</h3>
+
+          <ul className="flex  gap-3 overflow-scroll scrollbar-hidden">
+            {lunchData.map((lunch, index) => (
+              <li
+                key={index}
+                className="text-[#1c1c1c] font-open-sans font-[400]"
+              >
+                <Menu item={lunch} />
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* =========Dinner */}
+
+        <div className="breakfast">
+          <h3 className="text-primary-green font-[700] fs-24">Dinner</h3>
+
+          <ul className="flex  gap-3 overflow-hidden">
+            {dinnerData.map((dinner, index) => (
+              <li
+                key={index}
+                className="text-[#1c1c1c] font-open-sans font-[400]"
+              >
+                <Menu item={dinner} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
     </>
   );
 };

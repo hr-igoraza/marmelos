@@ -1,4 +1,4 @@
-export const breakfastData = [
+export const lunchData = [
     {
         id: 401,
         image: "/images/menu/breakfast/break-1.png",

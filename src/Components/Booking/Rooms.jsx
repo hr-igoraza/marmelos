@@ -13,11 +13,11 @@ const RoomsList = ({rooms}) => {
 
   return (
     <>
-      <div class="flex flex-col shadow-sm md:flex-row  hover:bg-gray-100 card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
+      <div class="flex flex-col shadow-sm md:flex-row   card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
         <div className=" lg:w-[460px]">
         <img
           class="object-cover w-full  md:h-auto md:w-100"
-          src="/images/booking/cards/room-1.png"
+          src={rooms.image}
           alt="sample"
         />
         </div>
@@ -97,7 +97,7 @@ const RoomsList = ({rooms}) => {
 
             <button 
             onClick={onBookClick}
-            className="bg-primary-green text-white p-3 rounded-[8px] ml-2 w-full ">
+            className="bg-primary-green text-white p-3 rounded-[8px] ml-2 w-full   hover:cursor-pointer focus:transform hover:scale-101 ">
               Book Now
             </button>
 

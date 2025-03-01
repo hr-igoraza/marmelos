@@ -11,3 +11,12 @@
     color: black;
     font-weight: 600;
 }
+
+.breakfast .flex{
+    scrollbar-width:none;
+    scroll-behavior: smooth;
+}
+
+.breakfast{
+    margin-bottom: 100px;   
+}
