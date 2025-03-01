@@ -1,7 +1,16 @@
 import React from "react";
 import { Rate } from "antd";
+import { useNavigate } from "react-router-dom";
 
 const RoomsList = ({rooms}) => {
+
+  const navigate = useNavigate();
+
+  const onBookClick = () => {
+    navigate(`/rooms/${rooms.id}`);
+  };
+
+
   return (
     <>
       <div class="flex flex-col shadow-sm md:flex-row  hover:bg-gray-100 card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
@@ -86,7 +95,9 @@ const RoomsList = ({rooms}) => {
             </div>
             </button>
 
-            <button className="bg-primary-green text-white p-3 rounded-[8px] ml-2 w-full ">
+            <button 
+            onClick={onBookClick}
+            className="bg-primary-green text-white p-3 rounded-[8px] ml-2 w-full ">
               Book Now
             </button>
 

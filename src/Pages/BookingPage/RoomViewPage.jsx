@@ -130,7 +130,7 @@ const RoomsPage = () => {
         {/* ================rules */}
 
         <section className="container mx-auto my-10 ">
-          <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
+        <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
             Property Rules
           </h2>
           <div className="md:px-10 px-2">
@@ -158,7 +158,7 @@ const RoomsPage = () => {
         </section>
 
         <section className="container mx-auto my-4">
-          <Menu/>
+          {/* <Menu/> */}
         </section>
       </div>
     </>
