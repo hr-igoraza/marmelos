@@ -69,7 +69,7 @@ export const BookingWidget = () => {
       <div className="flex-1 w-full md:w-auto p-3">
         <div className="flex items-center gap-3">
           <CalendarIcon className="w-10 h-5 text-gray-700" />
-          <div>
+          <div className="flex flex-col">
             <label className=" font-[600]" htmlFor="check-in">Check-in</label>
             <DatePicker
               selected={checkInDate}
@@ -91,7 +91,7 @@ export const BookingWidget = () => {
       <div className="flex-1 w-full md:w-auto p-3">
         <div className="flex items-center gap-3">
           <CalendarIcon className="w-10 h-5 text-gray-700" />
-          <div>
+          <div className="flex flex-col">
             <label className=" font-[600]" htmlFor="check-out">Check-out</label>
             <DatePicker
               selected={checkOutDate}
