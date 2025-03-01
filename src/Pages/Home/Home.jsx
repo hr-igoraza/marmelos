@@ -31,17 +31,17 @@ const Home = () => {
           </h2>
 
           <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 ">
-            <div className="facility bg-white w-[200px] aspect-square  rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white md:w-[200px] w-[120px] text-center aspect-square h-[120px] md:h-fit p-2  rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/wifi.png"
                 alt="wifi connectivity"
               />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
                 High-Speed Wi-Fi
               </p>
             </div>
-            <div className="facility bg-white w-[200px]  aspect-square p-5 rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2  aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/parking-area.png"
@@ -51,7 +51,7 @@ const Home = () => {
                 Parking Area
               </p>
             </div>{" "}
-            <div className="facility bg-white w-[200px] aspect-square p-5 rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/gym.png"
@@ -61,7 +61,7 @@ const Home = () => {
                 Gym and Fitness
               </p>
             </div>
-            <div className="facility bg-white w-[200px] h-[200px] p-5 rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/workspace.png"
@@ -71,7 +71,7 @@ const Home = () => {
                 Private Workspace
               </p>
             </div>
-            <div className="facility bg-white w-[200px]  aspect-square  p-5 rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/others.png"
@@ -103,7 +103,7 @@ const Home = () => {
               Welcome to Lorem ipsum
             </h3>
 
-            <p className="fs-16">
+            <p className="fs-16 ">
               dolor sit amet, consectetuer adipiscing elit. Aenean commodo
               ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
               magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -151,7 +151,7 @@ const Home = () => {
           <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-10 ">
             Comfort & Luxury Book Your Perfect Stay
           </h2>
-          <p className="mt-5 fs-16">
+          <p className="mt-5 fs-16 mb-15">
             dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
             eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
             parturient montes, nascetur ridiculus mus. Donec quam felis,
