@@ -2,6 +2,8 @@ import React,{useEffect} from "react";
 import "./booking.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import RoomsList from "../../Components/Booking/Rooms";
+import {roomsData} from "../../Components/Booking/roomsData";
+
 
 const Booking = () => {
   
@@ -43,13 +45,8 @@ const Booking = () => {
         </div>
 
         <div className="list md:px-10 " >
-            <RoomsList/>
-            <RoomsList/>
-            <RoomsList/>
-            <RoomsList/>
-            <RoomsList/>
-            <RoomsList/>
-            <RoomsList/>
+            <RoomsList rooms={roomsData[0]}/>
+            
         </div>
       </section>
     </>

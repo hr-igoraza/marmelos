@@ -1,7 +1,7 @@
 import React from "react";
 import { Rate } from "antd";
 
-const RoomsList = () => {
+const RoomsList = ({rooms}) => {
   return (
     <>
       <div class="flex flex-col shadow-sm md:flex-row  hover:bg-gray-100 card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
@@ -14,21 +14,22 @@ const RoomsList = () => {
         </div>
         <div class="flex flex-col md:px-5 w-full relative  ">
           <h5 class="mb-2 fs-30 font-[700]  text-secondary-green">
-            Single rooms
+            {rooms.title}
           </h5>
           <div className="star-rating flex items-center gap-3 ">
-            <p>5 Star Hotel</p>
-            <Rate disabled defaultValue={5} />
+            <p>{rooms.hotel}</p>
+            <Rate disabled defaultValue={rooms.rating} />
           </div>
 
           <div className="rating-value flex items-center gap-2 mt-2">
             <div className="border md:p-3 p-1 rounded-[8px] border-primary-green  w-fit">
-              <p className="md:text-[14px] text-[12px]">4.3</p>
+              <p className="md:text-[14px] text-[12px]">{
+                rooms.ratingValue}</p>
             </div>
 
             <div className="reviews flex gap-2 items-center">
-              <span className="fs-14 font-[700]">Very Good</span>
-              <span className=" fs-12">371 reviews</span>
+              <span className="fs-14 font-[700]">{rooms.impression}</span>
+              <span className=" fs-12">{rooms.reviews} reviews</span>
             </div>
           </div>
 
@@ -69,7 +70,7 @@ const RoomsList = () => {
 
             <div className="price md:text-right md:mt-0 mt-5 w-fit">
               <p className="text-[12px]">starting from</p>
-              <p className="fs-18 font-[700]">₹2349/night </p>
+              <p className="fs-18 font-[700]">₹{rooms.price}/night </p>
               <p className="text-[12px]">excl. tax</p>
             </div>
           </div>
