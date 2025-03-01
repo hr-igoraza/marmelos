@@ -19,7 +19,9 @@ const Home = () => {
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
               Where Paradise Feels Like Home
             </h1>
+            <div className="p-4">
             <BookingWidget />
+            </div>
           </div>
         </div>
       </section>

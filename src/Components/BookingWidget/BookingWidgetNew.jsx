@@ -13,8 +13,10 @@ export const BookingWidget = () => {
   const widgetRef = useRef(null);
 
   const handleCheckAvailability = () => {
+    // Reset error message
     setError("");
 
+    // Validate inputs
     if (!checkInDate || !checkOutDate) {
       setError("Please select both check-in and check-out dates.");
       return;
@@ -30,6 +32,7 @@ export const BookingWidget = () => {
       return;
     }
 
+    // Proceed with WhatsApp message
     const checkIn = checkInDate.toLocaleDateString("en-GB");
     const checkOut = checkOutDate.toLocaleDateString("en-GB");
 
@@ -73,11 +76,10 @@ export const BookingWidget = () => {
             <label className=" font-[600]" htmlFor="check-in">Check-in</label>
             <DatePicker
               selected={checkInDate}
-                dateFormat="dd/MM/yyyy"
               onChange={(date) => {
                 setCheckInDate(date);
                 if (checkOutDate && date >= checkOutDate) {
-                  setCheckOutDate(null); 
+                  setCheckOutDate(null); // Reset check-out date if invalid
                 }
               }}
               minDate={new Date()}
@@ -95,7 +97,6 @@ export const BookingWidget = () => {
             <label className=" font-[600]" htmlFor="check-out">Check-out</label>
             <DatePicker
               selected={checkOutDate}
-                dateFormat="dd/MM/yyyy"
               onChange={(date) => setCheckOutDate(date)}
               minDate={checkInDate || new Date()}
               placeholderText="Check-out"

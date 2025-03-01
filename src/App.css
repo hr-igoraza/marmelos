@@ -20,3 +20,16 @@
 .breakfast{
     margin-bottom: 100px;   
 }
+
+.border-right-1{
+    border-right: 0.2px solid #6b6b6b;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .border-right-1{
+        border-right: none;
+    }
+    
+}
