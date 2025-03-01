@@ -38,7 +38,7 @@ const BookingForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-3 ">
+    <form onSubmit={handleSubmit} className="max-w-xl mx-auto p-3 ">
       <div className="grid grid-cols-1  gap-6">
         <div className="md:flex justify-between gap-4">
           <label className="block md:w-1/2">
@@ -138,22 +138,23 @@ const BookingForm = () => {
         </label>
         </div>
         <label className="block">
-          <span className="text-primary-green font-[600] mb-4">
+          {/* <span className="text-primary-green font-[600] mb-4">
             Additional information
-          </span>
+          </span> */}
           <textarea
+          placeholder="Additional information"
             name="additionalInfo"
             value={formData.additionalInfo}
             onChange={handleChange}
-            className="mt-1 block w-full rounded-md p-3 border border-primary-green  shadow-sm"
+            className=" placeholder:text-center mt-1 block w-full rounded-md p-3 border border-primary-green  shadow-sm"
             rows="4"
           ></textarea>
         </label>
         <button
           type="submit"
-          className="w-full bg-primary-green text-white py-2 px-4 rounded-md p-3 hover:bg-green-600"
+          className="w-full bg-primary-green fs-24 font-[600] text-white py-2 px-4 rounded-md p-3 hover:bg-green-600"
         >
-          Submit
+          Done
         </button>
       </div>
     </form>

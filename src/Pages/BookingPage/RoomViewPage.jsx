@@ -1,8 +1,9 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { roomsData } from "../../Components/Booking/roomsData";
+import { roomsData } from "../../Data/roomsData";
 import { Rate } from "antd";
 import BookingForm from "../../Components/BookingForm/BookingForm";
+import Menu from "../../Components/Menu/Menu";
 
 const RoomsPage = () => {
   useEffect(() => {
@@ -34,7 +35,9 @@ const RoomsPage = () => {
       </div>
 
       <div className="container mx-auto mb-[100px]">
-        <h2 className="fs-50 font-[500] mx-auto ">{rooms.title}</h2>
+        <h2 className="fs-50 font-[700] mx-auto text-primary-green ">
+          {rooms.title}
+        </h2>
 
         <div className="flex justify-between mt-10 mb-5 items-center">
           <div className="flex gap-3 items-center">
@@ -126,29 +129,36 @@ const RoomsPage = () => {
 
         {/* ================rules */}
 
-        <section className="container mx-auto my-10">
-          <h2 className="text-center fs-35 font-[700] ">Property Rules</h2>
-
-          <p>
-            To ensure all guests have a comfortable and enjoyable stay, we
-            kindly ask you to observe the following rules: Check-In/Check-Out:
-            Check-in time: [Specify time] Check-out time: [Specify time]
-            Reservation Policies: Cancellation and refund terms apply as per
-            booking policies. Smoking Policy: Smoking is prohibited in
-            non-designated areas. Pets: [Specify if pets are allowed or
-            prohibited]. Noise Levels: Quiet hours: [Specify times].
-            Pool/Outdoor Facilities: Use is permitted during posted hours only.
-            Follow safety guidelines. Damages: Guests are responsible for any
-            damages caused during their stay. Safety Compliance: Adhere to all
-            posted safety and emergency procedures. Guest Behavior: Any
-            disruptive behavior may result in removal from the property without
-            a refund. Additional Policies: Please review your confirmation email
-            for specific terms related to your booking.
-          </p>
+        <section className="container mx-auto my-10 ">
+          <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
+            Property Rules
+          </h2>
+          <div className="md:px-10 px-2">
+            <p>
+              To ensure all guests have a comfortable and enjoyable stay, we
+              kindly ask you to observe the following rules: Check-In/Check-Out:
+              Check-in time: [Specify time] Check-out time: [Specify time]
+              Reservation Policies: Cancellation and refund terms apply as per
+              booking policies. Smoking Policy: Smoking is prohibited in
+              non-designated areas. Pets: [Specify if pets are allowed or
+              prohibited]. Noise Levels: Quiet hours: [Specify times].
+              Pool/Outdoor Facilities: Use is permitted during posted hours
+              only. Follow safety guidelines. Damages: Guests are responsible
+              for any damages caused during their stay. Safety Compliance:
+              Adhere to all posted safety and emergency procedures. Guest
+              Behavior: Any disruptive behavior may result in removal from the
+              property without a refund. Additional Policies: Please review your
+              confirmation email for specific terms related to your booking.
+            </p>
+          </div>
         </section>
 
-        <section className="container mx-auto">
-          <BookingForm/>
+        <section className="container mx-auto my-4">
+          <BookingForm />
+        </section>
+
+        <section className="container mx-auto my-4">
+          <Menu/>
         </section>
       </div>
     </>

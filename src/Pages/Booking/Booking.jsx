@@ -2,7 +2,7 @@ import React,{useEffect} from "react";
 import "./booking.css";
 import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import RoomsList from "../../Components/Booking/Rooms";
-import {roomsData} from "../../Components/Booking/roomsData";
+import {roomsData} from "../../Data/roomsData";
 
 
 const Booking = () => {

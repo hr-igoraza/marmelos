@@ -2,7 +2,7 @@ import React from "react";
 import "./blog.css";
 import { Link } from "react-router-dom";
 import BlogPost from "../../Components/BlogPosts/BlogPost";
-import { blogData } from "../BlogViewPage/blogData";
+import { blogData } from "../../Data/blogData";
 
 const Blog = () => {
   return (

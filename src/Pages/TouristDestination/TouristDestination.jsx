@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 import "./tourist.css";
-import { destinationData } from "../DestinationViewPage/DestinationData";
+import { destinationData } from "../../Data/destinationData";
 
 const TouristDestination = () => {
   useEffect(() => {

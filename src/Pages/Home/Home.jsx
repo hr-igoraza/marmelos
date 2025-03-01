@@ -4,7 +4,7 @@ import { BookingWidget } from "../../Components/BookingWidget/BookingWidget";
 import DestinationCards from "../../Components/DestinationCards/DestinationCards";
 import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
 import { useNavigate } from "react-router-dom";
-import { destinationData } from "../DestinationViewPage/DestinationData";
+import { destinationData } from "../../Data/destinationData";
 
 const Home = () => {
 
@@ -31,7 +31,7 @@ const Home = () => {
           </h2>
 
           <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 ">
-            <div className="facility bg-white w-[200px] aspect-square p-5 rounded-[5px] flex flex-col justify-center items-center">
+            <div className="facility bg-white w-[200px] aspect-square  rounded-[5px] flex flex-col justify-center items-center">
               <img
                 width={40}
                 src="/images/home/facilityCards/wifi.png"
