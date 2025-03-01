@@ -21,8 +21,8 @@ const BlogPost = ({ blog }) => {
             <div className="w-full md:w-1/2  aspect-video object-contain overflow-hidden  ">
               <img className="w-full" src={blog.image} alt="card-image" />
             </div>
-            <div className="w-full md:w-1/2 h-full rounded px-4 ">
-              <h5 className="md:w-3/5 md:text-left fs-24  font-[600] mb-4">
+            <div className="w-full md:w-1/2 h-full rounded md:px-4 px-0">
+              <h5 className="md:w-3/5 md:text-left fs-24  font-[600] mb-4 md:mt-0 mt-5">
                 {blog.title}
               </h5>
 
@@ -48,7 +48,7 @@ const BlogPost = ({ blog }) => {
                   <p className="text-[#6C757D]">{blog.shareCount} shares</p>
                 </div>
               </div>
-              <p className="fs-16">{blog.shortDescription}</p>
+              <p className="fs-16 md:mb-0 mb-20  ">{blog.shortDescription}</p>
 
               <div className="w-full mt-5 flex justify-end absolute bottom-5 right-5 ">
                 <SeeMoreBtn onClick={handleSeeMoreClick} />

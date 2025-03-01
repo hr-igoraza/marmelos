@@ -31,7 +31,7 @@ const DestinationCards = ({ destination }) => {
             </div>
             <p className="text-[#8F8F8F]">{destination.location}</p>
           </div>
-          <p className="mt-2 fs-18 text-[#6C757D]">
+          <p className="mt-2 fs-16 text-[#6C757D]">
             {destination.shortDescription}
           </p>
         </div>

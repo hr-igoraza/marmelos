@@ -14,7 +14,7 @@ const Booking = () => {
   return (
     <>
       <section className="booking-hero">
-        <div className="container mx-auto flex  justify-center h-[120vh] content-center">
+        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[60vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff]  font-[700] text-center fs-65 ">
               Comfort & Luxury Book <br /> Your Perfect Stay
@@ -44,7 +44,7 @@ const Booking = () => {
             </button> */}
         </div>
 
-        <div className="list md:px-10 " >
+        <div className="list md:px-10 px-2 " >
             <ul>
 
             {roomsData.map((rooms) => (

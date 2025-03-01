@@ -3,6 +3,7 @@
     background-image: url("/images/blog/blog-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     /* background-attachment: fixed; */
   }
 

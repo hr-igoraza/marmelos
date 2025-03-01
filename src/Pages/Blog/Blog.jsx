@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <>
        <section className="blog-hero">
-        <div className="container mx-auto flex justify-center md:h-[120vh] h-[70vh] content-center"></div>
+        <div className="container mx-auto flex justify-center md:h-[120vh] h-[50vh] content-center"></div>
       </section>
 
       <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">
@@ -59,7 +59,7 @@ const Blog = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="my-1 fs-18">{blogData[0].shortDescription}</p>
+                  <p className="my-1 fs-16">{blogData[0].shortDescription}</p>
                 </div>
               </div>
             </Link>
@@ -76,7 +76,7 @@ const Blog = () => {
                     alt="card-image"
                   />
                 </div>
-                <div className="w-full md:w-1/2 h-max rounded px-4">
+                <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[1].title}</h5>
                   <p className="fs-16">{blogData[1].shortDescription}</p>
                 </div>
@@ -95,7 +95,7 @@ const Blog = () => {
                     alt="card-image"
                   />
                 </div>
-                <div className="w-full md:w-1/2 h-max rounded px-4">
+                <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[2].title}</h5>
                   <p className="fs-16">{blogData[2].shortDescription}</p>
                 </div>
@@ -114,7 +114,7 @@ const Blog = () => {
                     alt="card-image"
                   />
                 </div>
-                <div className="w-full md:w-1/2 h-max rounded px-4">
+                <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[3].title}</h5>
                   <p className="fs-16">{blogData[3].shortDescription}</p>
                 </div>

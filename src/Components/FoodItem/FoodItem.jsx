@@ -4,19 +4,19 @@ const FoodItem = () => {
   return (
    <>
     <li>
-            <div className="flex flex-wrap justify-between items-center">
-              <div className=" w-full md:w-[500px] ">
+            <div className="flex flex-wrap md:justify-between justify-center items-center md:border-none border-slate-200 border-b">
+              <div className=" w-[200px] md:w-[500px] flex  ">
                 <img
                   className="w-full"
                   src="/images/food/foodMenu/dosa.png"
                   alt="dosa"
                 />
               </div>
-              <div className="md:w-1/2 w-full">
-                <h3 className="fs-40 font-[600] text-primary-green text-center mb-10">
+              <div className="md:w-1/2 w-full md:p-0 p-5 ">
+                <h3 className="fs-40 font-[600] text-primary-green text-center md:mb-10 mb-4 ">
                   Dosa
                 </h3>
-                <p className="text-[#6C757D] text-[24px] mb-10">
+                <p className="text-[#6C757D] fs-24 md:mb-10 mb-4">
                   Dosa is a thin, crispy South Indian crepe made from fermented
                   rice and lentil batter, often served with chutney and sambar.
                 </p>

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <section className="home-hero">
-        <div className="container mx-auto flex  justify-center h-[130vh] content-center">
+        <div className="container mx-auto flex  justify-center md:h-[130vh] h-[100vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
               Where Paradise Feels Like Home
@@ -125,7 +125,7 @@ const Home = () => {
 
       <section className="paradise container-full  md:mb-30 mb-20 ">
         <div className="container mx-auto px-5">
-          <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[100vh] py-10">
+          <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[80vh] py-10">
             <h3 className="text-white font-red-hat font-[700] fs-65 mb-5 ">
               Escape to Paradise
             </h3>
