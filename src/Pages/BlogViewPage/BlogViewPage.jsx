@@ -23,7 +23,7 @@ const BlogPage = () => {
 
   return (
     <>
-      <div className="section container-full mx-auto md:mb-30 mb-10 overflow-hidden md:h-[90vh] h-[60vh]">
+      <div className=" container-full mx-auto md:mb-30 mb-10 overflow-hidden md:h-[90vh] h-[40vh]">
         <img
           src={blog.image}
           className="w-full h-full object-cover object-center"
