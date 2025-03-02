@@ -106,7 +106,7 @@ const Home = () => {
             </h3>
 
             <p className="fs-16 ">
-           <strong>O</strong>ur Authentic Kerala Retreat Near Marari Beach & Alleppey Backwaters
+              <strong>O</strong>ur Authentic Kerala Retreat Near Marari Beach & Alleppey Backwaters
               Nestled in the serene village of Marikulam, Alappuzha (Alleppey),
               Marmelos Homestay blends traditional Kerala hospitality with modern comforts.
               Located on the Chethy side of Alappuzha, just a short drive from Marari Beach and Alleppey’s iconic backwaters, our eco-friendly homestay offers a peaceful escape for travelers seeking cultural immersion or a relaxing nature retreat.
@@ -115,7 +115,7 @@ const Home = () => {
             </p>
             <p className="fs-16 ">
               Enjoy air-conditioned rooms, organic Kerala cuisine cooked with local ingredients and personalized experiences or guided tours to nearby fishing villages. Whether you’re a family craving quality time, a couple seeking romance, or a solo traveler exploring Kerala’s culture, our warm ambiance and lush green surroundings ensure an unforgettable stay.
-              <br/>  <br/> 📞 For bookings and inquiries,<br/> contact us at: +919288100118
+              <br />  <br /> 📞 For bookings and inquiries,<br /> contact us at: +919288100118
             </p>
           </div>
         </div>
@@ -127,11 +127,11 @@ const Home = () => {
         <div className="container mx-auto px-5">
           <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[80vh] py-10">
             <h3 className="text-white font-red-hat font-[700] fs-65 mb-5 ">
-            Discover Your Kerala Paradise
+              Discover Your Kerala Paradise
             </h3>
 
             <p className="text-white w-4/5 fs-16">
-            Step into a world of sustainable luxury at Marmelos Homestay, your secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant culture meets untouched natural beauty. Located steps away from Marari Beach’s golden shores and a short drive from Alleppey’s enchanting backwaters, our homestay invites you to immerse yourself in Kerala’s authentic charm. Stay in elegantly designed villas, adventure seekers can explore kayaking trails, bird-watching hotspots, or traditional coir-making workshops in nearby villages. Ideal for honeymooners, wellness enthusiasts, and eco-conscious travelers, Marmelos Homestay redefines paradise with zero-carbon initiatives and let the rhythm of Kerala’s coastal life rejuvenate your soul.
+              Step into a world of sustainable luxury at Marmelos Homestay, your secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant culture meets untouched natural beauty. Located steps away from Marari Beach’s golden shores and a short drive from Alleppey’s enchanting backwaters, our homestay invites you to immerse yourself in Kerala’s authentic charm. Stay in elegantly designed villas, adventure seekers can explore kayaking trails, bird-watching hotspots, or traditional coir-making workshops in nearby villages. Ideal for honeymooners, wellness enthusiasts, and eco-conscious travelers, Marmelos Homestay redefines paradise with zero-carbon initiatives and let the rhythm of Kerala’s coastal life rejuvenate your soul.
             </p>
           </div>
         </div>
@@ -145,16 +145,10 @@ const Home = () => {
         </div>
         <div className="md:w-2/5 w-full relative ">
           <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-10 ">
-            Comfort & Luxury Book Your Perfect Stay
+            Relax in Our Elegant Private Rooms
           </h2>
           <p className="mt-5 fs-16 mb-15">
-            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-            massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-            vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-            venenatis vitae
+            At Marmelos Homestay, your private sanctuary in Marikulam, Alappuzha, awaits with thoughtfully designed rooms that blend Kerala’s rustic charm with modern comforts. Each spacious, air-conditioned room features a plush queen-sized bed dressed in premium cotton bedsheets and hypoallergenic pillows, ensuring a restful night’s sleep.Unwind in your attached bathroom, stocked with organic herbal soap and fresh towels, or stay connected with high-speed Wi-Fi as you plan your next adventure at the sleek work desk.  Nestled just minutes from Kerala’s top attractions, Marmelos Homestay promises privacy, convenience, and the perfect balance of culture and comfort.
           </p>
           <div className="w-full mt-5 flex justify-end absolute bottom-0 right-0">
             <SeeMoreBtn onClick={() => navigate("/booking")} />
@@ -170,19 +164,14 @@ const Home = () => {
         <div className="md:w-1/2 w-full md:order-1 md:pr-10 flex flex-col relative ">
           <div className="detailed">
             <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-5">
-              Flavors of Kerala Authentic Cuisine at Our Resort
+              Flavors of Kerala Authentic Cuisine
             </h2>
-            <p className=" md:w-4/5 mt-10 mb-15 fs-16">
-              dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-              eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Donec quam felis,
-              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-              massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-              vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-              venenatis vitae
-            </p >
-          </div>
+            <p className="md:w-4/5 mt-10 mb-15 fs-16">
+              <strong>E</strong>xperience the true taste of Kerala at Marmelos Homestay, where every meal celebrates tradition and vibrant flavors. Our home-cooked delicacies, made with fresh local ingredients and spices, offer an authentic culinary adventure.<br/> Begin your day with comforting <strong>Puttu and Kadala Curry</strong> (steamed rice cakes with black chickpea curry) or enjoy soft, fluffy <strong>Appam with Stew</strong> (fermented rice pancakes with coconut stew). Savor the delicate <strong>Idiyappam with Egg Curry</strong> (rice noodles with spiced egg curry) and indulge in <strong>Malabar Parotta with Spicy Beef Curry</strong> (flaky layered bread with savory beef curry). Seafood lovers can enjoy <strong>Karimeen Pollichathu</strong> (grilled pearl spot fish), <strong>Meen Moilee</strong> (fish in coconut milk curry), and <strong>Konju Varuthathu</strong> (spiced fried prawns). <br/>No Kerala experience is complete without the legendary <strong>Sadya</strong>, a vegetarian feast served on a banana leaf, featuring delights like <strong>Avial</strong>, <strong>Thoran</strong>, <strong>Pachadi</strong>, and the sweet, creamy goodness of <strong>Payasam</strong>. Finish your meal with crunchy <strong>Banana Chips</strong>, <strong>Unniyappam</strong>, or a cup of authentic Kerala-style tea, perfectly brewed to soothe your senses. Taste tradition and let Kerala’s flavors enchant your palate. Discover true culinary heritage.
+            </p>
 
+
+          </div>
           <div className="w-full mt-5 absolute bottom-0 left-0 ">
             <SeeMoreBtn onClick={() => navigate("/food")} />
           </div>
@@ -232,7 +221,7 @@ const Home = () => {
               <iframe
                 className="w-full md:h-[700px] h-[30vh] "
                 id="gmap_canvas"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.830038105611!2d76.2997585!3d9.628710499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087d006609e939%3A0x926a631a668e7ec5!2sMarmelos%20Homestay!5e1!3m2!1sen!2sin!4v1740943773967!5m2!1sen!2sin"  
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.830038105611!2d76.2997585!3d9.628710499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087d006609e939%3A0x926a631a668e7ec5!2sMarmelos%20Homestay!5e1!3m2!1sen!2sin!4v1740943773967!5m2!1sen!2sin"
                 frameborder="0"
                 // scrolling="no"
                 marginheight="0"
