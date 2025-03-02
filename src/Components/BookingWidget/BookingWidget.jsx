@@ -53,7 +53,7 @@ export const BookingWidget = () => {
         <div className="flex items-center gap-3">
           <UserIcon className="w-10 h-5 text-gray-700" />
           <div>
-            <label className=" font-[600]" htmlFor="guests">Who</label>
+            <label className=" font-[600]" htmlFor="guests">Guests</label>
             <input
               type="number"
               min="1"
