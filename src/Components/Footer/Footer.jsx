@@ -155,7 +155,7 @@ const Footer = () => {
                       href="#"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Location: Marmelos Homestay Thaikkoottathil Chethy,P.O Mararikulam North 688530 Alappuzha Kerala
+                      Location: Marmelos Homestay Thaikkoottathil Chethy P.O Mararikulam North 688530 Alappuzha Kerala
                     </a>
                   </li>
                 </ul>
