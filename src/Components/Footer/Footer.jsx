@@ -118,11 +118,35 @@ const Footer = () => {
                       href="#"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Whatsapp : +91 9288100118
-                      Phone    : +91 9074883442
-                      Phone    : +91 8138836543
-                      
+                      Whatsapp:+91 9288100118
+                    </a>
+                  
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
+                      Phone:+91 9074883442
+                    </a>
+                  
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
+                      Phone:+91 8138836543
+                    </a>
+                  
+                  </li>
 
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
+                    Email:marmeloshomestay@gmail.com
                     </a>
                   </li>
 
@@ -131,16 +155,7 @@ const Footer = () => {
                       href="#"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Email : company@email.com
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Location: 100 Smart Street, New York, USA
+                      Location: Thaikkoottathil  ,Chethy P O ,Mararikulam North 688530 Alappuzha Kerala
                     </a>
                   </li>
                 </ul>
