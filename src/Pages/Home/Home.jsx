@@ -17,7 +17,7 @@ const Home = () => {
         <div className="container mx-auto flex  justify-center md:h-[130vh] h-[100vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
-              Where Paradise Feels Like Home
+            Experience an Authentic Kerala Homestay in Marari
             </h1>
             <div className="p-4">
             <BookingWidget />
@@ -60,7 +60,7 @@ const Home = () => {
                 alt="Gym and Fitness"
               />
               <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Gym and Fitness
+              Breakfast
               </p>
             </div>
             <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
