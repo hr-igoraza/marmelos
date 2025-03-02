@@ -115,6 +115,7 @@ const Home = () => {
             </p>
             <p className="fs-16 ">
               Enjoy air-conditioned rooms, organic Kerala cuisine cooked with local ingredients and personalized experiences or guided tours to nearby fishing villages. Whether you’re a family craving quality time, a couple seeking romance, or a solo traveler exploring Kerala’s culture, our warm ambiance and lush green surroundings ensure an unforgettable stay.
+              <br/>  <br/> 📞 For bookings and inquiries,<br/> contact us at: +919288100118
             </p>
           </div>
         </div>
@@ -130,13 +131,7 @@ const Home = () => {
             </h3>
 
             <p className="text-white w-4/5 fs-16">
-              dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-              ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-              felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-              consequat massa quis enim. Donec pede justo, fringilla vel,
-              aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae
+            Step into a world of sustainable luxury at Marmelos Homestay, your secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant culture meets untouched natural beauty. Located steps away from Marari Beach’s golden shores and a short drive from Alleppey’s enchanting backwaters, our homestay invites you to immerse yourself in Kerala’s authentic charm. Stay in elegantly designed villas, adventure seekers can explore kayaking trails, bird-watching hotspots, or traditional coir-making workshops in nearby villages. Ideal for honeymooners, wellness enthusiasts, and eco-conscious travelers, Marmelos Homestay redefines paradise with zero-carbon initiatives and let the rhythm of Kerala’s coastal life rejuvenate your soul.
             </p>
           </div>
         </div>
