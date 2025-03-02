@@ -155,7 +155,7 @@ const Footer = () => {
                       href="#"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Location: Thaikkoottathil  ,Chethy P O ,Mararikulam North 688530 Alappuzha Kerala
+                      Location: Thaikkoottathil ,Chethy,P O ,Mararikulam North 688530 Alappuzha Kerala
                     </a>
                   </li>
                 </ul>
@@ -210,7 +210,7 @@ const Footer = () => {
           </div>
 
           <p className="text-xs text-[#ffffff] opacity-75">
-            &copy; 2022. Company Name. All rights reserved.
+            &copy; Copyright & All Rights Reserved 2025 - IGORAZA PRIVATE LIMITED.
           </p>
         </div>
       </footer>
