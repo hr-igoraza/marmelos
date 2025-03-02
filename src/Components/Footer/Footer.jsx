@@ -210,11 +210,10 @@ const Footer = () => {
           </div>
           <p className="text-xs text-[#ffffff] opacity-75">
   &copy; Copyright & All Rights Reserved 2025 -  
-  <a href="https://igoraza.com" target="_blank" rel="noopener noreferrer" className="text-black 600 underline">
-    IGORAZA PRIVATE LIMITED
+  <a href="https://igoraza.com" target="_blank" rel="noopener noreferrer" className="text-rose-500 ">
+    <strong>IGORAZA PRIVATE LIMITED</strong>
   </a>
 </p>
-
 
         </div>
       </footer>
