@@ -126,7 +126,7 @@ const Home = () => {
         <div className="container mx-auto px-5">
           <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[80vh] py-10">
             <h3 className="text-white font-red-hat font-[700] fs-65 mb-5 ">
-              Escape to Paradise
+            Discover Your Kerala Paradise
             </h3>
 
             <p className="text-white w-4/5 fs-16">
