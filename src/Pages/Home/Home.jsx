@@ -17,7 +17,7 @@ const Home = () => {
         <div className="container mx-auto flex  justify-center md:h-[130vh] h-[100vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
-            Experience an Authentic Kerala Homestay <br/> in Marari
+            Experience an Authentic Kerala<br/>Homestay in Marari
             </h1>
             <div className="p-4">
             <BookingWidget />
