@@ -237,7 +237,7 @@ const Home = () => {
               <iframe
                 className="w-full md:h-[700px] h-[30vh] "
                 id="gmap_canvas"
-                src="https://maps.google.com/maps?q=thoppumpady&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.830038105611!2d76.2997585!3d9.628710499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087d006609e939%3A0x926a631a668e7ec5!2sMarmelos%20Homestay!5e1!3m2!1sen!2sin!4v1740943773967!5m2!1sen!2sin"  
                 frameborder="0"
                 // scrolling="no"
                 marginheight="0"
