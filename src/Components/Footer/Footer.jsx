@@ -13,9 +13,7 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-xs text-[#ffffff]  text-[14px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-                non cupiditate quae nam molestias.
-              </p>
+              Discover Marmelos Homestay near Chethy Beach, Mararikulam—a serene Kerala retreat blending traditional charm with modern comforts and authentic local cuisine              </p>
             </div>
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
