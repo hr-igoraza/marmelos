@@ -115,7 +115,7 @@ const Footer = () => {
                 <ul className="mt-5 space-y-4 text-sm regular ">
                   <li>
                     <a
-                      href="#"
+                      href="https://wa.link/0d21cx"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
                       Whatsapp:+91 9288100118
