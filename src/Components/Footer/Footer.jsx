@@ -124,7 +124,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://wa.link/4c7gq3"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
                       Phone:+91 9074883442
@@ -133,7 +133,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://wa.link/g1ru7u"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
                       Phone:+91 8138836543
