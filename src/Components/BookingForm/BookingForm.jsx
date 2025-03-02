@@ -31,7 +31,7 @@ const BookingForm = () => {
     Check-Out: ${formData.checkOut}
     Additional Info: ${formData.additionalInfo}`;
 
-    const whatsappUrl = `https://wa.me/ADMIN_PHONE_NUMBER?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/+919288100118?text=${(
       message
     )}`;
     window.open(whatsappUrl, "_blank");
