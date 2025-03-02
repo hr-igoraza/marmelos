@@ -118,7 +118,11 @@ const Footer = () => {
                       href="#"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Phone : +91 1234567890
+                      Whatsapp : +91 9288100118
+                      Phone    : +91 9074883442
+                      Phone    : +91 8138836543
+                      
+
                     </a>
                   </li>
 
