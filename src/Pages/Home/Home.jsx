@@ -17,10 +17,10 @@ const Home = () => {
         <div className="container mx-auto flex  justify-center md:h-[130vh] h-[100vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
-            Experience an Authentic Kerala<br/>Homestay in Marari
+              Experience an Authentic Kerala<br />Homestay in Marari
             </h1>
             <div className="p-4">
-            <BookingWidget />
+              <BookingWidget />
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Home = () => {
       <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">
         <div className="content-center">
           <h2 className="text-[#ffffff] font-red-hat font-[700] fs-65 text-center">
-          Comforts of Home
+            Comforts of Home
           </h2>
 
           <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 ">
@@ -60,7 +60,7 @@ const Home = () => {
                 alt="Gym and Fitness"
               />
               <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-              Breakfast
+                Breakfast
               </p>
             </div>
             <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
@@ -70,7 +70,7 @@ const Home = () => {
                 alt="Private Workspace"
               />
               <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-              Safety & Hygiene
+                Safety & Hygiene
               </p>
             </div>
             <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
@@ -80,7 +80,7 @@ const Home = () => {
                 alt="Other Services"
               />
               <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-              Transportation Support
+                Transportation Support
               </p>
             </div>
           </div>
@@ -102,20 +102,19 @@ const Home = () => {
           </div>
           <div class="w-full md:w-1/3 ">
             <h3 className="text-primary-green leading-[1.2em] font-red-hat font-[700] fs-65 mb-5">
-              Welcome to Lorem ipsum
+              Welcome to Marmelos
             </h3>
 
             <p className="fs-16 ">
-              dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-              ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-              felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-              consequat massa quis enim. Donec pede justo, fringilla vel,
-              aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim.
+           <strong>O</strong>ur Authentic Kerala Retreat Near Marari Beach & Alleppey Backwaters
+              Nestled in the serene village of Marikulam, Alappuzha (Alleppey),
+              Marmelos Homestay blends traditional Kerala hospitality with modern comforts.
+              Located on the Chethy side of Alappuzha, just a short drive from Marari Beach and Alleppey’s iconic backwaters, our eco-friendly homestay offers a peaceful escape for travelers seeking cultural immersion or a relaxing nature retreat.
+
+
+            </p>
+            <p className="fs-16 ">
+              Enjoy air-conditioned rooms, organic Kerala cuisine cooked with local ingredients and personalized experiences or guided tours to nearby fishing villages. Whether you’re a family craving quality time, a couple seeking romance, or a solo traveler exploring Kerala’s culture, our warm ambiance and lush green surroundings ensure an unforgettable stay.
             </p>
           </div>
         </div>
@@ -163,10 +162,10 @@ const Home = () => {
             venenatis vitae
           </p>
           <div className="w-full mt-5 flex justify-end absolute bottom-0 right-0">
-          <SeeMoreBtn onClick={()=> navigate("/booking")}/>
+            <SeeMoreBtn onClick={() => navigate("/booking")} />
+          </div>
         </div>
-        </div>
-        
+
       </section>
 
       <section className="flavours container mx-auto flex flex-wrap mb-30 px-5 ">
@@ -174,24 +173,24 @@ const Home = () => {
           <img src="/images/home/flavours.png" alt="Flavours" />
         </div>
         <div className="md:w-1/2 w-full md:order-1 md:pr-10 flex flex-col relative ">
-        <div className="detailed">
-          <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-5">
-            Flavors of Kerala Authentic Cuisine at Our Resort
-          </h2>
-          <p className=" md:w-4/5 mt-10 mb-15 fs-16">
-            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-            massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-            vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-            venenatis vitae
-          </p >
+          <div className="detailed">
+            <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-5">
+              Flavors of Kerala Authentic Cuisine at Our Resort
+            </h2>
+            <p className=" md:w-4/5 mt-10 mb-15 fs-16">
+              dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+              eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+              massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+              vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+              venenatis vitae
+            </p >
           </div>
 
           <div className="w-full mt-5 absolute bottom-0 left-0 ">
-          <SeeMoreBtn onClick={()=> navigate("/food")}/>
-        </div>
+            <SeeMoreBtn onClick={() => navigate("/food")} />
+          </div>
         </div>
       </section>
 
@@ -261,15 +260,15 @@ const Home = () => {
         <p className="text-center mt-4">Vacations to make your experience enjoyable in Kerala!</p>
 
         <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
-        <DestinationCards destination={destinationData[0]} />  
-        <DestinationCards destination={destinationData[0]} />  
-        <DestinationCards destination={destinationData[0]} />  
-     
+          <DestinationCards destination={destinationData[0]} />
+          <DestinationCards destination={destinationData[0]} />
+          <DestinationCards destination={destinationData[0]} />
+
 
         </div>
 
         <div className="w-full  flex justify-end mt-20">
-          <SeeMoreBtn onClick={()=> navigate("/touristdestinations")}/>
+          <SeeMoreBtn onClick={() => navigate("/touristdestinations")} />
         </div>
       </section>
     </>
