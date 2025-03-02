@@ -29,7 +29,7 @@ const Home = () => {
       <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">
         <div className="content-center">
           <h2 className="text-[#ffffff] font-red-hat font-[700] fs-65 text-center">
-            We provide top facilities
+          Comforts of Home
           </h2>
 
           <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 ">
