@@ -5,11 +5,10 @@ import DestinationCards from "../../Components/DestinationCards/DestinationCards
 import SeeMoreBtn from "../../Components/SeeMoreBtn/SeeMoreBtn";
 import { useNavigate } from "react-router-dom";
 import { destinationData } from "../../Data/destinationData";
+import Amenities from "../../Components/Amenities";
 
 const Home = () => {
-
   const navigate = useNavigate();
-
 
   return (
     <>
@@ -17,7 +16,9 @@ const Home = () => {
         <div className="container mx-auto flex  justify-center md:h-[130vh] h-[100vh] content-center">
           <div className="content-center">
             <h1 className="text-[#ffffff] font-red-hat font-[700] text-center fs-65 ">
-              Experience an Authentic Kerala<br />Homestay in Marari
+              Experience an Authentic Kerala
+              <br />
+              Homestay in Marari
             </h1>
             <div className="p-4">
               <BookingWidget />
@@ -32,61 +33,8 @@ const Home = () => {
             Comforts of Home
           </h2>
 
-          <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 ">
-            <div className="facility bg-white md:w-[200px] w-[120px] text-center aspect-square h-[120px] md:h-fit p-2  rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/wifi.png"
-                alt="wifi connectivity"
-              />
-              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
-                High-Speed Wi-Fi
-              </p>
-            </div>
-            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2  aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/parking-area.png"
-                alt="Parking Area"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Parking Area
-              </p>
-            </div>{" "}
-            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/gym.png"
-                alt="Gym and Fitness"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Breakfast
-              </p>
-            </div>
-            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/workspace.png"
-                alt="Private Workspace"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Safety & Hygiene
-              </p>
-            </div>
-            <div className="facility bg-white md:w-[200px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/others.png"
-                alt="Other Services"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Transportation Support
-              </p>
-            </div>
-          </div>
+          <Amenities />
         </div>
-
-        <div className="facitily-cards"></div>
       </section>
 
       {/* =========welcome */}
@@ -106,16 +54,24 @@ const Home = () => {
             </h3>
 
             <p className="fs-16 ">
-              <strong>O</strong>ur Authentic Kerala Retreat Near Marari Beach & Alleppey Backwaters
-              Nestled in the serene village of Marikulam, Alappuzha (Alleppey),
-              Marmelos Homestay blends traditional Kerala hospitality with modern comforts.
-              Located on the Chethy side of Alappuzha, just a short drive from Marari Beach and Alleppey’s iconic backwaters, our eco-friendly homestay offers a peaceful escape for travelers seeking cultural immersion or a relaxing nature retreat.
-
-
+              <strong>O</strong>ur Authentic Kerala Retreat Near Marari Beach &
+              Alleppey Backwaters Nestled in the serene village of Marikulam,
+              Alappuzha (Alleppey), Marmelos Homestay blends traditional Kerala
+              hospitality with modern comforts. Located on the Chethy side of
+              Alappuzha, just a short drive from Marari Beach and Alleppey’s
+              iconic backwaters, our eco-friendly homestay offers a peaceful
+              escape for travelers seeking cultural immersion or a relaxing
+              nature retreat.
             </p>
             <p className="fs-16 ">
-              Enjoy air-conditioned rooms, organic Kerala cuisine cooked with local ingredients and personalized experiences or guided tours to nearby fishing villages. Whether you’re a family craving quality time, a couple seeking romance, or a solo traveler exploring Kerala’s culture, our warm ambiance and lush green surroundings ensure an unforgettable stay.
-              <br />  <br /> 📞 For bookings and inquiries,<br /> contact us at: +919288100118
+              Enjoy air-conditioned rooms, organic Kerala cuisine cooked with
+              local ingredients and personalized experiences or guided tours to
+              nearby fishing villages. Whether you’re a family craving quality
+              time, a couple seeking romance, or a solo traveler exploring
+              Kerala’s culture, our warm ambiance and lush green surroundings
+              ensure an unforgettable stay.
+              <br /> <br /> 📞 For bookings and inquiries,
+              <br /> contact us at: +919288100118
             </p>
           </div>
         </div>
@@ -131,7 +87,18 @@ const Home = () => {
             </h3>
 
             <p className="text-white w-4/5 fs-16">
-              Step into a world of sustainable luxury at Marmelos Homestay, your secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant culture meets untouched natural beauty. Located steps away from Marari Beach’s golden shores and a short drive from Alleppey’s enchanting backwaters, our homestay invites you to immerse yourself in Kerala’s authentic charm. Stay in elegantly designed villas, adventure seekers can explore kayaking trails, bird-watching hotspots, or traditional coir-making workshops in nearby villages. Ideal for honeymooners, wellness enthusiasts, and eco-conscious travelers, Marmelos Homestay redefines paradise with zero-carbon initiatives and let the rhythm of Kerala’s coastal life rejuvenate your soul.
+              Step into a world of sustainable luxury at Marmelos Homestay, your
+              secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant
+              culture meets untouched natural beauty. Located steps away from
+              Marari Beach’s golden shores and a short drive from Alleppey’s
+              enchanting backwaters, our homestay invites you to immerse
+              yourself in Kerala’s authentic charm. Stay in elegantly designed
+              villas, adventure seekers can explore kayaking trails,
+              bird-watching hotspots, or traditional coir-making workshops in
+              nearby villages. Ideal for honeymooners, wellness enthusiasts, and
+              eco-conscious travelers, Marmelos Homestay redefines paradise with
+              zero-carbon initiatives and let the rhythm of Kerala’s coastal
+              life rejuvenate your soul.
             </p>
           </div>
         </div>
@@ -148,13 +115,22 @@ const Home = () => {
             Relax in Our Elegant Private Rooms
           </h2>
           <p className="mt-5 fs-16 mb-15">
-            At Marmelos Homestay, your private sanctuary in Marikulam, Alappuzha, awaits with thoughtfully designed rooms that blend Kerala’s rustic charm with modern comforts. Each spacious, air-conditioned room features a plush queen-sized bed dressed in premium cotton bedsheets and hypoallergenic pillows, ensuring a restful night’s sleep.Unwind in your attached bathroom, stocked with organic herbal soap and fresh towels, or stay connected with high-speed Wi-Fi as you plan your next adventure at the sleek work desk.  Nestled just minutes from Kerala’s top attractions, Marmelos Homestay promises privacy, convenience, and the perfect balance of culture and comfort.
+            At Marmelos Homestay, your private sanctuary in Marikulam,
+            Alappuzha, awaits with thoughtfully designed rooms that blend
+            Kerala’s rustic charm with modern comforts. Each spacious,
+            air-conditioned room features a plush queen-sized bed dressed in
+            premium cotton bedsheets and hypoallergenic pillows, ensuring a
+            restful night’s sleep.Unwind in your attached bathroom, stocked with
+            organic herbal soap and fresh towels, or stay connected with
+            high-speed Wi-Fi as you plan your next adventure at the sleek work
+            desk. Nestled just minutes from Kerala’s top attractions, Marmelos
+            Homestay promises privacy, convenience, and the perfect balance of
+            culture and comfort.
           </p>
           <div className="w-full mt-5 flex justify-end absolute bottom-0 right-0">
             <SeeMoreBtn onClick={() => navigate("/booking")} />
           </div>
         </div>
-
       </section>
 
       <section className="flavours container mx-auto flex flex-wrap mb-30 px-5 ">
@@ -167,10 +143,32 @@ const Home = () => {
               Flavors of Kerala Authentic Cuisine
             </h2>
             <p className="md:w-4/5 mt-10 mb-15 fs-16">
-              <strong>E</strong>xperience the true taste of Kerala at Marmelos Homestay, where every meal celebrates tradition and vibrant flavors. Our home-cooked delicacies, made with fresh local ingredients and spices, offer an authentic culinary adventure.<br/> Begin your day with comforting <strong>Puttu and Kadala Curry</strong> (steamed rice cakes with black chickpea curry) or enjoy soft, fluffy <strong>Appam with Stew</strong> (fermented rice pancakes with coconut stew). Savor the delicate <strong>Idiyappam with Egg Curry</strong> (rice noodles with spiced egg curry) and indulge in <strong>Malabar Parotta with Spicy Beef Curry</strong> (flaky layered bread with savory beef curry). Seafood lovers can enjoy <strong>Karimeen Pollichathu</strong> (grilled pearl spot fish), <strong>Meen Moilee</strong> (fish in coconut milk curry), and <strong>Konju Varuthathu</strong> (spiced fried prawns). <br/>No Kerala experience is complete without the legendary <strong>Sadya</strong>, a vegetarian feast served on a banana leaf, featuring delights like <strong>Avial</strong>, <strong>Thoran</strong>, <strong>Pachadi</strong>, and the sweet, creamy goodness of <strong>Payasam</strong>. Finish your meal with crunchy <strong>Banana Chips</strong>, <strong>Unniyappam</strong>, or a cup of authentic Kerala-style tea, perfectly brewed to soothe your senses. Taste tradition and let Kerala’s flavors enchant your palate. Discover true culinary heritage.
+              <strong>E</strong>xperience the true taste of Kerala at Marmelos
+              Homestay, where every meal celebrates tradition and vibrant
+              flavors. Our home-cooked delicacies, made with fresh local
+              ingredients and spices, offer an authentic culinary adventure.
+              <br /> Begin your day with comforting{" "}
+              <strong>Puttu and Kadala Curry</strong> (steamed rice cakes with
+              black chickpea curry) or enjoy soft, fluffy{" "}
+              <strong>Appam with Stew</strong> (fermented rice pancakes with
+              coconut stew). Savor the delicate{" "}
+              <strong>Idiyappam with Egg Curry</strong> (rice noodles with
+              spiced egg curry) and indulge in{" "}
+              <strong>Malabar Parotta with Spicy Beef Curry</strong> (flaky
+              layered bread with savory beef curry). Seafood lovers can enjoy{" "}
+              <strong>Karimeen Pollichathu</strong> (grilled pearl spot fish),{" "}
+              <strong>Meen Moilee</strong> (fish in coconut milk curry), and{" "}
+              <strong>Konju Varuthathu</strong> (spiced fried prawns). <br />
+              No Kerala experience is complete without the legendary{" "}
+              <strong>Sadya</strong>, a vegetarian feast served on a banana
+              leaf, featuring delights like <strong>Avial</strong>,{" "}
+              <strong>Thoran</strong>, <strong>Pachadi</strong>, and the sweet,
+              creamy goodness of <strong>Payasam</strong>. Finish your meal with
+              crunchy <strong>Banana Chips</strong>, <strong>Unniyappam</strong>
+              , or a cup of authentic Kerala-style tea, perfectly brewed to
+              soothe your senses. Taste tradition and let Kerala’s flavors
+              enchant your palate. Discover true culinary heritage.
             </p>
-
-
           </div>
           <div className="w-full mt-5 absolute bottom-0 left-0 ">
             <SeeMoreBtn onClick={() => navigate("/food")} />
@@ -241,14 +239,14 @@ const Home = () => {
         <h2 className="fs-65 font-[700] mx-auto text-center">
           Popular Destinations
         </h2>
-        <p className="text-center mt-4">Vacations to make your experience enjoyable in Kerala!</p>
+        <p className="text-center mt-4">
+          Vacations to make your experience enjoyable in Kerala!
+        </p>
 
         <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
           <DestinationCards destination={destinationData[0]} />
           <DestinationCards destination={destinationData[0]} />
           <DestinationCards destination={destinationData[0]} />
-
-
         </div>
 
         <div className="w-full  flex justify-end mt-20">
