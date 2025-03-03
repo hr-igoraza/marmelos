@@ -26,7 +26,7 @@ const Blog = () => {
             <Link to={`/blog/${blogData[0].id}`}>
               <div className="w-full overflow-hidden bg-white card-shadow p-5 h-full">
                 <img
-                  className="m-1.5 h-max w-[calc(100%-12px)]"
+                  className="m-1.5 object-cover object-center w-[calc(100%-12px)]"
                   src={blogData[0].image}
                   alt="image"
                 />
@@ -69,7 +69,7 @@ const Blog = () => {
           <div className="md:col-span-3 md:row-span-3 md:col-start-4">
             <Link to={`/blog/${blogData[1].id}`}>
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2 overflow-hidden object-cover object-center ">
                   <img
                     className="w-full"
                     src={blogData[1].image}
@@ -88,7 +88,7 @@ const Blog = () => {
           <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-4">
             <Link to={`/blog/${blogData[2].id}`}>
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2 overflow-hidden object-cover object-center ">
                   <img
                     className="w-full"
                     src={blogData[2].image}
@@ -107,7 +107,7 @@ const Blog = () => {
           <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-7">
             <Link to={`/blog/${blogData[3].id}`}>
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2 overflow-hidden object-cover object-center ">
                   <img
                     className="w-full"
                     src={blogData[3].image}

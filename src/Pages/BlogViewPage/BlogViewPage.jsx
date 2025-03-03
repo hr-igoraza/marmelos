@@ -64,7 +64,7 @@ const BlogPage = () => {
         <div className="w-full flex justify-center my-10">
           <div className="">
             <button
-              className="flex items-center gap-2 bg-primary-green text-white py-2 px-20 fs-20 "
+              className="flex items-center gap-2 bg-primary-green text-white py-2 px-20 fs-20 hover:scale-[1.01] duration-300 cursor-pointer "
               onClick={() => navigate("/blog")}
             >
               <img className="w-[25px]" src="/images/blog/back.png" alt="back" />

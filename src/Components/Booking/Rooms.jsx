@@ -14,9 +14,9 @@ const RoomsList = ({rooms}) => {
   return (
     <>
       <div class="flex flex-col shadow-sm md:flex-row   card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
-        <div className=" lg:w-[460px]">
+        <div className=" lg:w-[460px] aspect-square">
         <img
-          class="object-cover w-full  md:h-auto md:w-100"
+          class="object-cover w-full  md:h-auto md:w-100 "
           src={rooms.image}
           alt="sample"
         />
