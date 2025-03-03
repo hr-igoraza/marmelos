@@ -59,7 +59,7 @@ const Blog = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="my-1 fs-16">{blogData[0].shortDescription}</p>
+                  <p className="my-1 fs-16 truncate-5">{blogData[0].shortDescription}</p>
                 </div>
               </div>
             </Link>
@@ -78,7 +78,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[1].title}</h5>
-                  <p className="fs-16">{blogData[1].shortDescription}</p>
+                  <p className="fs-16 truncate-4">{blogData[1].shortDescription}</p>
                 </div>
               </div>
             </Link>
@@ -97,7 +97,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[2].title}</h5>
-                  <p className="fs-16">{blogData[2].shortDescription}</p>
+                  <p className="fs-16 truncate-4">{blogData[2].shortDescription}</p>
                 </div>
               </div>
             </Link>

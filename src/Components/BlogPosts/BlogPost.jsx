@@ -48,7 +48,7 @@ const BlogPost = ({ blog }) => {
                   <p className="text-[#6C757D]">{blog.shareCount} shares</p>
                 </div>
               </div>
-              <p className="fs-16 md:mb-0 mb-20  ">{blog.shortDescription}</p>
+              <p className="fs-16 md:mb-0 mb-20 truncate-3 ">{blog.shortDescription}</p>
 
               <div className="w-full mt-5 flex justify-end absolute bottom-5 right-5 ">
                 <SeeMoreBtn onClick={handleSeeMoreClick} />
