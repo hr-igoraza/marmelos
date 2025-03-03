@@ -178,7 +178,7 @@ const Home = () => {
 
       {/* ================= journerys */}
 
-      <section className="journerys container mx-auto  mb-30 px-5">
+      <section className="journerys container mx-auto  mb-20 px-5">
         <h2 className="fs-65 font-[700] mx-auto text-center">
           Captured Journeys
         </h2>
@@ -210,7 +210,7 @@ const Home = () => {
 
       {/* ================== Location */}
 
-      <section className="location container mx-auto  mb-30 px-5">
+      <section className="location container mx-auto  mb-20 px-5">
         <h2 className="fs-65 font-[700] mx-auto text-center">Our Location</h2>
 
         <div className="pt-10">

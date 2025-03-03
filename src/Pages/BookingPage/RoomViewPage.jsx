@@ -30,7 +30,7 @@ const RoomsPage = () => {
 
   return (
     <>
-      <div className="section container-full mx-auto mb-30 overflow-hidden h-[90vh]">
+      <div className="section container-full mx-auto mb-30 overflow-hidden md:h-[90vh] h-[40vh]">
         <img
           src={rooms.image}
           className="w-full h-full object-cover object-center"
