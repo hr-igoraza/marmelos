@@ -7,6 +7,7 @@ import Menu from "../../Components/Menu/Menu";
 import { breakfastData } from "../../Data/breakfastData";
 import { lunchData } from "../../Data/lunchData";
 import { dinnerData } from "../../Data/dinnerData";
+import Amenities from "../../Components/Amenities";
 
 const RoomsPage = () => {
   useEffect(() => {
@@ -66,74 +67,16 @@ const RoomsPage = () => {
         <section className="container max-auto my-10">
           <h2 className="text-center fs-35 font-[700]">Amenities</h2>
 
-          <div className="facilites-card flex flex-wrap justify-center gap-2 mt-5 ">
-            <div className="facility bg-white w-[200px] aspect-square p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/wifi.png"
-                alt="wifi connectivity"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                High-Speed Wi-Fi
-              </p>
-            </div>
-            <div className="facility bg-white w-[200px]  aspect-square p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/parking-area.png"
-                alt="Parking Area"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Parking Area
-              </p>
-            </div>{" "}
-            <div className="facility bg-white w-[200px] aspect-square  rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/gym.png"
-                alt="Gym and Fitness"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Gym and Fitness
-              </p>
-            </div>
-            <div className="facility bg-white w-[200px] h-[200px] p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/workspace.png"
-                alt="Private Workspace"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Private Workspace
-              </p>
-            </div>
-            <div className="facility bg-white w-[200px] h-[200px] p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={25}
-                src="/images/home/facilityCards/power.png"
-                alt="Power Backup"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Power Backup
-              </p>
-            </div>
-            <div className="facility bg-white w-[200px]  aspect-square  p-5 rounded-[5px] flex flex-col justify-center items-center">
-              <img
-                width={40}
-                src="/images/home/facilityCards/others.png"
-                alt="Other Services"
-              />
-              <p className="text-[#1c1c1c] font-open-sans font-[400] mt-5">
-                Other Services
-              </p>
-            </div>
-          </div>
+          <Amenities />
         </section>
 
         {/* ================rules */}
 
         <section className="container mx-auto my-10 ">
-          <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
+
+        {rooms.details}
+
+          {/* <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
             Property Rules
           </h2>
           <div className="md:px-10 px-2">
@@ -153,7 +96,7 @@ const RoomsPage = () => {
               property without a refund. Additional Policies: Please review your
               confirmation email for specific terms related to your booking.
             </p>
-          </div>
+          </div> */}
         </section>
 
         <section className="container mx-auto my-4">
