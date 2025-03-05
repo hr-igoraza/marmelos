@@ -1,195 +1,501 @@
 export const destinationData = [
+  // ===========
+
   {
-    id: 201,
+    id: 204,
     image: "/images/tourist/destination/destination-1.png",
-    title: "Munnar",
-    shortDescription:
-      "Munnar and Idukki are two of Kerala's most breathtaking hill stations, known for their lush green landscapes, misty mountains, and serene ambiance. Nestled in the Western Ghats, these destinations offer a perfect escape into nature, with sprawling tea plantations, cascading waterfalls, and rich biodiversity.",
+    title: "Cherthala",
     description: (
       <>
-        <p>
-          Munnar and Idukki are two of Kerala's most breathtaking hill stations,
-          known for their lush green landscapes, misty mountains, and serene
-          ambiance. Nestled in the Western Ghats, these destinations offer a
-          perfect escape into nature, with sprawling tea plantations, cascading
-          waterfalls, and rich biodiversity.
+        <p class="text-lg mb-6">
+          Cherthala is a picturesque town in Kerala, known for its scenic
+          backwaters, rich cultural heritage, and serene landscapes. Located
+          close to the famous Vembanad Lake, Cherthala offers a perfect blend of
+          traditional Kerala charm and modern convenience. Located just{" "}
+          <strong>8.9 km</strong> from Marmelos Homestay, this vibrant town is
+          home to ancient temples, lush greenery, and tranquil waterways, making
+          it an ideal destination for travelers seeking relaxation and cultural
+          exploration. Cherthala has something special to offer, this hidden gem
+          offers a peaceful retreat with easy access to Kerala’s iconic
+          backwaters, beaches, and historic sites.
         </p>
 
-        <h2>Best Places to Visit in Munnar and Idukki</h2>
-
-        <ul>
+        <h2 class="text-2xl font-semibold mb-3">
+          Best Places to Visit in Cherthala
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
           <li>
-            <strong>Eravikulam National Park (Munnar):</strong>
-            <ul>
-              <li>Famous for the endangered Nilgiri Tahr.</li>
-              <li>Offers stunning views of rolling hills and rare flora.</li>
-              <li>
-                Home to the mesmerizing Neelakurinji flowers that bloom once
-                every 12 years.
-              </li>
-            </ul>
+            <strong>St. Andrew’s Basilica (Arthungal Church)</strong>
+            <br />
+            - One of Kerala’s oldest and most revered churches, attracting
+            pilgrims year-round.
+            <br />- Famous for the annual <em>Arthungal Perunnal</em> festival
+            (January), featuring grand processions and cultural events.
           </li>
           <li>
-            <strong>Mattupetty Dam (Munnar):</strong>
-            <ul>
-              <li>A scenic spot for boating and picnics.</li>
-              <li>Surrounded by lush green tea plantations and forests.</li>
-            </ul>
+            <strong>Arthungal Beach</strong>
+            <br />- A quiet, pristine beach perfect for sunset walks and
+            relaxing by the Arabian Sea.
           </li>
           <li>
-            <strong>Tea Museum (Munnar):</strong>
-            <ul>
-              <li>Learn about the history of tea production in Munnar.</li>
-              <li>
-                Witness the tea-making process and enjoy fresh tea tasting.
-              </li>
-            </ul>
+            <strong>Kokkothamangalam Syro-Malabar Church</strong>
+            <br />- A historic church with stunning architecture and spiritual
+            significance.
           </li>
           <li>
-            <strong>Idukki Arch Dam:</strong>
-            <ul>
-              <li>One of the tallest arch dams in Asia.</li>
-              <li>
-                Offers panoramic views of the Idukki reservoir and surrounding
-                hills.
-              </li>
-            </ul>
+            <strong>Chottanikkara Bhagavathy Temple</strong>
+            <br />- Famous for its powerful deity and spiritual healing rituals.
+            Devotees believe the goddess here has the power to cure ailments and
+            bless devotees with prosperity.
           </li>
           <li>
-            <strong>Anamudi Peak (Munnar):</strong>
-            <ul>
-              <li>
-                The highest peak in South India, ideal for trekking enthusiasts.
-              </li>
-              <li>Offers breathtaking views of the Western Ghats.</li>
-            </ul>
+            <strong>Thanneermukkom Bund</strong>
+            <br />- The largest mud regulator in India, plays a crucial role in
+            preventing saltwater intrusion into the backwaters. It offers
+            stunning scenic views, making it a favorite spot for photographers
+            and travelers.
           </li>
           <li>
-            <strong>Kundala Lake (Munnar):</strong>
-            <ul>
-              <li>A serene lake surrounded by lush greenery.</li>
-              <li>Enjoy activities like pedal boating and shikara rides.</li>
-            </ul>
+            <strong>Pallipuram Fort</strong>
+            <br />- Built by the Portuguese in the 16th century, it is one of
+            the oldest European forts in India. A fascinating spot for history
+            enthusiasts.
           </li>
           <li>
-            <strong>Periyar Wildlife Sanctuary (Idukki):</strong>
-            <ul>
-              <li>
-                A haven for wildlife lovers, home to elephants, tigers, and
-                more.
-              </li>
-              <li>Offers boat safaris on Periyar Lake.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Top Station (Munnar):</strong>
-            <ul>
-              <li>
-                The highest point in Munnar, offering stunning views of the
-                Western Ghats.
-              </li>
-              <li>Famous for its sunrise and sunset views.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Kalvari Mount (Idukki):</strong>
-            <ul>
-              <li>
-                A peaceful hilltop with a cross, offering panoramic views of
-                Idukki.
-              </li>
-              <li>Perfect for meditation and photography.</li>
-            </ul>
+            <strong>Changaram Wetland</strong>
+            <br />- A hidden ecotourism gem in Cherthala, home to various
+            migratory birds, making it a haven for birdwatchers and nature
+            lovers.
           </li>
         </ul>
 
-        <h2>Best Food to Try in Munnar and Idukki</h2>
-
-        <ul>
+        <h2 class="text-2xl font-semibold mt-6 mb-3">
+          Best Food to Try in Cherthala
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
           <li>
-            <strong>Kerala Sadya:</strong> A traditional vegetarian feast served
-            on a banana leaf, with dishes like sambar, avial, and payasam.
+            <strong>Karimeen Pollichathu</strong> <br />– Spiced pearl spot fish
+            grilled in banana leaves, a coastal Kerala specialty.
           </li>
           <li>
-            <strong>Appam with Stew:</strong> Soft, fluffy appam paired with
-            coconut milk-based vegetable or chicken stew.
+            <strong>Kerala Sadya</strong> <br />– A traditional feast served on
+            banana leaves with dishes like sambar, thoran, and payasam.
           </li>
           <li>
-            <strong>Puttu and Kadala Curry:</strong> Steamed rice cake served
-            with spicy chickpea curry.
+            <strong>Kallappam with Stew</strong> <br /> Fermented rice pancakes
+            paired with coconut milk-based vegetable or chicken stew.
           </li>
           <li>
-            <strong>Kerala Parotta with Beef Curry:</strong> Flaky, layered
-            parotta served with spicy beef curry.
+            <strong>Seafood Delicacies</strong> <br />– Fresh prawns, crab
+            curry, and mussels fry from local eateries.
           </li>
           <li>
-            <strong>Tea and Banana Fritters:</strong> Enjoy freshly brewed
-            Munnar tea with crispy banana fritters.
+            <strong>Palada Payasam</strong> <br />– A creamy rice pudding
+            dessert from Ambalapuzha Temple.
           </li>
           <li>
-            <strong>Karimeen Pollichathu:</strong> A Kerala delicacy of pearl
-            spot fish marinated in spices and grilled in banana leaves.
-          </li>
-          <li>
-            <strong>Local Tribal Cuisine:</strong> Try unique dishes made with
-            locally sourced ingredients, like bamboo shoot curry.
+            <strong>Toddy Shop Dishes</strong> <br />– Try local favorites like{" "}
+            <em>kappa</em> (tapioca) and fish curry at rustic toddy shops.
           </li>
         </ul>
 
-        <h2>How to Travel to Munnar and Idukki</h2>
-
-        <ul>
+        <h2 class="text-2xl font-semibold mt-6 mb-3">
+          How to Travel to Cherthala
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
           <li>
-            <strong>By Air:</strong>
-            <ul>
-              <li>
-                The nearest airport is Cochin International Airport (COK), about
-                110 km from Munnar.
-              </li>
-              <li>
-                From the airport, hire a taxi or take a bus to Munnar (approx. 4
-                hours).
-              </li>
-            </ul>
+            <strong>By Road:</strong> Kerala State Transport (KSRTC) buses and
+            private taxis are readily available.
           </li>
           <li>
-            <strong>By Train:</strong>
-            <ul>
-              <li>
-                The nearest railway station is Aluva (110 km) or Ernakulam (130
-                km).
-              </li>
-              <li>From there, take a taxi or bus to Munnar.</li>
-            </ul>
+            <strong>Local Transport:</strong> Auto-rickshaws and bicycles for
+            short distances.
           </li>
           <li>
-            <strong>By Road:</strong>
-            <ul>
-              <li>
-                Munnar is well-connected by road. Regular buses and taxis are
-                available from major cities like Kochi, Bangalore, and Chennai.
-              </li>
-              <li>
-                The drive to Munnar is scenic, with winding roads and lush
-                greenery.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Local Transport:</strong>
-            <ul>
-              <li>Hire a taxi or auto-rickshaw for local sightseeing.</li>
-              <li>
-                Bikes and scooters are also available for rent, offering a more
-                adventurous way to explore.
-              </li>
-            </ul>
+            <strong>Rental Options:</strong> Rent a scooter or car for exploring
+            nearby attractions like Marari Beach or Alleppey backwaters.
           </li>
         </ul>
+
+        <h2 class="text-2xl font-semibold mt-6 mb-3">Why Visit Cherthala?</h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Spiritual Retreat:</strong> Experience the peaceful vibe of
+            St. Andrew’s Basilica and ancient temples.
+          </li>
+          <li>
+            <strong>Backwater Access:</strong> Proximity to Alleppey’s houseboat
+            cruises and village canoe tours.
+          </li>
+          <li>
+            <strong>Coastal Charm:</strong> Quiet beaches, fresh seafood, and
+            palm-fringed landscapes.
+          </li>
+          <li>
+            <strong>Cultural Festival:</strong> Don’t miss the vibrant{" "}
+            <em>Arthungal Perunnal</em> or temple festivals.
+          </li>
+        </ul>
+
+        <p class="text-lg font-semibold mt-6">
+          Perfect For: Pilgrims, history lovers, backwater explorers, and
+          travelers seeking offbeat Kerala experiences.
+        </p>
       </>
     ),
     authorImage: "/images/blog/recent/author.png",
-    distance: "30km",
-    location: "Munnar,Iduki",
+    distance: "",
+    location: "Cherthala, Kerala",
+  },
+
+  {
+    id: 205,
+    image: "/images/tourist/destination/destination-1.png",
+    title: "Alappuzha – The Venice of the East",
+    description: (
+      <>
+        <p class="text-lg mb-6">
+          Alappuzha, also known as Alleppey, is a mesmerizing destination in
+          Kerala, famed for its serene backwaters, lush greenery, and rich
+          cultural heritage. A perfect blend of history, spirituality, and
+          natural beauty, Alappuzha offers something for every traveler. Whether
+          you’re looking to explore traditional Kerala architecture, unwind on
+          pristine beaches, or embark on a houseboat journey through tranquil
+          waters, Alappuzha has it all.
+        </p>
+
+        <h2 class="text-2xl font-semibold mb-3">
+          Best Places to Visit in Alappuzha
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Kuttanad – The Rice Bowl of Kerala</strong>
+            <br />
+            - Known for its vast paddy fields, scenic canals, and traditional
+            farming practices.
+            <br />- A must-visit for nature lovers and photographers.
+          </li>
+          <li>
+            <strong>International Coir Museum</strong>
+            <br />- Showcases Kerala’s rich coir industry with intricate coir
+            sculptures and handicrafts.
+          </li>
+          <li>
+            <strong>Ambalapuzha Sree Krishna Temple</strong>
+            <br />- Famous for its stunning architecture and the delicious
+            Palpayasam (sweet rice pudding).
+          </li>
+          <li>
+            <strong>Revi Karunakaran Museum</strong>
+            <br />- Features an exquisite collection of Swarovski crystals,
+            antique furniture, and Tanjore paintings.
+          </li>
+          <li>
+            <strong>Mannarasala Sree Nagaraja Temple</strong>
+            <br />- A unique temple dedicated to serpent gods, set amidst a
+            forest-like setting.
+          </li>
+          <li>
+            <strong>St. Mary’s Forane Church</strong>
+            <br />- One of the oldest and most beautiful churches in Kerala,
+            dating back to the 9th century.
+          </li>
+          <li>
+            <strong>Pathiramanal Island</strong>
+            <br />- A bird watcher’s paradise on Vembanad Lake, home to rare
+            migratory birds.
+          </li>
+          <li>
+            <strong>Saratha Mandiram</strong>
+            <br />- A cultural landmark showcasing Kerala’s rich history and
+            performing arts.
+          </li>
+          <li>
+            <strong>Karumadikkuttan</strong>
+            <br />- An ancient black granite statue of Lord Buddha, dating back
+            to the 10th century.
+          </li>
+          <li>
+            <strong>Kumarakodi – The Resting Place of Kumaran Asan</strong>
+            <br />- A scenic spot by the river Pampa, dedicated to the famous
+            Malayalam poet Kumaran Asan.
+          </li>
+          <li>
+            <strong>Krishnapuram Palace</strong>
+            <br />- An 18th-century palace known for its Kerala-style
+            architecture and mural paintings.
+          </li>
+          <li>
+            <strong>Houseboat in Alleppey</strong>
+            <br />- A must-do experience to explore Kerala’s backwaters, village
+            life, and coconut groves.
+          </li>
+          <li>
+            <strong>Punnamada Lake</strong>
+            <br />- Famous for hosting the annual Nehru Trophy Boat Race.
+          </li>
+          <li>
+            <strong>Pandavan Para</strong>
+            <br />- A hillock associated with the Pandavas, offering trekking
+            trails and scenic views.
+          </li>
+          <li>
+            <strong>Sea View Park</strong>
+            <br />- A recreational park with a beachside location, ideal for
+            families and couples.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold mt-6 mb-3">
+          Best Food to Try in Alappuzha
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Karimeen Pollichathu</strong> <br />– Spiced pearl spot fish
+            grilled in banana leaves.
+          </li>
+          <li>
+            <strong>Puttu and Kadala Curry</strong> <br />– Steamed rice cakes
+            with spiced black chickpea curry.
+          </li>
+          <li>
+            <strong>Palada Payasam</strong> <br />– A creamy rice pudding
+            dessert, often served in temples.
+          </li>
+          <li>
+            <strong>Toddy and Tapioca</strong> <br />– Freshly tapped coconut
+            toddy paired with spicy tapioca and fish curry.
+          </li>
+          <li>
+            <strong>Duck Roast</strong> <br />– A local delicacy cooked with
+            aromatic spices and coconut-based gravy.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold mt-6 mb-3">
+          How to Travel to Alappuzha
+        </h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>By Road:</strong> Well-connected by NH-66, with frequent
+            buses.
+          </li>
+          <li>
+            <strong>By Rail:</strong> Alappuzha Railway Station connects to
+            major Indian cities.
+          </li>
+          <li>
+            <strong>By Air:</strong> The nearest airport is Cochin International
+            Airport (83 km).
+          </li>
+          <li>
+            <strong>By Water:</strong> Regular ferry services and houseboats
+            make traveling within Alappuzha unforgettable.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold mt-6 mb-3">Why Visit Alappuzha?</h2>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Backwater Bliss:</strong> Enjoy world-famous houseboat
+            cruises through scenic waterways.
+          </li>
+          <li>
+            <strong>Cultural Heritage:</strong> Discover Kerala’s rich history,
+            temples, palaces, and museums.
+          </li>
+          <li>
+            <strong>Serene Beaches:</strong> Relax on unspoiled beaches like
+            Marari and Alappuzha Beach.
+          </li>
+          <li>
+            <strong>Delicious Cuisine:</strong> Savor the best of Kerala’s
+            coastal and traditional dishes.
+          </li>
+          <li>
+            <strong>Adventure and Nature:</strong> Explore trekking spots, bird
+            sanctuaries, and island retreats.
+          </li>
+        </ul>
+
+        <p class="text-lg font-semibold mt-6">
+          Perfect For: Families, honeymooners, solo travelers, history lovers,
+          and nature enthusiasts looking for a peaceful yet enriching travel
+          experience.
+        </p>
+      </>
+    ),
+    authorImage: "/images/blog/recent/author.png",
+    distance: "",
+    location: "Alappuzha, Kerala",
+  },
+
+  // ===========
+
+  {
+    id: 204,
+    image: "/images/tourist/destination/destination-1.png",
+    title: "Mararikulam – A Coastal Paradise in Kerala",
+    description: (
+      <>
+        <p>
+          Mararikulam, a serene coastal village in Alappuzha, Kerala, is known
+          for its unspoiled beaches, rich cultural heritage, and peaceful
+          ambiance. This hidden gem is perfect for travelers seeking relaxation,
+          spirituality, and a touch of traditional Kerala life. With golden
+          sands, swaying coconut trees, and historic temples, Mararikulam offers
+          an unforgettable experience away from the bustling tourist crowds.
+        </p>
+
+        <h2>Best Places to Visit in Mararikulam</h2>
+
+        <ul>
+          <li>
+            <strong>Marari Beach:</strong>
+            <ul>
+              <li>
+                One of Kerala’s most pristine beaches, Marari Beach is perfect
+                for sunbathing, swimming, and witnessing breathtaking sunsets.
+                Known for its tranquility, this beach offers a peaceful retreat
+                for nature lovers.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Chethy Harbour:</strong>
+            <ul>
+              <li>
+                A bustling fishing harbor, Chethy Harbour is a great place to
+                witness traditional fishing activities and interact with local
+                fishermen. Visitors can observe the colorful fishing boats,
+                fresh seafood markets, and the daily hustle of coastal life.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Kanichukulangara Devi Temple:</strong>
+            <ul>
+              <li>
+                One of the most revered temples in the region, Kanichukulangara
+                Devi Temple is dedicated to Goddess Bhagavathy and is known for
+                its powerful deity and miraculous stories. The temple hosts a
+                grand annual festival, Kanichukulangara Pooram, which attracts
+                thousands of devotees with spectacular processions, cultural
+                performances, and firework displays. The temple’s sacred pond
+                and ancient architecture add to its spiritual ambiance, making
+                it a must-visit for both pilgrims and tourists.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Mararikulam Mahadeva Temple:</strong>
+            <ul>
+              <li>
+                A centuries-old temple dedicated to Lord Shiva, Mararikulam
+                Mahadeva Temple is an important spiritual site with intricate
+                carvings and a peaceful ambiance for meditation and worship.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Thumpoly Beach:</strong>
+            <ul>
+              <li>
+                A scenic beach with golden sands and fishing activities,
+                Thumpoly Beach is a great place to witness Kerala’s traditional
+                fishing culture while enjoying a quiet retreat by the sea.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Poomkavu Church:</strong>
+            <ul>
+              <li>
+                A significant religious site for the Christian community,
+                Poomkavu Church is known for its beautiful architecture and
+                serene surroundings, making it a peaceful place for reflection.
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Best Food to Try in Mararikulam</h2>
+
+        <ul>
+          <li>
+            <strong>Karimeen Pollichathu:</strong> A delicious pearl spot fish
+            dish marinated with spices and grilled in banana leaves.
+          </li>
+          <li>
+            <strong>Nadan Kozhi Curry:</strong> A flavorful country-style
+            chicken curry prepared with local spices and coconut.
+          </li>
+          <li>
+            <strong>Puttu and Kadala Curry:</strong> Steamed rice cakes served
+            with spiced black chickpea curry, a classic Kerala breakfast.
+          </li>
+          <li>
+            <strong>Seafood Platter:</strong> Freshly caught prawns, crabs, and
+            squid, cooked in traditional Kerala flavors.
+          </li>
+          <li>
+            <strong>Toddy and Tapioca:</strong> A local favorite, combining
+            freshly tapped coconut toddy with spicy tapioca and fish curry.
+          </li>
+        </ul>
+
+        <h2>How to Travel to Mararikulam</h2>
+
+        <ul>
+          <li>
+            <strong>By Road:</strong> Well-connected by NH-66.
+          </li>
+          <li>
+            <strong>By Rail:</strong> The closest railway station is Mararikulam
+            Railway Station, with frequent trains connecting to major
+            destinations.
+          </li>
+          <li>
+            <strong>By Air:</strong> The nearest airport is Cochin International
+            Airport (74 km), with easy road access to Mararikulam.
+          </li>
+          <li>
+            <strong>By Water:</strong> Houseboats and ferry services from
+            Alappuzha offer scenic routes to Mararikulam.
+          </li>
+        </ul>
+
+        <h2>Why Visit Mararikulam?</h2>
+
+        <ul>
+          <li>
+            <strong>Unspoiled Beaches:</strong> Experience the untouched beauty
+            of Marari, Chethy, and Thumpoly beaches.
+          </li>
+          <li>
+            <strong>Rich Cultural Heritage:</strong> Explore ancient temples,
+            historic churches, and vibrant festivals.
+          </li>
+          <li>
+            <strong>Authentic Kerala Experience:</strong> Witness traditional
+            fishing, taste fresh seafood, and relax in a peaceful coastal
+            setting.
+          </li>
+          <li>
+            <strong>Perfect for Relaxation:</strong> Escape the crowds and enjoy
+            a rejuvenating beach vacation.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Perfect For:</strong> Beach lovers, spiritual seekers, solo
+          travelers, and families looking for a peaceful and authentic Kerala
+          experience.
+        </p>
+      </>
+    ),
+    authorImage: "",
+    distance: "20km",
+    location: "Mararikulam, Alappuzha, Kerala",
   },
 ];

@@ -245,8 +245,8 @@ const Home = () => {
 
         <div className="destination mt-10 flex flex-wrap  w-full gap-5 ">
           <DestinationCards destination={destinationData[0]} />
-          <DestinationCards destination={destinationData[0]} />
-          <DestinationCards destination={destinationData[0]} />
+          <DestinationCards destination={destinationData[1]} />
+          <DestinationCards destination={destinationData[2]} />
         </div>
 
         <div className="w-full  flex justify-end mt-20">

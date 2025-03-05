@@ -23,18 +23,18 @@ const TouristDestination = () => {
       </section>
 
       <section className="destinations container mx-auto my-30">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:px-0 px-4">
-   
-
-          <ul>
+        
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {destinationData.map((destination) => (
-              <DestinationCards
-                key={destination.id}
-                destination={destination}
-              />
+              <li>
+                <DestinationCards
+                  key={destination.id}
+                  destination={destination}
+                />
+              </li>
             ))}
           </ul>
-        </div>
+      
       </section>
     </>
   );

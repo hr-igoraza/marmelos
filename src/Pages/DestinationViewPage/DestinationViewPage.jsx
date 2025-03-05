@@ -52,7 +52,7 @@ const DestinationPage = () => {
           </div>
         </div>
 
-        <p className="fs-24 font-[400] ">{destination.description}</p>
+        <p className="fs-20  ">{destination.description}</p>
 
         <div className="w-full flex justify-center my-10">
           <div className="">

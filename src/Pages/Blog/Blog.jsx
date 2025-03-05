@@ -32,8 +32,7 @@ const Blog = () => {
                 />
                 <div className="h-max w-full px-3 py-2">
                   <h6 className="fs-24 font-[600]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
+                    {blogData[0].title}
                   </h6>
                   <div className="flex justify-between mt-10 mb-5">
                     <div className="flex gap-3">
@@ -59,7 +58,7 @@ const Blog = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="my-1 fs-16 truncate-5">{blogData[0].shortDescription}</p>
+                  <p className="my-1 fs-16 truncate-5">{blogData[0].description}</p>
                 </div>
               </div>
             </Link>
@@ -78,7 +77,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[1].title}</h5>
-                  <p className="fs-16 truncate-4">{blogData[1].shortDescription}</p>
+                  <div className="fs-16 truncate-4">{blogData[1].description}</div>
                 </div>
               </div>
             </Link>
@@ -97,7 +96,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[2].title}</h5>
-                  <p className="fs-16 truncate-4">{blogData[2].shortDescription}</p>
+                  <div className="fs-16 truncate-4">{blogData[2].description}</div>
                 </div>
               </div>
             </Link>
@@ -116,7 +115,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
                   <h5 className="fs-24 font-[600] mb-4">{blogData[3].title}</h5>
-                  <p className="fs-16">{blogData[3].shortDescription}</p>
+                  <div className="fs-16 truncate-4">{blogData[3].description}</div>
                 </div>
               </div>
             </Link>
