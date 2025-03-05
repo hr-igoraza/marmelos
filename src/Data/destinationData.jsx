@@ -3,7 +3,7 @@ export const destinationData = [
 
   {
     id: 204,
-    image: "/images/tourist/destination/destination-1.png",
+    image: "/images/tourist/destination/cherthals.jpg",
     title: "Cherthala",
     description: (
       <>
@@ -150,7 +150,7 @@ export const destinationData = [
 
   {
     id: 205,
-    image: "/images/tourist/destination/destination-1.png",
+    image: "/images/tourist/destination/alappuzha.jpg",
     title: "Alappuzha – The Venice of the East",
     description: (
       <>
@@ -333,8 +333,8 @@ export const destinationData = [
   // ===========
 
   {
-    id: 204,
-    image: "/images/tourist/destination/destination-1.png",
+    id: 206,
+    image: "/images/tourist/destination/mararii.jpg",
     title: "Mararikulam – A Coastal Paradise in Kerala",
     description: (
       <>
