@@ -118,6 +118,7 @@ const Blog = () => {
                   <div className="fs-16 truncate-4">{blogData[3].description}</div>
                 </div>
               </div>
+              
             </Link>
           </div>
         </div>
