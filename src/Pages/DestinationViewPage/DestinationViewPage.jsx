@@ -31,7 +31,7 @@ const DestinationPage = () => {
         />
       </div>
 
-      <div className="container mx-auto mb-[100px] px-20"   >
+      <div className="container mx-auto mb-[100px] md:px-20 px-5"   >
         <h2 className="fs-50 font-[500] mx-auto ">{destination.title}</h2>
 
         <div className="flex justify-between mt-10 mb-5 items-center">
