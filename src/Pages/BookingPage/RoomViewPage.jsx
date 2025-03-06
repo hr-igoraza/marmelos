@@ -38,7 +38,7 @@ const RoomsPage = () => {
         />
       </div>
 
-      <div className="container mx-auto mb-[100px]">
+      <div className="container mx-auto mb-[100px] px-3">
         <h2 className="fs-50 font-[700] mx-auto text-primary-green ">
           {rooms.title}
         </h2>
@@ -62,22 +62,85 @@ const RoomsPage = () => {
           </div>
         </div>
 
-        <p className="fs-24 font-[400] ">
-          {rooms.description}
-          
-          </p>
+        <p className="fs-24 font-[400] ">{rooms.description}</p>
 
         <section className="container max-auto my-10">
           <h2 className="text-center fs-35 font-[700]">Amenities</h2>
 
-          <Amenities />
+          {/* <Amenities /> */}
+
+          <div className="facilites-card flex flex-wrap justify-center gap-5 mt-20 mb-10 ">
+            <div className="facility bg-white md:w-[170px] w-[120px] text-center aspect-square h-[120px] md:h-fit p-2  rounded-[5px] flex flex-col justify-center items-center">
+              <img
+                width={40}
+                src="/images/rooms/air-conditioner.png"
+                alt="wifi connectivity"
+              />
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                Air conditioning
+              </p>
+            </div>
+            <div className="facility bg-white md:w-[170px] w-[120px] text-center h-[120px] md:h-fit p-2  aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
+              <img
+                width={40}
+                src="/images/rooms/wardrobe.png"
+                alt="Parking Area"
+              />
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                Clothing storage
+              </p>
+            </div>
+            <div className="facility bg-white md:w-[170px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
+              <img
+                width={50}
+                src="/images/rooms/body-lotion.png"
+                
+                alt="Gym and Fitness"
+              />
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                Body soap
+              </p>
+            </div>
+            <div className="facility bg-white md:w-[170px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
+              <img
+                width={40}
+                src="/images/rooms/bedding.png"
+                alt="Private Workspace"
+              />
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                Beddings
+              </p>
+            </div>
+            <div className="facility bg-white md:w-[170px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
+              <img
+                className="md:mt-5"
+                width={40}
+                src="/images/rooms/desk.png"
+                alt="Other Services"
+              />
+              <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                Work Desk
+              </p>
+            </div>
+              <div className="facility bg-white md:w-[170px] w-[120px] text-center h-[120px] md:h-fit p-2 aspect-square md:p-5 rounded-[5px] flex flex-col justify-center items-center">
+                <img
+                  className="md:mt-5"
+                  width={40}
+                  src="/images/rooms/lighting.png"
+                  alt="Other Services"
+                />
+                <p className="text-[#1c1c1c] font-open-sans fs-16 font-[400] mt-5">
+                  Charging Point
+                </p>
+              </div>
+          </div>
         </section>
 
         {/* ================rules */}
 
-        <section className="container mx-auto my-10 ">
+        {/* <section className="container mx-auto my-10 ">
 
-        {/* {rooms.details} */}
+        {rooms.details}
 
           <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
             Property Rules
@@ -100,7 +163,7 @@ const RoomsPage = () => {
               confirmation email for specific terms related to your booking.
             </p>
           </div>
-        </section>
+        </section> */}
 
         <section className="container mx-auto my-4">
           <BookingForm />
