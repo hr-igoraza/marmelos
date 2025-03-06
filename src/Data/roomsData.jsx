@@ -5,28 +5,8 @@ export const roomsData = [
     title: "Single Room",
     rating: 5,
     description:
-      "Discover the secrets to brewing the perfect cup of tea, from selecting the right leaves to mastering the steeping process.",
-    details: <><h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
-    Property Rules
-  </h2>
-  <div className="md:px-10 px-2">
-    <p>
-      To ensure all guests have a comfortable and enjoyable stay, we
-      kindly ask you to observe the following rules: Check-In/Check-Out:
-      Check-in time: [Specify time] Check-out time: [Specify time]
-      Reservation Policies: Cancellation and refund terms apply as per
-      booking policies. Smoking Policy: Smoking is prohibited in
-      non-designated areas. Pets: [Specify if pets are allowed or
-      prohibited]. Noise Levels: Quiet hours: [Specify times].
-      Pool/Outdoor Facilities: Use is permitted during posted hours
-      only. Follow safety guidelines. Damages: Guests are responsible
-      for any damages caused during their stay. Safety Compliance:
-      Adhere to all posted safety and emergency procedures. Guest
-      Behavior: Any disruptive behavior may result in removal from the
-      property without a refund. Additional Policies: Please review your
-      confirmation email for specific terms related to your booking.
-    </p>
-  </div></>,
+      " Experience the warmth of traditional Kerala architecture with modern amenities. This room features a comfortable queen-sized bed,AC, fan, Wi-Fi, and an en-suite bathroom with shower, toiletries. Enjoy views of the garden, courtyard, or surrounding greenery from your window.",
+    details: <></>,
     price: "2439",
     hotel: "5 Star Hotel",
     reviews: "371",
@@ -36,32 +16,12 @@ export const roomsData = [
 
   {
     id: 302,
-    image: "/images/booking/cards/room-2.png",
-    title: "Single Room",
+    image: "/images/booking/cards/room-4.png",
+    title: "Standard Twin Room",
     rating: 5,
     description:
-      "Discover the secrets to brewing the perfect cup of tea, from selecting the right leaves to mastering the steeping process.",
-    details: <><h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
-    Property Rules
-  </h2>
-  <div className="md:px-10 px-2">
-    <p>
-      To ensure all guests have a comfortable and enjoyable stay, we
-      kindly ask you to observe the following rules: Check-In/Check-Out:
-      Check-in time: [Specify time] Check-out time: [Specify time]
-      Reservation Policies: Cancellation and refund terms apply as per
-      booking policies. Smoking Policy: Smoking is prohibited in
-      non-designated areas. Pets: [Specify if pets are allowed or
-      prohibited]. Noise Levels: Quiet hours: [Specify times].
-      Pool/Outdoor Facilities: Use is permitted during posted hours
-      only. Follow safety guidelines. Damages: Guests are responsible
-      for any damages caused during their stay. Safety Compliance:
-      Adhere to all posted safety and emergency procedures. Guest
-      Behavior: Any disruptive behavior may result in removal from the
-      property without a refund. Additional Policies: Please review your
-      confirmation email for specific terms related to your booking.
-    </p>
-  </div></>,
+      "Our Standard Twin Room offers a cozy and comfortable stay for solo travelers or friends. Equipped with Queen sized beds and a private bathroom, it provides all the essentials for a relaxing visit. Wake up to the sounds of nature and enjoy a peaceful start to your day.",
+    details: <></>,
     price: "2439",
     hotel: "5 Star Hotel",
     reviews: "371",
@@ -72,66 +32,11 @@ export const roomsData = [
   {
     id: 303,
     image: "/images/booking/cards/room-3.png",
-    title: "Single Room",
+    title: "Family Suite",
     rating: 5,
     description:
-      "Discover the secrets to brewing the perfect cup of tea, from selecting the right leaves to mastering the steeping process.",
-    details: <><h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
-    Property Rules
-  </h2>
-  <div className="md:px-10 px-2">
-    <p>
-      To ensure all guests have a comfortable and enjoyable stay, we
-      kindly ask you to observe the following rules: Check-In/Check-Out:
-      Check-in time: [Specify time] Check-out time: [Specify time]
-      Reservation Policies: Cancellation and refund terms apply as per
-      booking policies. Smoking Policy: Smoking is prohibited in
-      non-designated areas. Pets: [Specify if pets are allowed or
-      prohibited]. Noise Levels: Quiet hours: [Specify times].
-      Pool/Outdoor Facilities: Use is permitted during posted hours
-      only. Follow safety guidelines. Damages: Guests are responsible
-      for any damages caused during their stay. Safety Compliance:
-      Adhere to all posted safety and emergency procedures. Guest
-      Behavior: Any disruptive behavior may result in removal from the
-      property without a refund. Additional Policies: Please review your
-      confirmation email for specific terms related to your booking.
-    </p>
-  </div></>,
-    price: "2439",
-    hotel: "5 Star Hotel",
-    reviews: "371",
-    ratingValue: "4.3",
-    impression: "Very Good",
-  },
-
-  {
-    id: 304,
-    image: "/images/booking/cards/room-4.png",
-    title: "Single Room",
-    rating: 5,
-    description:
-      "Discover the secrets to brewing the perfect cup of tea, from selecting the right leaves to mastering the steeping process.",
-    details: <><h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
-    Property Rules
-  </h2>
-  <div className="md:px-10 px-2">
-    <p>
-      To ensure all guests have a comfortable and enjoyable stay, we
-      kindly ask you to observe the following rules: Check-In/Check-Out:
-      Check-in time: [Specify time] Check-out time: [Specify time]
-      Reservation Policies: Cancellation and refund terms apply as per
-      booking policies. Smoking Policy: Smoking is prohibited in
-      non-designated areas. Pets: [Specify if pets are allowed or
-      prohibited]. Noise Levels: Quiet hours: [Specify times].
-      Pool/Outdoor Facilities: Use is permitted during posted hours
-      only. Follow safety guidelines. Damages: Guests are responsible
-      for any damages caused during their stay. Safety Compliance:
-      Adhere to all posted safety and emergency procedures. Guest
-      Behavior: Any disruptive behavior may result in removal from the
-      property without a refund. Additional Policies: Please review your
-      confirmation email for specific terms related to your booking.
-    </p>
-  </div></>,
+      "Create lasting memories in our Family Suite.Equipped with Queen sized beds and a private bathroom, it provides all the essentials for a relaxing visit.Enjoy views of the garden, courtyard, or surrounding greenery from your window. ",
+    details: <></>,
     price: "2439",
     hotel: "5 Star Hotel",
     reviews: "371",

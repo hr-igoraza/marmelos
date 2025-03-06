@@ -62,7 +62,10 @@ const RoomsPage = () => {
           </div>
         </div>
 
-        <p className="fs-24 font-[400] ">{rooms.description}</p>
+        <p className="fs-24 font-[400] ">
+          {rooms.description}
+          
+          </p>
 
         <section className="container max-auto my-10">
           <h2 className="text-center fs-35 font-[700]">Amenities</h2>
@@ -74,9 +77,9 @@ const RoomsPage = () => {
 
         <section className="container mx-auto my-10 ">
 
-        {rooms.details}
+        {/* {rooms.details} */}
 
-          {/* <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
+          <h2 className="text-center text-primary-green fs-35  font-[700] mb-10 ">
             Property Rules
           </h2>
           <div className="md:px-10 px-2">
@@ -96,7 +99,7 @@ const RoomsPage = () => {
               property without a refund. Additional Policies: Please review your
               confirmation email for specific terms related to your booking.
             </p>
-          </div> */}
+          </div>
         </section>
 
         <section className="container mx-auto my-4">

@@ -13,7 +13,7 @@ export default function Navbar() {
       
 
   return (
-    <nav className="navbar  p-4">
+    <nav className="navbar p-4">
       <div className="container mx-auto flex justify-between items-center ">
         {/* Logo and Navigation */}
         <div className="flex items-center gap-8">

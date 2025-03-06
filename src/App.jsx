@@ -13,6 +13,7 @@ import ContactUs from "./Pages/Contact-us/ContactUs";
 import BlogPage from "./Pages/BlogViewPage/BlogViewPage";
 import DestinationPage from "./Pages/DestinationViewPage/DestinationViewPage";
 import RoomsPage from "./Pages/BookingPage/RoomViewPage";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/blog/:id" element={<BlogPage />} />
         <Route path="/destinations/:id" element={<DestinationPage />} />
         <Route path="/rooms/:id" element={<RoomsPage />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>

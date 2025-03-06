@@ -12,9 +12,12 @@ const ContactUs = () => {
               Interested?Let’talk!
             </h1>
             <p className="mx-auto mt-10 text-center text-white md:w-1/2">
-              We’ll get back to you promptly to start planning your perfect
-              getaway. Not a fan of forms? No worries! Drop us a message at{" "}
-              <span className="text-primary-green">info@yourresort.com </span>{" "}
+              We'd love to hear from you! Whether you have questions about our
+              homestay, want to inquire about availability, or simply want to
+              learn more about our region, please don't hesitate to reach out.
+              <span className="text-primary-green">
+                info@yourresort.com{" "}
+              </span>{" "}
               or{" "}
               <span className="text-primary-green">hello@yourresort.com</span>,
               and we’ll take it from there

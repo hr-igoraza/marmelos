@@ -52,6 +52,11 @@
   overflow: hidden;
 }
 
+
+body{
+  position: relative;
+}
+
 @media (min-width: 768px) {
   .react-datepicker--responsive {
     font-size: 1rem;
