@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <>
        <section className="blog-hero">
-        <div className="container mx-auto flex justify-center md:h-[120vh] h-[50vh] content-center"></div>
+        <div className="container mx-auto flex justify-center md:h-[120vh] h-[40vh] content-center"></div>
       </section>
 
       <section className="facilities bg-primary-green p-5 rounded-tl-[25px] rounded-tr-[25px] relative top-[-25px]">

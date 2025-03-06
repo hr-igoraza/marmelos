@@ -3,7 +3,7 @@ export const blogData = [
     id: 101,
     image: "/images/blog/recent/tea.png",
     title:
-      "          Kerala’s Forgotten Flavors: A Food Trail Only Locals Know ",
+      " Kerala’s Forgotten Flavors: A Food Trail Only Locals Know ",
     description: (
       <>
         <p class="mb-4">
@@ -117,19 +117,64 @@ export const blogData = [
     id: 103,
     image: "/images/blog/recent/kingfisher.png",
     title: "The Architecture of Kerala",
-    description:
-    <>
-    <p class="mb-4">The architecture of Kerala is a testament to the harmonious relationship between humans and nature. Traditional Kerala homes are characterized by their simple yet elegant design, which is meant to promote a sense of peace and tranquility. One of the most striking features of Kerala architecture is the extensive use of wood. Wood is a natural material that has a calming effect on the mind and body. The intricate carvings on the wooden beams and pillars are also a source of visual interest and can help to create a sense of peace and tranquility.</p>
-  
-    <p class="mb-4">Another important feature of Kerala architecture is the sloping roof. The sloping roof is designed to shed rainwater quickly, which helps to prevent flooding. It also helps to create a sense of openness and airiness. The open courtyard is another important feature of Kerala architecture. The courtyard is a central space in the home that is used for a variety of purposes, such as cooking, eating, and socializing. It is also a place where people can go to relax and enjoy the fresh air.</p>
-  
-    <h2 class="text-2xl font-bold mt-6 mb-4">The Benefits of Traditional Kerala Architecture</h2>
-    <p class="mb-4">There are many benefits to living in a traditional Kerala home. One of the most important benefits is the sense of peace and tranquility that it can provide. The simple design and natural materials of Kerala homes can help to create a calm and relaxing atmosphere. The sloping roof and open courtyard can also help to create a sense of openness and airiness.</p>
-  
-    <p class="mb-4">In addition to the psychological benefits, traditional Kerala architecture is also environmentally friendly. The use of natural materials such as wood and clay helps to reduce the carbon footprint of the home. The sloping roof and open courtyard can also help to keep the home cool in the hot weather.</p>
-  
-    <p class="mb-4">If you are looking for a way to create a more peaceful and relaxing home, consider incorporating some elements of traditional Kerala architecture into your design. Traditional Kerala architecture is a beautiful and timeless art form. It is a testament to the harmonious relationship between humans and nature. The simple design, natural materials, and open spaces of Kerala homes can help to create a sense of peace and tranquility. If you are looking for a way to create a more peaceful and relaxing home, consider incorporating some elements of traditional Kerala architecture into your design.</p>
-  </>,
+    description: (
+      <>
+        <p class="mb-4">
+          The architecture of Kerala is a testament to the harmonious
+          relationship between humans and nature. Traditional Kerala homes are
+          characterized by their simple yet elegant design, which is meant to
+          promote a sense of peace and tranquility. One of the most striking
+          features of Kerala architecture is the extensive use of wood. Wood is
+          a natural material that has a calming effect on the mind and body. The
+          intricate carvings on the wooden beams and pillars are also a source
+          of visual interest and can help to create a sense of peace and
+          tranquility.
+        </p>
+
+        <p class="mb-4">
+          Another important feature of Kerala architecture is the sloping roof.
+          The sloping roof is designed to shed rainwater quickly, which helps to
+          prevent flooding. It also helps to create a sense of openness and
+          airiness. The open courtyard is another important feature of Kerala
+          architecture. The courtyard is a central space in the home that is
+          used for a variety of purposes, such as cooking, eating, and
+          socializing. It is also a place where people can go to relax and enjoy
+          the fresh air.
+        </p>
+
+        <h2 class="text-2xl font-bold mt-6 mb-4">
+          The Benefits of Traditional Kerala Architecture
+        </h2>
+        <p class="mb-4">
+          There are many benefits to living in a traditional Kerala home. One of
+          the most important benefits is the sense of peace and tranquility that
+          it can provide. The simple design and natural materials of Kerala
+          homes can help to create a calm and relaxing atmosphere. The sloping
+          roof and open courtyard can also help to create a sense of openness
+          and airiness.
+        </p>
+
+        <p class="mb-4">
+          In addition to the psychological benefits, traditional Kerala
+          architecture is also environmentally friendly. The use of natural
+          materials such as wood and clay helps to reduce the carbon footprint
+          of the home. The sloping roof and open courtyard can also help to keep
+          the home cool in the hot weather.
+        </p>
+
+        <p class="mb-4">
+          If you are looking for a way to create a more peaceful and relaxing
+          home, consider incorporating some elements of traditional Kerala
+          architecture into your design. Traditional Kerala architecture is a
+          beautiful and timeless art form. It is a testament to the harmonious
+          relationship between humans and nature. The simple design, natural
+          materials, and open spaces of Kerala homes can help to create a sense
+          of peace and tranquility. If you are looking for a way to create a
+          more peaceful and relaxing home, consider incorporating some elements
+          of traditional Kerala architecture into your design.
+        </p>
+      </>
+    ),
     authorImage: "/images/blog/recent/author.png",
     shareCount: "1K",
     datePosted: "June 28, 2018",

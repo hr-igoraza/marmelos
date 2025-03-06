@@ -32,7 +32,7 @@ const BlogPage = () => {
       </div>
 
       <div className="container mx-auto md:mb-[100px] mb-20 px-4">
-        <h2 className="fs-50 font-[500] mx-auto ">{blog.title}</h2>
+        <h2 className="fs-45 font-[500] mx-auto ">{blog.title}</h2>
 
         <div className="flex justify-between mt-10 mb-5 items-center">
           <div className="flex gap-3 items-center">

@@ -23,7 +23,7 @@ const DestinationPage = () => {
 
   return (
     <>
-      <div className="section container-full mx-auto mb-30 overflow-hidden md:h-[90vh] h-[40vh]">
+      <div className="section container-full mx-auto md:mb-30 mb-10 overflow-hidden md:h-[90vh] h-[40vh] ">
         <img
           src={destination.image}
           className="w-full h-full object-cover object-center"
@@ -34,7 +34,7 @@ const DestinationPage = () => {
       <div className="container mx-auto mb-[100px] md:px-20 px-5"   >
         <h2 className="fs-50 font-[500] mx-auto ">{destination.title}</h2>
 
-        <div className="flex justify-between mt-10 mb-5 items-center">
+        <div className="flex justify-between md:mt-10 mt-5    mb-5 items-center">
           <div className="flex gap-3 items-center">
             <div className="md:w-[50px] w-[30px]">
               <img
@@ -52,7 +52,7 @@ const DestinationPage = () => {
           </div>
         </div>
 
-        <p className="fs-20  ">{destination.description}</p>
+        <p className="fs-20">{destination.description}</p>
 
         <div className="w-full flex justify-center my-10">
           <div className="">
