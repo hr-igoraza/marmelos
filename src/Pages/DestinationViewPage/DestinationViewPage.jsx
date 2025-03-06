@@ -36,7 +36,7 @@ const DestinationPage = () => {
 
         <div className="flex justify-between mt-10 mb-5 items-center">
           <div className="flex gap-3 items-center">
-            <div className="w-[50px]">
+            <div className="md:w-[50px] w-[30px]">
               <img
                 className="w-full"
                 src="/images/home/location.png"
