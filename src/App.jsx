@@ -29,7 +29,7 @@ function App() {
         <Route path="/blog/:id" element={<BlogPage />} />
         <Route path="/destinations/:id" element={<DestinationPage />} />
         <Route path="/rooms/:id" element={<RoomsPage />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/privacypolicies" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>

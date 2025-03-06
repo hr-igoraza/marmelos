@@ -1,6 +1,12 @@
-import React from 'react'
+import React , {useEffect}from 'react'
+
 
 const PrivacyPolicy = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
+    
   return (
   <>
     <div class="container mx-auto pt-[100px] px-5 mb-10">
@@ -17,7 +23,8 @@ const PrivacyPolicy = () => {
             <li class="mb-2"><strong>Website Usage Data:</strong> IP address, cookies, and browsing behavior on our website.</li>
         </ul>
 
-        <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">2. How We Use Your Information</h2>
+        <h2 class="text-2xl fo
+        nt-semibold text-gray-800 mt-8 mb-4">2. How We Use Your Information</h2>
         <p class="mb-4">We use your data to:</p>
         <ul class="list-disc list-inside mb-6">
             <li class="mb-2">Process bookings and provide seamless check-in and check-out experiences.</li>

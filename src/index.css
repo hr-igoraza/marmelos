@@ -23,9 +23,22 @@
   --font-extrabold: 900;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* For mobile devices */
 .react-datepicker--responsive {
   font-size: 0.9rem;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .truncate-3 {
@@ -152,6 +165,10 @@ body {
   font-size: 16px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-12 {
   font-size: 12px;
 }
@@ -191,6 +208,10 @@ body {
 
   .fs-16 {
     font-size: 12px;
+  }
+
+  .fs-14 {
+    font-size: 10px;
   }
 
   .fs-12 {

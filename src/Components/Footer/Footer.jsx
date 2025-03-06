@@ -1,7 +1,10 @@
 import React from "react";
 import logo from "/images/logo.svg";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <footer className="green-bg montserrat ">
@@ -13,7 +16,10 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-xs text-[#ffffff]  text-[14px]">
-                Discover Marmelos Homestay near Chethy Beach, Mararikulam—a serene Kerala retreat blending traditional charm with modern comforts and authentic local cuisine              </p>
+                Discover Marmelos Homestay near Chethy Beach, Mararikulam—a
+                serene Kerala retreat blending traditional charm with modern
+                comforts and authentic local cuisine{" "}
+              </p>
             </div>
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
@@ -110,7 +116,9 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-medium text-[#ffffffff] semibold ">CONTACT INFO</p>
+                <p className="font-medium text-[#ffffffff] semibold ">
+                  CONTACT INFO
+                </p>
 
                 <ul className="mt-5 space-y-4 text-sm regular">
                   <li>
@@ -118,7 +126,8 @@ const Footer = () => {
                       href="https://wa.me/919288100118?text=Hi%20there!%20I’m%20interested%20in%20booking%20your%20homestay.%20Could%20you%20confirm%20availability%20and%20share%20pricing/details?%20Thanks!%20😊"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[#ffffff] transition hover:opacity-75">
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
                       +91 9288100118
                     </a>
                   </li>
@@ -150,7 +159,7 @@ const Footer = () => {
                       href="mailto:marmeloshomestay@gmail.com"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                       marmeloshomestay@gmail.com
+                      marmeloshomestay@gmail.com
                     </a>
                   </li>
 
@@ -161,12 +170,11 @@ const Footer = () => {
                       rel="noopener noreferrer"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      Marmelos Homestay, Thaikkoottathil, Chethy P.O, Mararikulam North, 688530, Alappuzha, Kerala
+                      Marmelos Homestay, Thaikkoottathil, Chethy P.O,
+                      Mararikulam North, 688530, Alappuzha, Kerala
                     </a>
                   </li>
-
                 </ul>
-
 
                 <ul className="mt-5 flex gap-6">
                   <li>
@@ -216,13 +224,22 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="text-xs text-[#ffffff] opacity-75">
-            &copy; Copyright & All Rights Reserved 2025 -
-            <a href="https://igoraza.com" target="_blank" rel="noopener noreferrer" className="text-rose-500 ">
-              <strong>IGORAZA PRIVATE LIMITED</strong>
-            </a>
-          </p>
 
+          <div className=" md:flex justify-between ">
+            <p className="text-xs text-[#ffffff] opacity-75">
+              &copy; Copyright & All Rights Reserved 2025 -
+              <a
+                href="https://igoraza.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-rose-500 "
+              >
+                <strong>IGORAZA PRIVATE LIMITED</strong>
+              </a>
+            </p>
+
+            <NavLink className="text-white fs-14 md:mt-0 mt-10" to="/privacypolicies">Privacy Policies</NavLink>
+          </div>
         </div>
       </footer>
     </>

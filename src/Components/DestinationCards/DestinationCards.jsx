@@ -10,11 +10,11 @@ const DestinationCards = ({ destination }) => {
 
   return (
     <div
-      className="md:w-[400px] w-full h-full cursor-pointer"
+      className="md:w-[400px] w-full cursor-pointer"
       onClick={handleCardClick}
     >
       <div className="md:p-5 p-3 max-w-lg card-shadow rounded-2xl flex flex-col items-center h-full ">
-        <div className="w-full overflow-hidden md:h-[240px] h-auto  object-center object-cover shadow rounded-sm ">
+        <div className="w-full overflow-hidden md:h-[240px]  object-center object-cover shadow rounded-sm ">
           <img
             src={destination.image}
             className=" w-full h-full object-cover object-center"
@@ -23,7 +23,7 @@ const DestinationCards = ({ destination }) => {
         </div>
         <div className="mt-8">
           <div className="flex justify-between px-1 mb-4">
-            <h3 className="m-0 text-primary-green fs-20">
+            <h3 className="m-0 text-primary-green fs-20  ">
               {destination.title}
             </h3>
             <span className="font-poppins font-[600]">
