@@ -16,7 +16,7 @@ export const roomsData = [
 
   {
     id: 302,
-    image: "/images/booking/cards/room-4.png",
+    image: "/images/booking/cards/room-2.png",
     title: "Standard Twin Room",
     rating: 5,
     description:
