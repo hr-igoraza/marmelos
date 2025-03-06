@@ -7,7 +7,7 @@ export const destinationData = [
     title: "Cherthala",
     description: (
       <>
-        <p class="text-lg mb-6">
+        <p class="  mb-6">
           Cherthala is a picturesque town in Kerala, known for its scenic
           backwaters, rich cultural heritage, and serene landscapes. Located
           close to the famous Vembanad Lake, Cherthala offers a perfect blend of
@@ -137,7 +137,7 @@ export const destinationData = [
           </li>
         </ul>
 
-        <p class="text-lg font-semibold mt-6">
+        <p class="  font-semibold mt-6">
           Perfect For: Pilgrims, history lovers, backwater explorers, and
           travelers seeking offbeat Kerala experiences.
         </p>
@@ -154,7 +154,7 @@ export const destinationData = [
     title: "Alappuzha – The Venice of the East",
     description: (
       <>
-        <p class="text-lg mb-6">
+        <p class="  mb-6">
           Alappuzha, also known as Alleppey, is a mesmerizing destination in
           Kerala, famed for its serene backwaters, lush greenery, and rich
           cultural heritage. A perfect blend of history, spirituality, and
@@ -318,7 +318,7 @@ export const destinationData = [
           </li>
         </ul>
 
-        <p class="text-lg font-semibold mt-6">
+        <p class="  font-semibold mt-6">
           Perfect For: Families, honeymooners, solo travelers, history lovers,
           and nature enthusiasts looking for a peaceful yet enriching travel
           experience.

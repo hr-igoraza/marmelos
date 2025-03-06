@@ -115,7 +115,7 @@ export const blogData = [
   },
   {
     id: 103,
-    image: "/images/blog/recent/kingfisher.png",
+    image: "/images/blog/recent/architecture.png",
     title: "The Architecture of Kerala",
     description: (
       <>

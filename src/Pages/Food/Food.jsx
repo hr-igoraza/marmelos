@@ -1,10 +1,11 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./food.css";
 import FoodItem from "../../Components/FoodItem/FoodItem";
+import { foodData } from "../../Data/foodData";
 const Food = () => {
-      useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className="food-hero">
@@ -84,10 +85,9 @@ const Food = () => {
         <h2 className="fs-65 font-[700] text-center">Food menu</h2>
 
         <ul>
-          <FoodItem />
-          <FoodItem />
-          <FoodItem />
-          <FoodItem />
+          {foodData.slice(0,4).map((food, index) => 
+            <FoodItem item={food} index={index} />
+          )}
         </ul>
       </section>
 
@@ -100,11 +100,10 @@ const Food = () => {
       </section>
 
       <section className="menu container mx-auto my-20">
-        <ul>
-          <FoodItem />
-          <FoodItem />
-          <FoodItem />
-          <FoodItem />
+      <ul>
+          {foodData.slice(4).map((food, index) => 
+            <FoodItem item={food} index={index} />
+          )}
         </ul>
       </section>
 

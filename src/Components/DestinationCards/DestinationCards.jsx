@@ -13,8 +13,8 @@ const DestinationCards = ({ destination }) => {
       className="md:w-[400px] w-full h-full cursor-pointer"
       onClick={handleCardClick}
     >
-      <div className="p-5 max-w-lg card-shadow rounded-2xl flex flex-col items-center h-full ">
-        <div className="w-[360px] overflow-hidden h-[240px]  object-center object-cover shadow rounded-sm ">
+      <div className="md:p-5 p-3 max-w-lg card-shadow rounded-2xl flex flex-col items-center h-full ">
+        <div className="w-full overflow-hidden md:h-[240px] h-auto  object-center object-cover shadow rounded-sm ">
           <img
             src={destination.image}
             className=" w-full h-full object-cover object-center"
@@ -40,7 +40,7 @@ const DestinationCards = ({ destination }) => {
             </div>
             <p className="text-[#8F8F8F]">{destination.location}</p>
           </div>
-          <p className="mt-2 fs-18 text-[#6C757D] truncate-3 ">
+          <p className="mt-2 fs-16 text-[#6C757D] truncate-3 ">
             {destination.description}
           </p>
         </div>

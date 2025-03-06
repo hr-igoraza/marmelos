@@ -22,9 +22,9 @@ const TouristDestination = () => {
         </div>
       </section>
 
-      <section className="destinations container mx-auto md:my-30 my-10 md:px-0 px-3">
+      <section className="destinations container mx-auto md:my-30 my-10 md:px-0 px-3 flex justify-center">
         
-          <ul className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <ul className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 gap-10 ">
             {destinationData.map((destination) => (
               <li>
                 <DestinationCards
