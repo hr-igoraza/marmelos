@@ -23,10 +23,10 @@ const BlogPage = () => {
 
   return (
     <>
-      <div className=" md:mb-30 mb-10  md:h-90vh w-full">
+      <div className=" md:mb-30 mb-10  md:h-90vh w-full aspect-video">
         <img
           src={blog.image}
-          className="object-cover w-full  aspect-video"
+          className="object-cover w-full  h-[100%] "
           alt={blog.title}
         />
       </div>

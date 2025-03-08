@@ -70,13 +70,13 @@ const Blog = () => {
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
                 <div className="w-full md:w-1/2 aspect-[5/4] overflow-hidden object-cover object-center ">
                   <img
-                    className="w-full"
+                    className="w-full h-[100%] object-cover"
                     src={blogData[1].image}
                     alt="card-image"
                   />
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
-                  <h5 className="fs-24 font-[600] mb-4">{blogData[1].title}</h5>
+                  <h5 className="fs-24 font-[600] mb-4 truncate-3">{blogData[1].title}</h5>
                   <div className="fs-16 truncate-4">{blogData[1].description}</div>
                 </div>
               </div>
@@ -84,12 +84,12 @@ const Blog = () => {
           </div>
 
           {/* Third Column */}
-          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-4">
+          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-4 ">
             <Link to={`/blog/${blogData[2].id}`}>
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
                 <div className="w-full md:w-1/2 aspect-[5/4] overflow-hidden object-cover object-center ">
                   <img
-                    className="w-full"
+                    className="w-full h-[100%] object-cover"
                     src={blogData[2].image}
                     alt="card-image"
                   />
