@@ -25,6 +25,7 @@ const BookingForm = () => {
     Last Name: ${formData.lastName}
     Phone: ${formData.phone}
     Email: ${formData.email}
+    Room Type: ${formData.roomType}
     Country: ${formData.country}
     Street Address: ${formData.streetAddress}
     Check-In: ${formData.checkIn}
@@ -87,6 +88,28 @@ const BookingForm = () => {
             required
           />
         </label>
+
+        {/* ========= */}
+        <label className="block">
+          <span className="text-primary-green font-[600] mb-4">Select Room</span>
+          <select
+            name="roomType"
+            value={formData.roomType}
+            onChange={handleChange}
+            className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
+          >
+            <option value="Single Room"> Single Room </option>
+            <option value="Standard Twin Room"> Standard Twin Room</option>
+            <option value="Family Suite">Family Suite</option>
+
+
+          </select>
+        </label>
+
+
+        {/* =============== */}
+
+
         <label className="block">
           <span className="text-primary-green font-[600] mb-4">Country / Region</span>
           <select
@@ -114,35 +137,35 @@ const BookingForm = () => {
           />
         </label>
         <div className="md:flex justify-between gap-4">
-        <label className="block md:w-1/2">
-          <span className="text-primary-green font-[600] mb-4">Check-In</span>
-          <input
-            type="date"
-            name="checkIn"
-            value={formData.checkIn}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
-            required
-          />
-        </label>
-        <label className="block md:w-1/2">
-          <span className="text-primary-green font-[600] mb-4">Check-Out</span>
-          <input
-            type="date"
-            name="checkOut"
-            value={formData.checkOut}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
-            required
-          />
-        </label>
+          <label className="block md:w-1/2">
+            <span className="text-primary-green font-[600] mb-4">Check-In</span>
+            <input
+              type="date"
+              name="checkIn"
+              value={formData.checkIn}
+              onChange={handleChange}
+              className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
+              required
+            />
+          </label>
+          <label className="block md:w-1/2">
+            <span className="text-primary-green font-[600] mb-4">Check-Out</span>
+            <input
+              type="date"
+              name="checkOut"
+              value={formData.checkOut}
+              onChange={handleChange}
+              className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
+              required
+            />
+          </label>
         </div>
         <label className="block">
           {/* <span className="text-primary-green font-[600] mb-4">
             Additional information
           </span> */}
           <textarea
-          placeholder="Additional information"
+            placeholder="Additional information"
             name="additionalInfo"
             value={formData.additionalInfo}
             onChange={handleChange}
