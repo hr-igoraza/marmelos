@@ -19,7 +19,7 @@ export const foodData = [
   {
     id: 3,
     title: "Vegetable Cutlets",
-    image: "public/images/food/foodMenu/veg cutlet.png",
+    image: "/images/food/foodMenu/veg cutlet.png",
 
     description:
       "Mashed potatoes mixed with carrots, beans, and spices, shaped into patties and fried.",
@@ -54,7 +54,7 @@ export const foodData = [
   {
     id: 7,
     title: "Uppumavu & Banana",
-    image: "/images/food/foodMenu/uppuumavu.png",
+    image: "/images/food/foodMenu/Uppumaav.png",
 
     description: "Kerala-style semolina upma served with ripe banana.",
     price: "120",
@@ -112,11 +112,7 @@ export const foodData = [
   {
     id: 14,
     title: "Chala Meen Fry (Sardines Fry)",
-    image: "/images/food/foodMenu/chala.png",
-    
-
-    
-
+    image: "/images/food/foodMenu/Chala Meen Fry.png",
     description:
       "Small sardines marinated in turmeric and chili, fried crisp. A coastal favorite!",
     price: "180",
@@ -124,7 +120,7 @@ export const foodData = [
   {
     id: 15,
     title: "Ayila Fry (Mackerel Fry)",
-    images: "public/images/food/foodMenu/Ayila Fry (Mackerel Fry).png",
+    image: "/images/food/foodMenu/Ayilafry.png",
 
     description:
       "Whole mackerel seasoned with spices and pan-fried. Served with onion rings.",
@@ -133,7 +129,7 @@ export const foodData = [
   {
     id: 16,
     title: "Shark Varuthathu (Spicy Shark Fry)",
-    images: "/images/food/foodMenu/Shark Varuthathu (Spicy Shark Fry).png",
+    image: "/images/food/foodMenu/SharkVaruthathu.png",
 
     description:
       "Juicy shark chunks coated in roasted coconut and fiery red chili masala.",
@@ -142,7 +138,7 @@ export const foodData = [
   {
     id: 17,
     title: "Kera Meen Curry (Blackspot Snapper Curry)",
-    images: "/images/food/foodMenu/Kera Meen Curry (Blackspot Snapper Curry).png",
+    image: "/images/food/foodMenu/Kera Meen Curry.png",
 
     description:
       "Tangy coconut curry with tender snapper, flavored with kokum and curry leaves.",
@@ -151,7 +147,7 @@ export const foodData = [
   {
     id: 18,
     title: "Grilled Prawns (Chemmeen Porichathu)",
-    images: "public/images/food/foodMenu/Grilled Prawns.png",
+    image: "public/images/food/foodMenu/Grilled Prawns.png",
 
     description:
       "Jumbo prawns marinated in garlic and pepper, grilled over coconut husk.",
@@ -160,7 +156,7 @@ export const foodData = [
   {
     id: 19,
     title: "Neymeen Pollichathu (Seer Fish in Banana Leaf)",
-    images: "",
+    image: "/images/food/foodMenu/Neymeen Pollichathu.png",
 
     description:
       "Seer fish cooked in roasted coconut gravy, wrapped and steamed in banana leaf.",
@@ -169,7 +165,7 @@ export const foodData = [
   {
     id: 20,
     title: "Thalassery Biriyani (Veg/Chicken/Fish)",
-    images: "",
+    image: "/images/food/foodMenu/Thalassery Biriyani.png",
 
     description: "Kerala’s famous mildly spiced biriyani.",
     price: "299",
@@ -177,7 +173,7 @@ export const foodData = [
   {
     id: 21,
     title: "Avial",
-    images: "",
+    image: "/images/food/foodMenu/Aviyal.png",
 
     description:
       "Mixed veggies in coconut-yogurt gravy, tempered with curry leaves.",
@@ -186,7 +182,7 @@ export const foodData = [
   {
     id: 22,
     title: "Olan",
-    images:"",
+    image: "/images/food/foodMenu/Olan.png",
 
     description: "Light curry of pumpkin and cowpeas simmered in coconut milk.",
     price: "120",
@@ -194,7 +190,7 @@ export const foodData = [
   {
     id: 23,
     title: "Sambar & Rice",
-    images:"",
+    image: "/images/food/foodMenu/SambarRice.png",
 
     description:
       "Classic lentil stew with drumsticks and veggies. Served with steamed rice.",
@@ -203,7 +199,7 @@ export const foodData = [
   {
     id: 24,
     title: "Unakka Chemmeen Chammanthi",
-    images:"",
+    image: "/images/food/foodMenu/Unakka Chemmeen Chammanthi.png",
 
     description:
       "Dry chutney made with sun-dried shrimp, roasted coconut, shallots, and chilies.",
@@ -212,7 +208,7 @@ export const foodData = [
   {
     id: 25,
     title: "Chakkakuru Manga Curry",
-    images:"",
+    image: "/images/food/foodMenu/Chakkakuru Manga Curry.png",
 
     description: "Seasonal delicacy made with jackfruit seeds and raw mangoes.",
     price: "100",
@@ -220,7 +216,7 @@ export const foodData = [
   {
     id: 26,
     title: "Duck Mappas",
-    images:"",
+    image: "/images/food/foodMenu/Duck Mappas.png",
 
     description: "Duck curry in creamy coconut gravy.",
     price: "399",
@@ -228,7 +224,7 @@ export const foodData = [
   {
     id: 27,
     title: "Nadan Kozhi Varuthathu",
-    images:"",
+    image: "/images/food/foodMenu/Nadan Kozhi Varuthathu.png",
 
     description: "Spicy country chicken fry.",
     price: "250",
@@ -236,7 +232,7 @@ export const foodData = [
   {
     id: 28,
     title: "Samiyya Payasam (Vermicelli Pudding)",
-    images:"",
+    image: "/images/food/foodMenu/Semiya Payasam.png",
 
     description:
       "Roasted vermicelli cooked in milk, jaggery, and ghee, garnished with cashews.",
@@ -245,7 +241,7 @@ export const foodData = [
   {
     id: 29,
     title: "Palada Payasam",
-    images:"",
+    image: "/images/food/foodMenu/Palada Payasam.png",
 
     description: "Rich rice Ada pudding simmered in milk and cardamom.",
     price: "150",
@@ -253,7 +249,7 @@ export const foodData = [
   {
     id: 30,
     title: "Unniyappam",
-    images:"",
+    image: "/images/food/foodMenu/Unniyappam.png",
 
     description: "Sweet, caramelized rice balls with jaggery and banana.",
     price: "40 (2 pieces)",
@@ -261,7 +257,7 @@ export const foodData = [
   {
     id: 31,
     title: "Parippu Vada",
-    images:"",
+    image: "/images/food/foodMenu/Parippu Vada.png",
 
     description: "Crunchy dal fritters with chutney.",
     price: "50 (2 pieces)",
@@ -269,7 +265,7 @@ export const foodData = [
   {
     id: 32,
     title: "Uzhunnu Vada",
-    images:"",
+    image: "/images/food/foodMenu/Uzhunnu Vada.png",
 
     description: "Medu vada (soft urad dal fritters) with sambar.",
     price: "50 (2 pieces)",
@@ -277,7 +273,7 @@ export const foodData = [
   {
     id: 33,
     title: "Kattan Chaya (Black Tea)",
-    images:"",
+    image: "/images/food/foodMenu/Kattan Chaya.png",
 
     description: "Strong Kerala black tea brewed with ginger and spices.",
     price: "30",
@@ -285,7 +281,7 @@ export const foodData = [
   {
     id: 34,
     title: "Special Lemon-Ginger Soda",
-    images:"",
+    image: "/images/food/foodMenu/Special Lemon-Ginger Soda.png",
 
     description:
       "Zesty homemade soda with fresh lemon, ginger, and a pinch of rock salt.",
@@ -294,7 +290,7 @@ export const foodData = [
   {
     id: 35,
     title: "Fresh Tender Coconut Water",
-    images:"",
+    image: "/images/food/foodMenu/Fresh Tender Coconut Water.png",
 
     description:
       "Straight from our coconut grove. Naturally sweet and hydrating.",
@@ -303,7 +299,7 @@ export const foodData = [
   {
     id: 36,
     title: "Kerala Tea",
-    images:"",
+    image: "/images/food/foodMenu/Kerala tea.png",
 
     description:
       "Prepared with strong black tea, fresh milk, and sugar for a smooth, creamy taste.",
@@ -312,7 +308,7 @@ export const foodData = [
   {
     id: 37,
     title: "Sulaimani Tea",
-    images:"",
+    image: "/images/food/foodMenu/Sulaimani Tea.png",
 
     description:
       "A spiced black tea with a hint of cardamom, cinnamon, and lemon.",
@@ -321,7 +317,7 @@ export const foodData = [
   {
     id: 38,
     title: "Homemade Sambaram",
-    images:"",
+    image: "/images/food/foodMenu/Sambaram.png",
 
     description:
       "Spiced buttermilk with crushed ginger, green chili, and curry leaves.",
@@ -330,7 +326,7 @@ export const foodData = [
   {
     id: 39,
     title: "Nannari Sarbath",
-    image: "/images/food/foodMenu/dosa.png",
+    image: "/images/food/foodMenu/Nannari Sarbath.png",
 
     description:
       "Refreshing herbal drink made from the roots of the Nannari (Ayurvedic herb).",

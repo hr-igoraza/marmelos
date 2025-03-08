@@ -5,8 +5,8 @@ const FoodItem = ({ item, index }) => {
     <>
       <li key={index}>
         <div className="flex flex-wrap md:justify-between justify-center items-center md:border-none border-slate-200 border-b">
-          <div className=" w-[200px] md:w-[500px] flex  ">
-            <img className="w-full" src={item.image} alt={item.title} />
+          <div className=" w-[200px] md:w-[500px] aspect-square flex   ">
+            <img className="w-full object-cover" src={item.image} alt={item.title} />
           </div>
           <div className="md:w-1/2 w-full md:p-0 p-5 ">
             <h3 className="fs-40 font-[600] text-primary-green text-center md:mb-10 mb-4 ">
