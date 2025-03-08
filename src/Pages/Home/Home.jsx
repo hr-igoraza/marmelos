@@ -79,14 +79,14 @@ const Home = () => {
 
       {/* =========paradise */}
 
-      <section className="paradise container-full  md:mb-30 mb-20 ">
+      <section className="paradise container-full  lg:mb-30 mb-20 ">
         <div className="container mx-auto px-5">
-          <div className="md:w-2/4 w-full flex flex-col align-center justify-center md:h-[80vh] py-10">
+          <div className="lg:w-2/4 w-full flex flex-col align-center justify-center md:h-[80vh] py-10">
             <h3 className="text-white font-red-hat font-[700] fs-65 mb-5 ">
               Discover Your Kerala Paradise
             </h3>
 
-            <p className="text-white w-4/5 fs-16">
+            <p className="text-white lg:w-4/5 w-full fs-16">
               Step into a world of sustainable luxury at Marmelos Homestay, your
               secluded sanctuary in Marikulam, Alappuzha, where Kerala’s vibrant
               culture meets untouched natural beauty. Located steps away from
@@ -107,11 +107,11 @@ const Home = () => {
       {/* ===============section */}
 
       <section className="comfort container mx-auto flex flex-wrap mb-30 px-5">
-        <div className="md:w-3/5 w-full">
+        <div className="lg:w-3/5 w-full">
           <img src="/images/home/comfort.png" alt="comfort" />
         </div>
-        <div className="md:w-2/5 w-full relative ">
-          <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-10 ">
+        <div className="lg:w-2/5 w-full relative ">
+          <h2 className="fs-65 font-[700] leading-[1.1em] lg:mt-0 mt-10 ">
             Relax in Our Elegant Private Rooms
           </h2>
           <p className="mt-5 fs-16 mb-15">
@@ -134,15 +134,15 @@ const Home = () => {
       </section>
 
       <section className="flavours container mx-auto flex flex-wrap mb-30 px-5 ">
-        <div className="md:w-1/2 w-full md:order-2">
+        <div className="lg:w-1/2 w-full lg:order-2">
           <img src="/images/home/flavours.png" alt="Flavours" />
         </div>
-        <div className="md:w-1/2 w-full md:order-1 md:pr-10 flex flex-col relative ">
+        <div className="lg:w-1/2 w-full lg:order-1 lg:pr-10 flex flex-col relative ">
           <div className="detailed">
-            <h2 className="fs-65 font-[700] leading-[1.1em] md:mt-0 mt-5">
+            <h2 className="fs-65 font-[700] leading-[1.1em] lg:mt-0 mt-5">
               Flavors of Kerala Authentic Cuisine
             </h2>
-            <p className="md:w-4/5 mt-10 mb-15 fs-16">
+            <p className="lg:w-4/5 w-full mt-10 mb-15 fs-16">
               <strong>E</strong>xperience the true taste of Kerala at Marmelos
               Homestay, where every meal celebrates tradition and vibrant
               flavors. Our home-cooked delicacies, made with fresh local

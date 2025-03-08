@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="#" >
             <img width={150} src="/images/logo.svg" alt="logo" />
           </a>
-          <ul className=" ml-15 hidden md:flex gap-6 items-center red-hat semibold  md:text-[#ffffff]">
+          <ul className=" ml-15 hidden lg:flex gap-6 items-center red-hat semibold  md:text-[#ffffff]">
             <li>
               <NavLink to="/" className={linkClasses}>
                 Home
@@ -57,7 +57,7 @@ export default function Navbar() {
         </div>
 
         {/* Hamburger Button */}
-        <button className="md:hidden block text-gray-800" onClick={() => setIsOpen(!isOpen)}>
+        <button className="lg:hidden block text-primary-green border border-white rounded-md p-1" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
