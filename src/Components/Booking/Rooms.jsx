@@ -13,16 +13,16 @@ const RoomsList = ({rooms}) => {
 
   return (
     <>
-      <div class="flex flex-col shadow-sm md:flex-row   card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
+      <div className="flex flex-col shadow-sm md:flex-row   card-shadow md:p-5 p-2 w-full my-10 rounded-[10px] ">
         <div className=" lg:w-[460px] aspect-square">
         <img
-          class="object-cover w-full  md:h-auto md:w-100 "
+          className="object-cover w-full  md:h-auto md:w-100 "
           src={rooms.image}
           alt="sample"
         />
         </div>
-        <div class="flex flex-col md:px-5 w-full relative  ">
-          <h5 class="mb-2 fs-30 font-[700]  text-secondary-green">
+        <div className="flex flex-col md:px-5 w-full relative  ">
+          <h5 className="mb-2 fs-30 font-[700]  text-secondary-green">
             {rooms.title}
           </h5>
           <div className="star-rating flex items-center gap-3 ">

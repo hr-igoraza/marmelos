@@ -46,9 +46,9 @@ const DestinationPage = () => {
             <p className=" fs-24">{destination.location}</p>
           </div>
           <div className="flex gap-3">
-            <p className=" fs-24 font-[600]">
+            <div className=" fs-24 font-[600]">
               {destination.distance}
-            </p>
+            </div>
           </div>
         </div>
 

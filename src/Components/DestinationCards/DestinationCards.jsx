@@ -40,9 +40,9 @@ const DestinationCards = ({ destination }) => {
             </div>
             <p className="text-[#8F8F8F]">{destination.location}</p>
           </div>
-          <p className="mt-2 fs-16 text-[#6C757D] truncate-3 ">
+          <div className="mt-2 fs-16 text-[#6C757D] truncate-3 ">
             {destination.description}
-          </p>
+          </div>
         </div>
       </div>
     </div>
