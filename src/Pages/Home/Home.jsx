@@ -40,15 +40,15 @@ const Home = () => {
       {/* =========welcome */}
 
       <section className="welcome container mx-auto md:py-[100px] py-[50px] px-5">
-        <div class="flex flex-wrap justify-between gap-10">
-          <div class="w-full md:w-1/2 md:order-2 ">
+        <div className="flex flex-wrap justify-between gap-10">
+          <div className="w-full md:w-1/2 md:order-2 ">
             <img
               className="w-full "
               src="/images/home/welcome.png"
               alt="welcome image"
             />
           </div>
-          <div class="w-full md:w-1/3 ">
+          <div className="w-full md:w-1/3 ">
             <h3 className="text-primary-green leading-[1.2em] font-red-hat font-[700] fs-65 mb-5">
               Welcome to Marmelos
             </h3>
@@ -186,6 +186,7 @@ const Home = () => {
 
         <div className="mt-10">
           <iframe
+            loading="lazy"
             className="w-full md:h-[700px] h-[30vh] "
             src="https://www.youtube.com/embed/GNTMTjo9JGk"
             title="Heritage | Kerala - World&#39;s Greatest Place"
@@ -214,9 +215,10 @@ const Home = () => {
         <h2 className="fs-65 font-[700] mx-auto text-center">Our Location</h2>
 
         <div className="pt-10">
-          <div class="mapouter ">
-            <div class="gmap_canvas">
+          <div className="mapouter ">
+            <div className="gmap_canvas">
               <iframe
+              loading="lazy"
                 className="w-full md:h-[700px] h-[30vh] "
                 id="gmap_canvas"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.830038105611!2d76.2997585!3d9.628710499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087d006609e939%3A0x926a631a668e7ec5!2sMarmelos%20Homestay!5e1!3m2!1sen!2sin!4v1740943773967!5m2!1sen!2sin"
