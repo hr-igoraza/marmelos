@@ -98,6 +98,8 @@ const BookingForm = () => {
             onChange={handleChange}
             className="mt-1 block w-full rounded-md p-3 border border-primary-green shadow-sm"
           >
+            <option value=""> Select Room </option>
+
             <option value="Single Room"> Single Room </option>
             <option value="Standard Twin Room"> Standard Twin Room</option>
             <option value="Family Suite">Family Suite</option>
