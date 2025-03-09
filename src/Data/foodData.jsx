@@ -90,7 +90,7 @@ export const foodData = [
 
     description:
       "A lavish vegetarian spread on banana leaf: 12+ dishes including sambar, avial, and payasam.",
-    price: "250",
+    price: "450",
   },
   {
     id: 12,
