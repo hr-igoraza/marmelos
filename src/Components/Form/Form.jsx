@@ -1,10 +1,10 @@
 import React from "react";
 
-const Form = () => {
+const  Form = () => {
   return (
     <>
       <form class="mx-auto bg-white p-6 rounded-lg  w-full max-w-2xl">
-        <div class="grid grid-cols-2 gap-10">
+        <div class="grid md:grid-cols-2 md:gap-10 gap-2">
           <div>
             <label class="block text-gray-700 font-medium mb-1">
               Full name <span class="text-red-500">*</span>
@@ -24,14 +24,14 @@ const Form = () => {
             />
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-10 mt-4">
+        <div class="grid md:grid-cols-2 md:gap-10 gap-2 md:mt-4 mt-2">
           <div>
             <label class="block text-gray-700 font-medium mb-1">
               Phone number <span class="text-red-500">*</span>
             </label>
             <input
               type="tel"
-              class="w-full border    p-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+              class="w-full border p-2 focus:outline-none focus:ring-2 focus:ring-green-500"
             />
           </div>
           <div>
@@ -44,11 +44,11 @@ const Form = () => {
             />
           </div>
         </div>
-        <div class="mt-4">
+        <div class="md:mt-4 mt-2">
           <label class="block text-gray-700 font-medium mb-1">
             Message <span class="text-red-500">*</span>
           </label>
-          <textarea class="w-full border    p-2 h-40 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+          <textarea class="w-full border p-2 h-40 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
         </div>
         <button
           type="submit"

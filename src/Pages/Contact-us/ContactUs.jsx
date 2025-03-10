@@ -5,13 +5,13 @@ import Form from "../../Components/Form/Form";
 const ContactUs = () => {
   return (
     <>
-      <section className="contact-hero">
-        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[60v] content-center lg:p-0 py-[100px] px-2">
+      <section className="contact-hero lg:p-0 py-[100px] ">
+        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[60v] content-center ">
           <div className="content-center">
             <h1 className="text-[#ffffff]  font-[700] text-center fs-65 ">
               Interested?Let’talk!
             </h1>
-            <p className="mx-auto mt-10 text-center text-white md:w-1/2">
+            <p className="mx-auto fs-16 mt-10 text-center text-white md:w-1/2 w-full">
               We'd love to hear from you! Whether you have questions about our
               homestay, want to inquire about availability, or simply want to
               learn more about our region, please don't hesitate to reach out.
