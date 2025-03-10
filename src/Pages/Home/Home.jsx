@@ -178,11 +178,10 @@ const Home = () => {
 
       {/* ================= journerys */}
 
-      <section className="journerys container mx-auto  mb-20 px-5">
+      {/* <section className="journerys container mx-auto  mb-20 px-5">
         <h2 className="fs-65 font-[700] mx-auto text-center">
           Captured Journeys
         </h2>
-        {/*dummy youtube video player */}
 
         <div className="mt-10">
           <iframe
@@ -207,7 +206,7 @@ const Home = () => {
             <p>October 8/10/2024</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ================== Location */}
 

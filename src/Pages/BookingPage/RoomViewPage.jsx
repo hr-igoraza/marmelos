@@ -170,7 +170,7 @@ const RoomsPage = () => {
         </section>
       </div>
 
-      <section className="container mx-auto   mt-50   ">
+      {/* <section className="container mx-auto   mt-50   ">
         <div className="breakfast">
           <h3 className="text-primary-green font-[700] fs-24">Breakfast</h3>
 
@@ -186,7 +186,6 @@ const RoomsPage = () => {
           </ul>
         </div>
 
-        {/* ========lunch */}
 
         <div className="breakfast">
           <h3 className="text-primary-green font-[700] fs-24">Lunch</h3>
@@ -203,7 +202,6 @@ const RoomsPage = () => {
           </ul>
         </div>
 
-        {/* =========Dinner */}
 
         <div className="breakfast">
           <h3 className="text-primary-green font-[700] fs-24">Dinner</h3>
@@ -219,7 +217,7 @@ const RoomsPage = () => {
             ))}
           </ul>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
