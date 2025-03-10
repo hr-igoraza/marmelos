@@ -57,7 +57,7 @@ const BlogPage = () => {
           </div>
         </div> */}
 
-        <div className="fs-20 font-[400] ">
+        <div className="fs-20 font-[400] mt-5 md:mt-10 ">
           {blog.description}
         </div>
 
