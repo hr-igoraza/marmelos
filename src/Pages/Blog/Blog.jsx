@@ -58,7 +58,7 @@ const Blog = () => {
                       </p>
                     </div>
                   </div> */}
-                  <div className="my-1 fs-16 truncate-5">{blogData[0].description}</div>
+                  <div className="my-1 fs-16 truncate-3">{blogData[0].description}</div>
                 </div>
               </div>
             </Link>
