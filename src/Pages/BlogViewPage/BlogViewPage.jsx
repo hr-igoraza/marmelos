@@ -33,7 +33,7 @@ const BlogPage = () => {
 
       <div className="container mx-auto md:mb-[100px] mb-20 px-4">
         <h2 className="fs-45 font-[500] mx-auto ">{blog.title}</h2>
-
+{/* 
         <div className="flex justify-between mt-10 mb-5 items-center">
           <div className="flex gap-3 items-center">
             <div className="md:w-[50px] w-[30px]">
@@ -55,7 +55,7 @@ const BlogPage = () => {
             </div>
             <p className="text-[#6C757D] fs-18">{blog.shareCount} shares</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="fs-20 font-[400] ">
           {blog.description}
