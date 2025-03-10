@@ -6,7 +6,7 @@ export const blogData = [
       " Kerala’s Forgotten Flavors: A Food Trail Only Locals Know ",
     description: (
       <>
-        <p class="mb-4">
+        <p className="mb-4">
           Kerala, often celebrated for its backwaters, houseboats, and scenic
           landscapes, is equally famous for its rich culinary heritage. While
           tourists indulge in popular dishes like Sadya, Karimeen Pollichathu,
@@ -16,7 +16,7 @@ export const blogData = [
           trail across Kerala as we rediscover these hidden culinary gems.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           One such dish is <strong>Chakkakuru Manga Curry</strong>, a seasonal
           delicacy made with jackfruit seeds and raw mangoes. This dish
           perfectly balances tanginess and creaminess, enriched with coconut and
@@ -25,7 +25,7 @@ export const blogData = [
           taste it at traditional homestays in Kottayam and Alappuzha.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Moving to the Malabar region, we find{" "}
           <strong>Kallummakkaya Nirachathu</strong>, an exquisite dish featuring
           mussels stuffed with a spicy rice paste, steamed, and then fried. This
@@ -34,7 +34,7 @@ export const blogData = [
           local eateries in Kozhikode and Kannur.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Another hidden delight from Kerala’s coastline is{" "}
           <strong>Chemmeen Thoran</strong>, a simple yet flavorful dish made
           with tiny shrimp stir-fried with grated coconut and spices. Unlike its
@@ -44,7 +44,7 @@ export const blogData = [
           Kollam.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           For meat lovers, <strong>Kappa Erachi</strong> is an absolute
           must-try. Tapioca, known as kappa in Kerala, is mashed and mixed with
           a slow-cooked meat curry to create a hearty and satisfying meal. This
@@ -53,7 +53,7 @@ export const blogData = [
           in Kottayam and Pathanamthitta.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Vegetarians have their share of forgotten flavors too.{" "}
           <strong>Vazahapoo Cutlet</strong>, made from banana flowers, is an
           incredibly nutritious dish that is rarely seen in restaurants. These
@@ -62,7 +62,7 @@ export const blogData = [
           Palakkad still have a few households that prepare this delicacy.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Another dish deeply rooted in Kerala’s fishing communities is{" "}
           <strong>Unakka Chemmeen Chammanthi</strong>, a dry chutney made with
           sun-dried shrimp, roasted coconut, shallots, and chilies. This fiery
@@ -71,7 +71,7 @@ export const blogData = [
           you might still find families making this traditional delicacy.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Kerala’s traditional food is not just about flavors; it’s about
           nutrition and sustainability. <strong>Muthira Kanji</strong>, a
           porridge made from horse gram, was once the go-to meal for farmers
@@ -80,7 +80,7 @@ export const blogData = [
           traditional homes in Wayanad.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           From the high-range areas of Kerala comes{" "}
           <strong>Karinjukundhu Curry</strong>, a dish made using medicinal
           leaves, lentils, and coconut. Once a staple among tribal communities,
@@ -88,7 +88,7 @@ export const blogData = [
           Attappady can offer a chance to experience this dish firsthand.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           These forgotten flavors are not just meals; they are stories of
           tradition, sustainability, and community bonding. While modern cuisine
           is taking over, efforts are being made by homestays, traditional
@@ -119,7 +119,7 @@ export const blogData = [
     title: "The Architecture of Kerala",
     description: (
       <>
-        <p class="mb-4">
+        <p className="mb-4">
           The architecture of Kerala is a testament to the harmonious
           relationship between humans and nature. Traditional Kerala homes are
           characterized by their simple yet elegant design, which is meant to
@@ -131,7 +131,7 @@ export const blogData = [
           tranquility.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           Another important feature of Kerala architecture is the sloping roof.
           The sloping roof is designed to shed rainwater quickly, which helps to
           prevent flooding. It also helps to create a sense of openness and
@@ -142,10 +142,10 @@ export const blogData = [
           the fresh air.
         </p>
 
-        <h2 class="text-2xl font-bold mt-6 mb-4">
+        <h2 className="text-2xl font-bold mt-6 mb-4">
           The Benefits of Traditional Kerala Architecture
         </h2>
-        <p class="mb-4">
+        <p className="mb-4">
           There are many benefits to living in a traditional Kerala home. One of
           the most important benefits is the sense of peace and tranquility that
           it can provide. The simple design and natural materials of Kerala
@@ -154,7 +154,7 @@ export const blogData = [
           and airiness.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           In addition to the psychological benefits, traditional Kerala
           architecture is also environmentally friendly. The use of natural
           materials such as wood and clay helps to reduce the carbon footprint
@@ -162,7 +162,7 @@ export const blogData = [
           the home cool in the hot weather.
         </p>
 
-        <p class="mb-4">
+        <p className="mb-4">
           If you are looking for a way to create a more peaceful and relaxing
           home, consider incorporating some elements of traditional Kerala
           architecture into your design. Traditional Kerala architecture is a
@@ -179,55 +179,5 @@ export const blogData = [
     shareCount: "1K",
     datePosted: "June 28, 2018",
   },
-  {
-    id: 104,
-    image: "/images/blog/recent/stroke.png",
-    title: "Mastering the Art of Baking Bread at Home",
-    description:
-      "Baking bread at home is a satisfying and rewarding process. Start by selecting high-quality flour and yeast. Kneading the dough is a crucial step that develops the gluten, giving the bread its structure. Allow the dough to proof in a warm place until it doubles in size. Baking at the right temperature ensures a golden crust and a soft interior. Experiment with different types of bread, from sourdough to whole grain, to find your favorite.",
-    authorImage: "/images/blog/recent/author.png",
-    shareCount: "1K",
-    datePosted: "June 28, 2018",
-  },
-  {
-    id: 105,
-    image: "/images/blog/all/blog-1.png",
-    title: "The Benefits of Yoga for Mind and Body",
-    description:
-      "Yoga is a holistic practice that benefits both the mind and body. Regular practice improves flexibility, strength, and balance. It also reduces stress and promotes mental clarity. Start with basic poses and gradually progress to more advanced ones. Incorporate breathing exercises and meditation to enhance the benefits. Whether you practice at home or in a studio, yoga can be a transformative experience that improves your overall well-being.",
-    authorImage: "/images/blog/authors/author-2.png",
-    shareCount: "1K",
-    datePosted: "June 28, 2018",
-  },
-  {
-    id: 106,
-    image: "/images/blog/all/blog-2.png",
-    title: "Top Tips for Sustainable Travel",
-    description:
-      "Sustainable travel is about making choices that minimize your impact on the environment. Choose eco-friendly accommodations that prioritize energy efficiency and waste reduction. Use public transportation or bike rentals to reduce your carbon footprint. Support local businesses and respect the culture and traditions of the places you visit. Pack light and bring reusable items to reduce waste. By traveling sustainably, you can enjoy your adventures while preserving the planet for future generations.",
-    authorImage: "/images/blog/authors/author-3.png",
-    shareCount: "1K",
-    datePosted: "June 28, 2018",
-  },
 
-  {
-    id: 107,
-    image: "/images/blog/all/blog-3.png",
-    title: "Building a Reading Habit: Tips for Book Lovers",
-    description:
-      "Building a reading habit can enrich your life and expand your knowledge. Start by setting aside dedicated time each day for reading. Choose books that genuinely interest you to keep yourself motivated. Create a comfortable reading environment free from distractions. Join a book club or online community to share your thoughts and gain new perspectives. Keep a reading journal to track your progress and reflect on what you've learned. With these strategies, you can make reading a regular and enjoyable part of your life.",
-    authorImage: "/images/blog/authors/author-4.png",
-    shareCount: "1K",
-    datePosted: "June 28, 2018",
-  },
-  {
-    id: 108,
-    image: "/images/blog/all/blog-4.png",
-    title: "The Benefits of Running for Physical and Mental Health",
-    description:
-      "Running is a powerful exercise that benefits both the body and mind. It improves cardiovascular health, builds endurance, and strengthens muscles. Running also releases endorphins, which can boost your mood and reduce stress. Start with a manageable distance and gradually increase your pace and mileage. Invest in a good pair of running shoes to prevent injuries. Whether you run outdoors or on a treadmill, consistency is key to reaping the benefits of this simple yet effective exercise.",
-    authorImage: "/images/blog/authors/author-4.png",
-    shareCount: "1K",
-    datePosted: "June 28, 2018",
-  },
 ];

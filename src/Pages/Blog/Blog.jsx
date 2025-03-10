@@ -7,7 +7,7 @@ import { blogData } from "../../Data/blogData";
 const Blog = () => {
   return (
     <>
-       <section className="blog-hero">
+      <section className="blog-hero">
         <div className="container mx-auto flex justify-center md:h-[120vh] h-[40vh] content-center"></div>
       </section>
 
@@ -58,7 +58,7 @@ const Blog = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="my-1 fs-16 truncate-5">{blogData[0].description}</p>
+                  <div className="my-1 fs-16 truncate-5">{blogData[0].description}</div>
                 </div>
               </div>
             </Link>
@@ -103,40 +103,51 @@ const Blog = () => {
           </div>
 
           {/* Fourth Column */}
-          <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-7">
-            <Link to={`/blog/${blogData[3].id}`}>
+          {/* <div className="md:col-span-3 md:row-span-3 md:col-start-4 md:row-start-7">
+            <Link to={`/blog/${blogData[3]?.id}`}>
               <div className="card-shadow overflow-hidden bg-white flex flex-col md:flex-row p-4">
                 <div className="w-full md:w-1/2 aspect-[5/4] overflow-hidden object-cover object-center ">
                   <img
                     className="w-full"
-                    src={blogData[3].image}
+                    src={blogData[3]?.image}
                     alt="card-image"
                   />
                 </div>
                 <div className="w-full md:w-1/2 h-max rounded md:px-4 px-0 md:mt-0 mt-5">
-                  <h5 className="fs-24 font-[600] mb-4">{blogData[3].title}</h5>
-                  <div className="fs-16 truncate-4">{blogData[3].description}</div>
+                  <h5 className="fs-24 font-[600] mb-4">{blogData[3]?.title}</h5>
+                  <div className="fs-16 truncate-4">{blogData[3]?.description}</div>
                 </div>
               </div>
               
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* =========== all blogs */}
 
-      <section className="blog-list container mx-auto my-30">
-        <h2 className="text-[#025D28] font-[700] text-center fs-30 mb-10">
-          All Blog Posts
-        </h2>
 
-        <ul>
-          {blogData.slice(4).map((blog) => (
-            <BlogPost key={blog.id} blog={blog} />
-          ))}
-        </ul>
-      </section>
+
+      {
+
+        blogData.length > 4 && (
+          <section className="blog-list container mx-auto my-30">
+            <h2 className="text-[#025D28] font-[700] text-center fs-30 mb-10">
+              All Blog Posts
+            </h2>
+
+            <ul>
+              {blogData.slice(4).map((blog) => (
+                <BlogPost key={blog.id} blog={blog} />
+              ))}
+            </ul>
+          </section>
+
+        )
+
+      }
+
+
     </>
   );
 };
