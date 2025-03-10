@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <>
       <section className="contact-hero">
-        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[60v] content-center">
+        <div className="container mx-auto flex  justify-center md:h-[120vh] h-[60v] content-center lg:p-0 py-[100px] px-2">
           <div className="content-center">
             <h1 className="text-[#ffffff]  font-[700] text-center fs-65 ">
               Interested?Let’talk!
@@ -16,9 +16,9 @@ const ContactUs = () => {
               homestay, want to inquire about availability, or simply want to
               learn more about our region, please don't hesitate to reach out.
               <span className="text-primary-green">
-                info@yourresort.com{" "}
-              </span>{" "}
-              or{" "}
+                info@yourresort.com
+              </span>
+              or
               <span className="text-primary-green">hello@yourresort.com</span>,
               and we’ll take it from there
             </p>
