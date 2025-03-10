@@ -26,7 +26,7 @@ const BlogPost = ({ blog }) => {
                 {blog.title}
               </h5>
 
-              <div className="flex justify-between mt-8 mb-5">
+              {/* <div className="flex justify-between mt-8 mb-5">
                 <div className="flex gap-3">
                   <div className="w-[30px]">
                     <img
@@ -47,7 +47,7 @@ const BlogPost = ({ blog }) => {
                   </div>
                   <p className="text-[#6C757D]">{blog.shareCount} shares</p>
                 </div>
-              </div>
+              </div> */}
               <div className="fs-16 lg:mb-0 mb-20 truncate-3 ">{blog.description}</div>
 
               <div className="w-full mt-5 flex justify-end absolute bottom-5 right-5 ">

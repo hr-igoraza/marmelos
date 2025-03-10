@@ -34,7 +34,7 @@ const Blog = () => {
                   <h6 className="fs-24 font-[600]">
                     {blogData[0].title}
                   </h6>
-                  <div className="flex justify-between mt-10 mb-5">
+                  {/* <div className="flex justify-between mt-10 mb-5">
                     <div className="flex gap-3">
                       <div className="w-[30px]">
                         <img
@@ -57,7 +57,7 @@ const Blog = () => {
                         {blogData[0].shareCount} shares
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="my-1 fs-16 truncate-5">{blogData[0].description}</div>
                 </div>
               </div>
