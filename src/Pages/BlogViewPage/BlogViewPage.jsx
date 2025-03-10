@@ -33,19 +33,19 @@ const BlogPage = () => {
 
       <div className="container mx-auto md:mb-[100px] mb-20 px-4">
         <h2 className="fs-45 font-[500] mx-auto ">{blog.title}</h2>
-{/* 
+
         <div className="flex justify-between mt-10 mb-5 items-center">
           <div className="flex gap-3 items-center">
-            <div className="md:w-[50px] w-[30px]">
+            {/* <div className="md:w-[50px] w-[30px]">
               <img
                 className="w-full"
                 src={[blog.authorImage]}
                 alt="author"
               />
-            </div>
+            </div> */}
             <p className="text-[#6C757D] fs-20">{blog.datePosted}</p>
           </div>
-          <div className="flex gap-3 items-center">
+          {/* <div className="flex gap-3 items-center">
             <div className="md:w-[25px] w-[15px]">
               <img
                 className="w-full"
@@ -54,8 +54,8 @@ const BlogPage = () => {
               />
             </div>
             <p className="text-[#6C757D] fs-18">{blog.shareCount} shares</p>
-          </div>
-        </div> */}
+          </div> */}
+        </div>
 
         <div className="fs-20 font-[400] mt-5 md:mt-10 ">
           {blog.description}

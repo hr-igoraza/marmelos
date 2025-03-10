@@ -34,18 +34,18 @@ const Blog = () => {
                   <h6 className="fs-24 font-[600]">
                     {blogData[0].title}
                   </h6>
-                  {/* <div className="flex justify-between mt-10 mb-5">
+                  <div className="flex justify-between  lg:mt-10 mt-3 mb-5">
                     <div className="flex gap-3">
-                      <div className="w-[30px]">
+                      {/* <div className="w-[30px]">
                         <img
                           className="w-full"
                           src={blogData[0].authorImage}
                           alt="author"
                         />
-                      </div>
+                      </div> */}
                       <p className="text-[#6C757D]">{blogData[0].datePosted}</p>
                     </div>
-                    <div className="flex gap-3">
+                    {/* <div className="flex gap-3">
                       <div className="w-[20px]">
                         <img
                           className="w-full"
@@ -56,8 +56,8 @@ const Blog = () => {
                       <p className="text-[#6C757D]">
                         {blogData[0].shareCount} shares
                       </p>
-                    </div>
-                  </div> */}
+                    </div> */}
+                  </div>
                   <div className="my-1 fs-16 truncate-3">{blogData[0].description}</div>
                 </div>
               </div>
