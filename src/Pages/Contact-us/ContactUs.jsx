@@ -15,7 +15,6 @@ const ContactUs = () => {
               We'd love to hear from you! Whether you have questions about our
               homestay, want to inquire about availability, or simply want to
               learn more about our region, please don't hesitate to reach out.
-              Experience the Rich Culinary Heritage of Kerala!
               {/* <span className="text-primary-green">
                 info@yourresort.com
               </span>
@@ -59,7 +58,7 @@ const ContactUs = () => {
       <section className="relax container-full my-15">
         <div className="container mx-auto content-center md:h-[90vh]">
           <h2 className="fs-65  text-white font-[700]  text-center">
-            "Experience the Magic of Chatti Choru A Taste of Kerala!
+            Experience the Rich Culinary Heritage of Kerala!
           </h2>
         </div>
       </section>
