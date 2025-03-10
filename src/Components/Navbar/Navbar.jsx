@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="#" >
             <img width={150} src="/images/logo-dark.svg" alt="logo" />
           </a>
-          <ul className=" ml-15 hidden md:flex gap-6 items-center red-hat semibold  ">
+          <ul className=" ml-15 hidden lg:flex gap-6 items-center red-hat semibold  ">
             <li>
               <NavLink to="/" className={linkClasses}>
                 Home
