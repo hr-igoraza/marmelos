@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import Form from "../../Components/Form/Form";
+import BookingForm from "../../Components/BookingForm/BookingForm";
 
 const ContactUs = () => {
   return (
