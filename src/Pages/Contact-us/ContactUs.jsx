@@ -15,7 +15,6 @@ const ContactUs = () => {
               We'd love to hear from you! Whether you have questions about our
               homestay, want to inquire about availability, or simply want to
               learn more about our region, please don't hesitate to reach out.
-              <br/>
               Experience the Rich Culinary Heritage of Kerala!
               {/* <span className="text-primary-green">
                 info@yourresort.com
