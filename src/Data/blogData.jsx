@@ -1,7 +1,7 @@
 export const blogData = [
   {
     id: 101,
-    image: "/images/blog/recent/tea.png",
+    image: "/images/blog/recent/blog 1.jpg",
     title:
       " Kerala’s Forgotten Flavors: A Food Trail Only Locals Know ",
     description: (

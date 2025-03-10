@@ -24,7 +24,7 @@ const Blog = () => {
           {/* First Column */}
           <div className="md:col-span-3 md:row-span-9">
             <Link to={`/blog/${blogData[0].id}`}>
-              <div className="w-full overflow-hidden bg-white card-shadow p-5 h-full">
+              <div className="w-full overflow-hidden bg-white card-shadow p-5 ">
                 <img
                   className="m-1.5 object-cover object-center w-[calc(100%-12px)]"
                   src={blogData[0].image}
