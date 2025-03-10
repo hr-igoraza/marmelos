@@ -147,7 +147,7 @@ export const foodData = [
   {
     id: 18,
     title: "Grilled Prawns (Chemmeen Porichathu)",
-    image: "public/images/food/foodMenu/Grilled Prawns.png",
+    image: "/images/food/foodMenu/Grilledprawns.png",
 
     description:
       "Jumbo prawns marinated in garlic and pepper, grilled over coconut husk.",
