@@ -22,7 +22,7 @@ const Food = () => {
       {/* ========= */}
       <section className="facilities bg-primary-green p-5  md:rounded-[25px] rounded-[10px]  relative top-[-25px] md:py-20">
         <div className="flex flex-wrap container mx-auto ">
-          <div className="md:w-1/2 mx-auto w-full md:px-10 ">
+          <div className="lg:w-3/4 mx-auto w-full md:px-10 ">
             <div className="border-b border-[#F9D6D6] flex justify-between items-center py-5">
               <h3 className="text-[#F9D6D6] font-[700] fs-18">BREAKFAST</h3>
 
