@@ -1,5 +1,6 @@
 .navbar{
-    background: linear-gradient(180deg, #000000f4 , hsla(0, 0%, 2%, 0) );
+    /* background: linear-gradient(180deg, #000000f4 , hsla(0, 0%, 2%, 0) ); */
+    background-color: white;
     position: absolute;
     top: 0;
     left: 0;

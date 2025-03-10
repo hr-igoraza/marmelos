@@ -7,7 +7,7 @@ export default function Navbar() {
 
 
     const linkClasses = ({ isActive }) =>
-        `block px-4 py-2 text-[#ffffff] relative after:content-[''] after:block after:h-[5px] after:bg-primary-green after:w-0 after:-mx-2 after:transition-all after:duration-300 ${
+        `block px-4 py-2 text-[black] relative after:content-[''] after:block after:h-[5px] after:bg-primary-green after:w-0 after:-mx-2 after:transition-all after:duration-300 ${
           isActive ? " after:w-[calc(100%+16px)]" : " hover:after:w-[calc(100%+16px)]"
         }`;
       
@@ -18,9 +18,9 @@ export default function Navbar() {
         {/* Logo and Navigation */}
         <div className="flex items-center gap-8">
           <a href="#" >
-            <img width={150} src="/images/logo.svg" alt="logo" />
+            <img width={150} src="/images/logo-dark.svg" alt="logo" />
           </a>
-          <ul className=" ml-15 hidden lg:flex gap-6 items-center red-hat semibold  md:text-[#ffffff]">
+          <ul className=" ml-15 hidden md:flex gap-6 items-center red-hat semibold  ">
             <li>
               <NavLink to="/" className={linkClasses}>
                 Home
