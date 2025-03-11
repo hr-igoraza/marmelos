@@ -149,7 +149,7 @@ const Footer = () => {
                   </li>
                 </ul>
 
-                <ul className="mt-5 flex gap-6">
+                <ul className="mt-5 flex gap-6 items-center">
                   <li>
                     <a
                       href="#"
@@ -161,14 +161,14 @@ const Footer = () => {
                     </a>
                   </li>
 
-                  <li>
+                  <li className="w-[30px]">
                     <a
                       href="#"
                       rel="noreferrer"
                       target="_blank"
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
-                      <img src="/images/footer/twitter.svg" alt="twitter" />
+                      <img src="/images/footer/X.svg" alt="twitter" />
                     </a>
                   </li>
 
@@ -191,6 +191,27 @@ const Footer = () => {
                       className="text-[#ffffff] transition hover:opacity-75"
                     >
                       <img src="/images/footer/linkedin.svg" alt="linkedin" />
+                    </a>
+                  </li>
+
+                  <li className="w-[30px]">
+                    <a
+                      href="#"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
+                      <img src="/images/footer/youtube.svg" alt="youtube" />
+                    </a>
+                  </li>
+                  <li className="w-[30px]">
+                    <a
+                      href="#"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="text-[#ffffff] transition hover:opacity-75"
+                    >
+                      <img src="/images/footer/pinterest.svg" alt="pinterest" />
                     </a>
                   </li>
                 </ul>
