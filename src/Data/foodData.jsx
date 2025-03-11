@@ -19,7 +19,7 @@ export const foodData = [
   {
     id: 3,
     title: "Vegetable Cutlets",
-    image: "/images/food/foodMenu/veg cutlet.png",
+    image: "/images/food/foodMenu/vegCutlet.jpg",
 
     description:
       "Mashed potatoes mixed with carrots, beans, and spices, shaped into patties and fried.",
@@ -46,7 +46,7 @@ export const foodData = [
   {
     id: 6,
     title: "Dosa/Idli & Sambar/Chutney",
-    image: "/images/food/foodMenu/idli.png",
+    image: "/images/food/foodMenu/IdliSambar.png",
 
     description: "Crispy dosa with coconut chutney and sambar.",
     price: "110",
@@ -62,7 +62,7 @@ export const foodData = [
   {
     id: 8,
     title: "Kerala Parotta & Beef Curry",
-    image: "/images/food/foodMenu/Kerala ParottaBeef.png",
+    image: "/images/food/foodMenu/parotta.jpg",
 
     description: "Flaky, layered parotta with slow-cooked spicy beef curry.",
     price: "180",
@@ -112,7 +112,7 @@ export const foodData = [
   {
     id: 14,
     title: "Chala Meen Fry (Sardines Fry)",
-    image: "/images/food/foodMenu/Chala Meen Fry.png",
+    image: "/images/food/foodMenu/chalaFry.jpg",
     description:
       "Small sardines marinated in turmeric and chili, fried crisp. A coastal favorite!",
     price: "180",
@@ -138,7 +138,7 @@ export const foodData = [
   {
     id: 17,
     title: "Kera Meen Curry (Blackspot Snapper Curry)",
-    image: "/images/food/foodMenu/Kera Meen Curry.png",
+    image: "/images/food/foodMenu/keraCurry.jpg",
 
     description:
       "Tangy coconut curry with tender snapper, flavored with kokum and curry leaves.",
@@ -147,7 +147,7 @@ export const foodData = [
   {
     id: 18,
     title: "Grilled Prawns (Chemmeen Porichathu)",
-    image: "/images/food/foodMenu/Grilledprawns.png",
+    image: "/images/food/foodMenu/Grilled Prawns.jpg",
 
     description:
       "Jumbo prawns marinated in garlic and pepper, grilled over coconut husk.",
@@ -170,15 +170,15 @@ export const foodData = [
     description: "Kerala’s famous mildly spiced biriyani.",
     price: "299",
   },
-  {
-    id: 21,
-    title: "Avial",
-    image: "/images/food/foodMenu/Aviyal.png",
+  // {
+  //   id: 21,
+  //   title: "Avial",
+  //   image: "/images/food/foodMenu/Aviyal.png",
 
-    description:
-      "Mixed veggies in coconut-yogurt gravy, tempered with curry leaves.",
-    price: "130",
-  },
+  //   description:
+  //     "Mixed veggies in coconut-yogurt gravy, tempered with curry leaves.",
+  //   price: "130",
+  // },
   {
     id: 22,
     title: "Olan",
