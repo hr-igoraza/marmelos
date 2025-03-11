@@ -24,94 +24,54 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
               <div>
-                <p className=" text-[#ffffff] semibold ">COMPANY</p>
+                <p className=" text-[#ffffff] semibold ">HOMESTAY</p>
 
-                <ul className="mt-5 space-y-4 text-sm regular">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      About Us
-                    </a>
+                <ul className="mt-5 space-y-4 text-sm regular text-[#ffffff] ">
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to>About Us</NavLink>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Legal Information
-                    </a>
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/touristdestinations" >
+                      Tourist Destinations
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Contact Us
-                    </a>
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/food" >
+                      Food Menu
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Blogs
-                    </a>
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/blog" >
+                      Blog
+                    </NavLink>
                   </li>
                 </ul>
               </div>
 
               <div>
                 <p className="font-medium text-[#ffffff] semibold">
-                  HELP CENTER
+                  BOOKING
                 </p>
 
-                <ul className="mt-5 space-y-4 text-sm regular">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Find A Property
-                    </a>
+                <ul className="mt-5 space-y-4 text-sm regular text-[#ffffff]  ">
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/rooms/301" >
+                      Single Room
+                    </NavLink>
                   </li>
 
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      How To Host?
-                    </a>
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/rooms/302" >
+                      Standard Twin Room
+                    </NavLink>
                   </li>
 
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Why Us?
-                    </a>
+                  <li className="text-[#ffffff] transition hover:opacity-75">
+                    <NavLink to="/rooms/303" >
+                      Family Room
+                    </NavLink>
                   </li>
 
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      FAQs
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-[#ffffff] transition hover:opacity-75"
-                    >
-                      Rental Guides
-                    </a>
-                  </li>
                 </ul>
               </div>
 

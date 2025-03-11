@@ -10,14 +10,17 @@ import { dinnerData } from "../../Data/dinnerData";
 import Amenities from "../../Components/Amenities";
 
 const RoomsPage = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+
 
   const { id } = useParams();
   const navigate = useNavigate();
   const roomsId = parseInt(id, 10);
   const rooms = roomsData.find((item) => item.id === roomsId);
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [roomsId]);
 
   if (!rooms) {
     return (
