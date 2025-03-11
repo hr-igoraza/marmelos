@@ -13,7 +13,7 @@ const Food = () => {
           <div className="content-center">
             <h1 className="text-[#ffffff]  font-[700] text-center fs-65 ">
               Flavors of Kerala
-              <br /> Authentic Cuisine <br /> at Our Resort
+              <br /> Authentic Cuisine <br /> at Our Homestay
             </h1>
           </div>
         </div>

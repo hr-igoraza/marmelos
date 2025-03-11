@@ -7,7 +7,7 @@ export default function Navbar() {
 
 
     const linkClasses = ({ isActive }) =>
-        `block px-4 py-2 text-[black] relative after:content-[''] after:block after:h-[5px] after:bg-primary-green after:w-0 after:-mx-2 after:transition-all after:duration-300 ${
+        `block px-4 py-2 text-[#ffffff] relative after:content-[''] after:block after:h-[5px] after:bg-primary-green after:w-0 after:-mx-2 after:transition-all after:duration-300 ${
           isActive ? " after:w-[calc(100%+16px)]" : " hover:after:w-[calc(100%+16px)]"
         }`;
       
@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo and Navigation */}
         <div className="flex items-center gap-8">
           <a href="#" >
-            <img width={150} src="/images/logo-dark.svg" alt="logo" />
+            <img width={150} src="/images/logo.svg" alt="logo" />
           </a>
           <ul className=" ml-15 hidden lg:flex gap-6 items-center red-hat semibold  ">
             <li>
@@ -57,7 +57,7 @@ export default function Navbar() {
         </div>
 
         {/* Hamburger Button */}
-        <button className="lg:hidden block text-primary-green border border-white rounded-md p-1" onClick={() => setIsOpen(!isOpen)}>
+        <button className="lg:hidden block text-white  border-white rounded-md p-1" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
