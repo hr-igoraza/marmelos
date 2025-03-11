@@ -62,7 +62,7 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Nav Links */}
-        <ul className={`md:hidden mob  bg-white absolute top-16 left-0 w-full  flex flex-col items-center shadow-md transition-all duration-300 ease-in-out ${isOpen ? "flex" : "hidden"}`}>
+        <ul className={`lg:hidden mob  bg-white absolute top-16 left-0 w-full  flex flex-col items-center shadow-md transition-all duration-300 ease-in-out ${isOpen ? "flex" : "hidden"}`}>
         <li >
               <NavLink to="/" className={linkClasses}>
                 Home

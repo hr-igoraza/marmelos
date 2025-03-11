@@ -39,16 +39,16 @@ const Home = () => {
 
       {/* =========welcome */}
 
-      <section className="welcome container mx-auto md:py-[100px] py-[50px] px-5">
+      <section className="welcome container mx-auto md:py-[100px] py-[50px] px-5" id="welcome">
         <div className="flex flex-wrap justify-between gap-10">
-          <div className="w-full md:w-1/2 md:order-2 ">
+          <div className="w-full lg:w-1/2 lg:order-2 ">
             <img
               className="w-full "
               src="/images/home/welcome.png"
               alt="welcome image"
             />
           </div>
-          <div className="w-full md:w-1/3 ">
+          <div className="w-full lg:w-1/3 ">
             <h3 className="text-primary-green leading-[1.2em] font-red-hat font-[700] fs-65 mb-5">
               Welcome to Marmelos
             </h3>

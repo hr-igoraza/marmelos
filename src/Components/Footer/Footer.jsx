@@ -5,6 +5,19 @@ import { NavLink, useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
 
+
+
+  const onAboutClick = () => {
+    navigate("/");
+    setTimeout(() => {
+      const aboutSection = document.querySelector("#welcome");
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 150);
+  };
+
+
   return (
     <>
       <footer className="green-bg montserrat ">
@@ -27,8 +40,8 @@ const Footer = () => {
                 <p className=" text-[#ffffff] semibold ">HOMESTAY</p>
 
                 <ul className="mt-5 space-y-4 text-sm regular text-[#ffffff] ">
-                  <li className="text-[#ffffff] transition hover:opacity-75">
-                    <NavLink to>About Us</NavLink>
+                  <li className="text-[#ffffff] transition hover:opacity-75 cursor-pointer user-select-none">
+                    <p onClick={onAboutClick}>About Us</p>
                   </li>
                   <li className="text-[#ffffff] transition hover:opacity-75">
                     <NavLink to="/touristdestinations" >
